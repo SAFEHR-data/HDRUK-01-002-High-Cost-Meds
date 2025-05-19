@@ -73,6 +73,7 @@ cdm <- CDMConnector::cdmFromCon(
 
 cdm$drug_exposure <- cdm$drug_exposure |> dplyr::filter(drug_exposure_start_date <= drug_exposure_end_date)
 
+########################
 # fix observation_period
 # that got messed up in latest extract
 op2 <- cdm$visit_occurrence |>
@@ -90,6 +91,16 @@ cdm$observation_period <- cdm$observation_period |>
   select(-observation_period_end_date) |> 
   rename(observation_period_start_date=minvis,
          observation_period_end_date=maxvis)
+
+############################################################################################
+# temporary dmd patch (won't be necessary after next extract because now done within omop_es)
+dmdlookup <- read_csv(here::here("dmdnew2old2rxnorm.csv"), col_types = "ccccic")
+
+cdm$drug_exposure <- cdm$drug_exposure |> 
+  left_join(select(dmdlookup,drug_source_value=dmd_new,
+                   omop_rxnorm), by="drug_source_value") |> 
+  mutate(drug_concept_id = if_else(drug_concept_id==0, omop_rxnorm, drug_concept_id)) |> 
+  select(-omop_rxnorm)
 
 ## END OF SETTINGS copied between benchmarking, characterisation & antibiotics study
 
