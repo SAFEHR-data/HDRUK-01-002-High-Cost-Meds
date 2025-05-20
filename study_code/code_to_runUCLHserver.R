@@ -74,8 +74,7 @@ cdm <- CDMConnector::cdmFromCon(
 cdm$drug_exposure <- cdm$drug_exposure |> dplyr::filter(drug_exposure_start_date <= drug_exposure_end_date)
 
 ########################
-# fix observation_period
-# that got messed up in latest extract
+# fix observation_period that got messed up in latest extract
 op2 <- cdm$visit_occurrence |>
   group_by(person_id) |> 
   summarise(minvis = min(coalesce(date(visit_start_datetime), visit_start_date), na.rm=TRUE),
@@ -92,15 +91,14 @@ cdm$observation_period <- cdm$observation_period |>
   rename(observation_period_start_date=minvis,
          observation_period_end_date=maxvis)
 
+#trying a small sample but still fails at bit from run_study.R
+#cdm$observation_period <- cdm$observation_period |> head(100)
+#results[["obs_period"]] <- summariseObservationPeriod(cdm$observation_period)
+
+
 ############################################################################################
 # temporary dmd patch (won't be necessary after next extract because now done within omop_es)
 dmdlookup <- read_csv(here::here("dmdnew2old2rxnorm.csv"), col_types = "ccccic")
-
-# Error in `auto_copy()`:                                                                                                   
-# ! `x` and `y` must share the same src.
-# ℹ `x` is a <tbl_PqConnection/tbl_dbi/tbl_sql/tbl_lazy/tbl> object.
-# ℹ `y` is a <tbl_df/tbl/data.frame> object.
-# ℹ Set `copy = TRUE` if `y` can be copied to the same source as `x` (may be slow).
 
 cdm$drug_exposure <- cdm$drug_exposure |> 
   left_join(select(dmdlookup,drug_source_value=dmd_new,
@@ -141,7 +139,7 @@ cdm$drug_exposure        <- cdm$drug_exposure |> filter(! person_id %in% persrem
 #   ! Cohort can't have NA values, there are NA values in 1169155 columns: see subject_id 1, 3, 6, 7, and 10
 # maybe thats caused by the location_id=NA bug ?
 # try this patch replace all NAs with 1
-cdm$person <- cdm$person |> mutate(location_id = ifelse(is.na(location_id),1,location_id))
+cdm$person <- cdm$person |> mutate(location_id = ifelse(is.na(location_id),1,location_id)) |> computeQuery()
 
 # Getting snapshot and observation period summary                                                                            
 # WARNING:  column "age_group" has type "unknown"
