@@ -83,7 +83,7 @@ op2 <- cdm$visit_occurrence |>
   left_join(select(cdm$death,person_id,death_date), by=join_by(person_id)) |> 
   #set maxvisit to death_date if before
   #mutate(maxvis=min(maxvis, death_date, na.rm=TRUE))
-  mutate(maxvis = if_else(maxvis > death_date, death_date, maxvis))
+  mutate(maxvis = if_else(!is.na(death_date) & maxvis > death_date, death_date, maxvis))
 
 cdm$observation_period <- cdm$observation_period |>    
   left_join(op2, by=join_by(person_id)) |>
@@ -96,11 +96,69 @@ cdm$observation_period <- cdm$observation_period |>
 # temporary dmd patch (won't be necessary after next extract because now done within omop_es)
 dmdlookup <- read_csv(here::here("dmdnew2old2rxnorm.csv"), col_types = "ccccic")
 
+# Error in `auto_copy()`:                                                                                                   
+# ! `x` and `y` must share the same src.
+# ℹ `x` is a <tbl_PqConnection/tbl_dbi/tbl_sql/tbl_lazy/tbl> object.
+# ℹ `y` is a <tbl_df/tbl/data.frame> object.
+# ℹ Set `copy = TRUE` if `y` can be copied to the same source as `x` (may be slow).
+
 cdm$drug_exposure <- cdm$drug_exposure |> 
   left_join(select(dmdlookup,drug_source_value=dmd_new,
-                   omop_rxnorm), by="drug_source_value") |> 
+                   omop_rxnorm), by="drug_source_value", copy=TRUE) |> 
+#                  omop_rxnorm), by="drug_source_value") |>   
   mutate(drug_concept_id = if_else(drug_concept_id==0, omop_rxnorm, drug_concept_id)) |> 
   select(-omop_rxnorm)
+
+# 2025-05-19 first attempt failed with :
+# Error in `validateGeneratedCohortSet()`:
+#   ! cohort_start_date must be <= tham cohort_end_date. There is not the case for 1751 entries where cohort_end_date
+# < cohort_start_date for subject_id 392, 709, 1043, 1497, and 1898
+#opbad <- cdm$observation_period |> filter(person_id %in% c(392, 709, 1043, 1497, 1898)) |> collect()
+#Yes these five were all where observation end - determined by death - was before observation start.
+
+# so to try running quickly filter these out of person & observation period
+# in future should check obsperiod itself
+# ah actually there were more failures after this
+#persremove <- c(392, 709, 1043, 1497, 1898)
+
+# 1747 patients to remove 
+persremove <- cdm$observation_period |> 
+  filter(observation_period_end_date < observation_period_start_date) |> 
+  pull(person_id)
+
+cdm$person              <- cdm$person |> filter(! person_id %in% persremove)
+cdm$observation_period  <- cdm$observation_period |> filter(! person_id %in% persremove)
+cdm$visit_occurrence    <- cdm$visit_occurrence |> filter(! person_id %in% persremove)
+cdm$drug_exposure        <- cdm$drug_exposure |> filter(! person_id %in% persremove)
+
+# cdm$condition_occurrence <- cdm$condition_occurrence |> filter(! person_id %in% persremove)
+# cdm$procedure_occurrence <- cdm$procedure_occurrence |> filter(! person_id %in% persremove)
+# cdm$device_exposure     <- cdm$device_exposure |> filter(! person_id %in% persremove)
+# cdm$observation         <- cdm$observation |> filter(! person_id %in% persremove)
+# cdm$measurement         <- cdm$measurement |> filter(! person_id %in% persremove)
+
+# Error in `validateGeneratedCohortSet()`:
+#   ! Cohort can't have NA values, there are NA values in 1169155 columns: see subject_id 1, 3, 6, 7, and 10
+# maybe thats caused by the location_id=NA bug ?
+# try this patch replace all NAs with 1
+cdm$person <- cdm$person |> mutate(location_id = ifelse(is.na(location_id),1,location_id))
+
+# Getting snapshot and observation period summary                                                                            
+# WARNING:  column "age_group" has type "unknown"
+# DETAIL:  Proceeding with relation creation anyway.
+# 
+# WARNING:  column "sex" has type "unknown"
+# DETAIL:  Proceeding with relation creation anyway.
+# 
+# Attempt 1: An error occurred - Failed to collect lazy table.
+# <error/rlang_error>
+#   Error in `dplyr::collect()`:
+#   ! Failed to collect lazy table.
+# Caused by error:
+#   ! Failed to prepare query : ERROR:  failed to find conversion function from unknown to text
+
+#happens in
+#results[["obs_period"]] <- summariseObservationPeriod(cdm$observation_period)
 
 ## END OF SETTINGS copied between benchmarking, characterisation & antibiotics study
 
