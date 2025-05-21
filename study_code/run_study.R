@@ -18,10 +18,10 @@ cdm$person <- cdm$person |>
 # cdm summary -----
 cli::cli_inform("Getting snapshot and observation period summary")
 results[["snapshot"]] <- summariseOmopSnapshot(cdm)
-results[["obs_period"]] <- summariseObservationPeriod(cdm$observation_period)
+results[["obs_period"]] <- summariseObservationPeriod(cdm$observation_period, ageGroup = c(0,150), sex=TRUE)
 
 # instantiate cohorts ----
-source(here("Cohorts", "instantiate_cohorts.R"))
+source(here("cohorts", "instantiate_cohorts.R"))
 
 # add inpatient flag -----
 cdm$high_cost_meds <- cdm$high_cost_meds |> 
@@ -86,8 +86,8 @@ results <- results |>
   vctrs::list_drop_empty() |>
   omopgenerics::bind()
 exportSummarisedResult(results, 
-                       minCellCount = min_cell_count,
+                       minCellCount = minCellCount,
                        fileName = "results_{cdm_name}_{date}.csv",
-                       path = here("results"))
+                       path = here("Results"))
 
 cli::cli_alert_success("Study finished")

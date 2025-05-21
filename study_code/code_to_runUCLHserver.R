@@ -51,7 +51,7 @@ DBI::dbListObjects(con, DBI::Id(schema = cdmSchema))
 DBI::dbListObjects(con, DBI::Id(schema = writeSchema))
 
 # created tables will start with this prefix
-prefix <- "hdruk_characterisation"
+prefix <- "hdruk_high_cost_meds"
 
 # minimum cell counts used for suppression
 minCellCount <- 5
@@ -70,8 +70,8 @@ cdm <- CDMConnector::cdmFromCon(
 # a patch to remove records where drug_exposure_start_date > drug_exposure_end_date
 # ~2.5k rows in 2019 extract
 #defail <- cdm$drug_exposure |> dplyr::filter(drug_exposure_start_date > drug_exposure_end_date) |>  collect()
-
 cdm$drug_exposure <- cdm$drug_exposure |> dplyr::filter(drug_exposure_start_date <= drug_exposure_end_date)
+
 
 ########################
 # fix observation_period that got messed up in latest extract
@@ -139,7 +139,7 @@ cdm$drug_exposure        <- cdm$drug_exposure |> filter(! person_id %in% persrem
 #   ! Cohort can't have NA values, there are NA values in 1169155 columns: see subject_id 1, 3, 6, 7, and 10
 # maybe thats caused by the location_id=NA bug ?
 # try this patch replace all NAs with 1
-cdm$person <- cdm$person |> mutate(location_id = ifelse(is.na(location_id),1,location_id)) |> computeQuery()
+cdm$person <- cdm$person |> mutate(location_id = ifelse(is.na(location_id),1,location_id))
 
 # Getting snapshot and observation period summary                                                                            
 # WARNING:  column "age_group" has type "unknown"
@@ -154,6 +154,18 @@ cdm$person <- cdm$person |> mutate(location_id = ifelse(is.na(location_id),1,loc
 #   ! Failed to collect lazy table.
 # Caused by error:
 #   ! Failed to prepare query : ERROR:  failed to find conversion function from unknown to text
+
+#trying compute & save to temporary table (will appear in db with pre) 
+cdm$observation_period <- cdm$observation_period |> 
+  select(-death_date) |> 
+  compute("observation_period")
+
+cdm$person <- cdm$person |> 
+  compute("person")  
+
+#seems ageGroup & sex arguments are needed to avoid error
+#test <- summariseObservationPeriod(cdm$observation_period)
+#test <- summariseObservationPeriod(cdm$observation_period, ageGroup = c(0,150), sex=TRUE)
 
 #happens in
 #results[["obs_period"]] <- summariseObservationPeriod(cdm$observation_period)
