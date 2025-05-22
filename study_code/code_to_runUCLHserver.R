@@ -19,22 +19,34 @@ library(odbc)
 
 ## START OF SETTINGS copied between benchmarking, characterisation & antibiotics study
 
-# acronym to identify the database
+
+# database connection credentials in .Renviron or hardcoded here
+
+#####
+# UDS
 # beware dbName identifies outputs, dbname is UCLH db
+# dbName <- "UCLH-from-2019-uds"
+# cdmSchema <- "omop_catalogue_raw"
+# user <- Sys.getenv("user")
+# host <- "uclvldddtaeps02.xuclh.nhs.uk"
+# port <- 5432
+# dbname <- "uds"
+# pwd <- Sys.getenv("pwduds")
+# writeSchema <- "omop_catalogue_analyse"
 
-dbName <- "UCLH-from-2019"
-cdmSchema <- "omop_catalogue_raw"
 
-# create a DBI connection to UCLH database
-# using credentials in .Renviron or you can replace with hardcoded values here
+########################
+# omop_reservoir version
+# older extract, but more up to date postgres
+# beware dbName identifies outputs, dbname is UCLH db
+dbName <- "UCLH-from-2019-or"
+cdmSchema <- "data_catalogue_006" #from 2019
 user <- Sys.getenv("user")
-host <- "uclvldddtaeps02.xuclh.nhs.uk"
-port <- 5432
-dbname <- "uds"
-pwd <- Sys.getenv("pwduds")
-
-# schema in database where you have writing permissions
-writeSchema <- "omop_catalogue_analyse"
+host <- Sys.getenv("host")
+port <- Sys.getenv("port")
+dbname <- Sys.getenv("dbname")
+pwd <- Sys.getenv("pwd")
+writeSchema <- "_other_andsouth"
 
 if("" %in% c(user, host, port, dbname, pwd, writeSchema))
   stop("seems you don't have (all?) db credentials stored in your .Renviron file, use usethis::edit_r_environ() to create")
@@ -63,9 +75,19 @@ cdm <- CDMConnector::cdmFromCon(
   writeSchema =  writeSchema,
   writePrefix = prefix,
   cdmName = dbName,
-  #cdmVersion = "5.3",
+  cdmVersion = "5.3", 
   .softValidation = TRUE
 )
+
+#to drop tables, beware if no prefix also everything()
+#cdm <- CDMConnector::dropSourceTable(cdm = cdm, name = dplyr::starts_with("hdruk"))
+
+
+# patch to update cdm_source in the older extract
+cdm$cdm_source <- cdm$cdm_source |> 
+  mutate(cdm_version = "5.3",
+         vocabulary_version = "v5.0 27-FEB-25")
+
 
 # a patch to remove records where drug_exposure_start_date > drug_exposure_end_date
 # ~2.5k rows in 2019 extract
@@ -167,8 +189,6 @@ cdm$person <- cdm$person |>
 #test <- summariseObservationPeriod(cdm$observation_period)
 #test <- summariseObservationPeriod(cdm$observation_period, ageGroup = c(0,150), sex=TRUE)
 
-#happens in
-#results[["obs_period"]] <- summariseObservationPeriod(cdm$observation_period)
 
 ## END OF SETTINGS copied between benchmarking, characterisation & antibiotics study
 
