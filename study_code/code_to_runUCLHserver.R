@@ -63,7 +63,7 @@ DBI::dbListObjects(con, DBI::Id(schema = cdmSchema))
 DBI::dbListObjects(con, DBI::Id(schema = writeSchema))
 
 # created tables will start with this prefix
-prefix <- "hdruk_high_cost_meds"
+prefix <- "hcostmeds_server2_"
 
 # minimum cell counts used for suppression
 minCellCount <- 5
