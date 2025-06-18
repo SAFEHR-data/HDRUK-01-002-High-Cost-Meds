@@ -19,4 +19,5 @@ freq_dmd_uclh_missing <- freq_dmd_uclh |>
 sum(freq_dmd_uclh_missing$n)
 #[1] 10133956 #agrees with 10 million missing rows
 
-write_csv(freq_dmd_uclh, file="uclh_dmd_codes.csv")
+#take off freq column
+write_csv(select(freq_dmd_uclh,-n), file="uclh_dmd_codes.csv")
