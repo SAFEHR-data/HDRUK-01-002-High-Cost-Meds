@@ -31,33 +31,40 @@ cdm$high_cost_meds <- cdm$high_cost_meds |>
                          name = "high_cost_meds")
 
 
-# index codes ----
-cli::cli_inform("Get index codes for high cost meds")
-for(i in seq_along(high_cost_meds_with_count)){
-  results[[paste0("high_code_diag_", i)]] <- CodelistGenerator::summariseCohortCodeUse(
-    x = omopgenerics::cohortCodelist(cdm$high_cost_meds, 
-                                     high_cost_meds_with_count[[i]]),
-    cdm = cdm,
-    cohortTable = "high_cost_meds",
-    cohortId = high_cost_meds_with_count[[i]],
-    timing = "entry",
-    countBy = c("record", "person"),
-    byConcept = TRUE
-  )
-}
-
-cli::cli_inform("Get index codes for icd")
-for(i in seq_along(icd_with_count)){
-  results[[paste0("icd_code_diag_", i)]] <- CodelistGenerator::summariseCohortCodeUse(
-    x = omopgenerics::cohortCodelist(cdm$icd, 
-                                     icd_with_count[[i]]),
-    cdm = cdm,
-    cohortTable = "icd",
-    cohortId = icd_with_count[[i]],
-    timing = "entry",
-    countBy = c("record", "person"),
-    byConcept = TRUE
-  )
+# 2025-05-23 commenting out as suggested in email from Ed to get interim results
+skip_index_codes <- TRUE
+if (skip_index_codes){
+  cli::cli_inform("temporarily commenting out index codes for high cost meds")
+} else
+{
+  # index codes ----
+  cli::cli_inform("Get index codes for high cost meds")
+  for(i in seq_along(high_cost_meds_with_count)){
+    results[[paste0("high_code_diag_", i)]] <- CodelistGenerator::summariseCohortCodeUse(
+      x = omopgenerics::cohortCodelist(cdm$high_cost_meds, 
+                                       high_cost_meds_with_count[[i]]),
+      cdm = cdm,
+      cohortTable = "high_cost_meds",
+      cohortId = high_cost_meds_with_count[[i]],
+      timing = "entry",
+      countBy = c("record", "person"),
+      byConcept = TRUE
+    )
+  }
+  
+  cli::cli_inform("Get index codes for icd")
+  for(i in seq_along(icd_with_count)){
+    results[[paste0("icd_code_diag_", i)]] <- CodelistGenerator::summariseCohortCodeUse(
+      x = omopgenerics::cohortCodelist(cdm$icd, 
+                                       icd_with_count[[i]]),
+      cdm = cdm,
+      cohortTable = "icd",
+      cohortId = icd_with_count[[i]],
+      timing = "entry",
+      countBy = c("record", "person"),
+      byConcept = TRUE
+    )
+  }
 }
 
 # patient characteristics ----
