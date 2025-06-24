@@ -39,8 +39,8 @@ library(odbc)
 # omop_reservoir version
 # older extract, but more up to date postgres
 # beware dbName identifies outputs, dbname is UCLH db
-dbName <- "UCLH-from-2019-or"
-cdmSchema <- "data_catalogue_006" #from 2019
+dbName <- "UCLH-from-2019-v2"
+cdmSchema <- "data_catalogue_007" #from 2019
 user <- Sys.getenv("user")
 host <- Sys.getenv("host")
 port <- Sys.getenv("port")
@@ -75,18 +75,12 @@ cdm <- CDMConnector::cdmFromCon(
   writeSchema =  writeSchema,
   writePrefix = prefix,
   cdmName = dbName,
-  cdmVersion = "5.3", 
+  #cdmVersion = "5.3", 
   .softValidation = TRUE
 )
 
 #to drop tables, beware if no prefix also everything()
 #cdm <- CDMConnector::dropSourceTable(cdm = cdm, name = dplyr::starts_with("hdruk"))
-
-
-# patch to update cdm_source in the older extract
-cdm$cdm_source <- cdm$cdm_source |> 
-  mutate(cdm_version = "5.3",
-         vocabulary_version = "v5.0 27-FEB-25")
 
 
 # a patch to remove records where drug_exposure_start_date > drug_exposure_end_date
@@ -131,15 +125,10 @@ cdm$drug_exposure <- cdm$drug_exposure |>
 
 # 2025-05-19 first attempt failed with :
 # Error in `validateGeneratedCohortSet()`:
-#   ! cohort_start_date must be <= tham cohort_end_date. There is not the case for 1751 entries where cohort_end_date
+# ! cohort_start_date must be <= tham cohort_end_date. There is not the case for 1751 entries where cohort_end_date
 # < cohort_start_date for subject_id 392, 709, 1043, 1497, and 1898
-#opbad <- cdm$observation_period |> filter(person_id %in% c(392, 709, 1043, 1497, 1898)) |> collect()
-#Yes these five were all where observation end - determined by death - was before observation start.
 
 # so to try running quickly filter these out of person & observation period
-# in future should check obsperiod itself
-# ah actually there were more failures after this
-#persremove <- c(392, 709, 1043, 1497, 1898)
 
 # 1747 patients to remove 
 persremove <- cdm$observation_period |> 
@@ -163,19 +152,6 @@ cdm$drug_exposure        <- cdm$drug_exposure |> filter(! person_id %in% persrem
 # try this patch replace all NAs with 1
 cdm$person <- cdm$person |> mutate(location_id = ifelse(is.na(location_id),1,location_id))
 
-# Getting snapshot and observation period summary                                                                            
-# WARNING:  column "age_group" has type "unknown"
-# DETAIL:  Proceeding with relation creation anyway.
-# 
-# WARNING:  column "sex" has type "unknown"
-# DETAIL:  Proceeding with relation creation anyway.
-# 
-# Attempt 1: An error occurred - Failed to collect lazy table.
-# <error/rlang_error>
-#   Error in `dplyr::collect()`:
-#   ! Failed to collect lazy table.
-# Caused by error:
-#   ! Failed to prepare query : ERROR:  failed to find conversion function from unknown to text
 
 #trying compute & save to temporary table (will appear in db with pre) 
 cdm$observation_period <- cdm$observation_period |> 
@@ -184,10 +160,6 @@ cdm$observation_period <- cdm$observation_period |>
 
 cdm$person <- cdm$person |> 
   compute("person")  
-
-#seems ageGroup & sex arguments are needed to avoid error
-#test <- summariseObservationPeriod(cdm$observation_period)
-#test <- summariseObservationPeriod(cdm$observation_period, ageGroup = c(0,150), sex=TRUE)
 
 
 ## END OF SETTINGS copied between benchmarking, characterisation & antibiotics study
