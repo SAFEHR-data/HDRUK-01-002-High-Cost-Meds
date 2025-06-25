@@ -42,5 +42,6 @@ study_shiny/data/shinyData.RData
 study_shiny/data/results.csv
 feasibility/*.png
 study_code/results/*.csv
+study_code/Results/*.csv
 study_shiny/data/*.csv
 feasibility/drug_counts.csv
