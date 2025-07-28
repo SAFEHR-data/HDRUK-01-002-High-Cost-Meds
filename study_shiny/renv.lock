@@ -81,13 +81,12 @@
     "CodelistGenerator": {
       "Package": "CodelistGenerator",
       "Version": "3.5.0",
-      "Source": "GitHub",
+      "Source": "Repository",
       "Title": "Identify Relevant Clinical Codes and Evaluate Their Use",
       "Authors@R": "c( person(\"Edward\", \"Burn\", email = \"edward.burn@ndorms.ox.ac.uk\",  role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-9286-1128\")), person(\"Marti\", \"Catala\", email = \"marti.catalasabate@ndorms.ox.ac.uk\",  role = c(\"ctb\"),  comment = c(ORCID = \"0000-0003-3308-9905\")), person(\"Xihang\", \"Chen\", email = \"xihang.chen@ndorms.ox.ac.uk\",  role = c(\"aut\"),  comment = c(ORCID = \"0009-0001-8112-8959\")), person(\"Nuria\", \"Mercade-Besora\", email = \"nuria.mercadebesora@ndorms.ox.ac.uk\",  role = c(\"aut\"), comment = c(ORCID = \"0009-0006-7948-3747\")), person(\"Mike\", \"Du\", email = \"mike.du@ndorms.ox.ac.uk\",  role = c(\"ctb\"),  comment = c(ORCID = \"0000-0002-9517-8834\")), person(\"Danielle\", \"Newby\", email = \"danielle.newby@ndorms.ox.ac.uk\",  role = c(\"ctb\"),  comment = c(ORCID = \"0000-0002-3001-1478\")), person( \"Marta\", \"Alcalde-Herraiz\", email = \"marta.alcaldeherraiz@ndorms.ox.ac.uk\",  role = c(\"ctb\"),  comment = c(ORCID = \"0009-0002-4405-1814\") ))",
       "Description": "Generate a candidate code list for the Observational Medical Outcomes Partnership (OMOP) common data model based on string matching. For a given search strategy, a candidate code list will be returned.",
       "License": "Apache License (>= 2)",
       "Encoding": "UTF-8",
-      "Roxygen": "list(markdown = TRUE)",
       "RoxygenNote": "7.3.2",
       "Depends": [
         "R (>= 4.1)"
@@ -131,20 +130,14 @@
       "VignetteBuilder": "knitr",
       "URL": "https://darwin-eu.github.io/CodelistGenerator/",
       "Language": "en-US",
-      "LazyData": "true",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "CodelistGenerator",
-      "RemoteUsername": "darwin-eu-dev",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "4cc77120734f3662b5303042f04d430a52d14382",
       "NeedsCompilation": "no",
       "Author": "Edward Burn [aut, cre] (<https://orcid.org/0000-0002-9286-1128>), Marti Catala [ctb] (<https://orcid.org/0000-0003-3308-9905>), Xihang Chen [aut] (<https://orcid.org/0009-0001-8112-8959>), Nuria Mercade-Besora [aut] (<https://orcid.org/0009-0006-7948-3747>), Mike Du [ctb] (<https://orcid.org/0000-0002-9517-8834>), Danielle Newby [ctb] (<https://orcid.org/0000-0002-3001-1478>), Marta Alcalde-Herraiz [ctb] (<https://orcid.org/0009-0002-4405-1814>)",
-      "Maintainer": "Edward Burn <edward.burn@ndorms.ox.ac.uk>"
+      "Maintainer": "Edward Burn <edward.burn@ndorms.ox.ac.uk>",
+      "Repository": "CRAN"
     },
     "CohortCharacteristics": {
       "Package": "CohortCharacteristics",
-      "Version": "0.5.1",
+      "Version": "1.0.0",
       "Source": "Repository",
       "Type": "Package",
       "Title": "Summarise and Visualise Characteristics of Patients in the OMOP CDM",
@@ -161,7 +154,7 @@
         "rlang",
         "cli",
         "stringr",
-        "omopgenerics (>= 0.4.0)",
+        "omopgenerics (>= 1.2.0)",
         "PatientProfiles (>= 1.3.1)",
         "snakecase",
         "lifecycle",
@@ -186,6 +179,7 @@
         "DiagrammeR",
         "DiagrammeRsvg",
         "DrugUtilisation",
+        "DT",
         "duckdb (>= 1.0.0)",
         "flextable",
         "ggplot2",
@@ -201,6 +195,7 @@
         "omock",
         "plotly",
         "png",
+        "reactable",
         "rmarkdown",
         "RPostgres",
         "rsvg",
@@ -208,10 +203,12 @@
         "spelling",
         "testthat (>= 3.1.5)",
         "tictoc",
-        "withr"
+        "withr",
+        "reactable",
+        "DT"
       ],
       "NeedsCompilation": "no",
-      "Author": "Marti Catala [aut, cre] (<https://orcid.org/0000-0003-3308-9905>), Yuchen Guo [aut] (<https://orcid.org/0000-0002-0847-4855>), Mike Du [ctb] (<https://orcid.org/0000-0002-9517-8834>), Kim Lopez-Guell [aut] (<https://orcid.org/0000-0002-8462-8668>), Edward Burn [aut] (<https://orcid.org/0000-0002-9286-1128>), Nuria Mercade-Besora [aut] (<https://orcid.org/0009-0006-7948-3747>), Marta Alcalde [aut] (<https://orcid.org/0009-0002-4405-1814>)",
+      "Author": "Marti Catala [aut, cre] (ORCID: <https://orcid.org/0000-0003-3308-9905>), Yuchen Guo [aut] (ORCID: <https://orcid.org/0000-0002-0847-4855>), Mike Du [ctb] (ORCID: <https://orcid.org/0000-0002-9517-8834>), Kim Lopez-Guell [aut] (ORCID: <https://orcid.org/0000-0002-8462-8668>), Edward Burn [aut] (ORCID: <https://orcid.org/0000-0002-9286-1128>), Nuria Mercade-Besora [aut] (ORCID: <https://orcid.org/0009-0006-7948-3747>), Marta Alcalde [aut] (ORCID: <https://orcid.org/0009-0002-4405-1814>)",
       "Repository": "CRAN"
     },
     "CohortConstructor": {
@@ -452,7 +449,7 @@
     },
     "OmopSketch": {
       "Package": "OmopSketch",
-      "Version": "0.3.2",
+      "Version": "0.4.0",
       "Source": "Repository",
       "Title": "Characterise Tables of an OMOP Common Data Model Instance",
       "Authors@R": "c( person(  \"Marta\", \"Alcalde-Herraiz\",  email = \"marta.alcaldeherraiz@ndorms.ox.ac.uk\", role = c(\"aut\"),  comment = c(ORCID = \"0009-0002-4405-1814\") ), person( \"Kim\", \"Lopez-Guell\", email = \"kim.lopez@spc.ox.ac.uk\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-8462-8668\") ), person( \"Elin\", \"Rowlands\", email = \"elin.rowlands@ndorms.ox.ac.uk\",  role = c(\"aut\"), comment = c(ORCID = \"0009-0005-5166-0417\") ), person( \"Cecilia\", \"Campanile\", email = \"cecilia.campanile@ndorms.ox.ac.uk\",  role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0007-6629-4661\") ), person( \"Edward\", \"Burn\", email = \"edward.burn@ndorms.ox.ac.uk\",  role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9286-1128\") ), person( \"Martí\", \"Català\", email = \"marti.catalasabate@ndorms.ox.ac.uk\",  role = c(\"aut\"), comment = c(ORCID = \"0000-0003-3308-9905\") ))",
@@ -463,6 +460,7 @@
       "RoxygenNote": "7.3.2",
       "Suggests": [
         "CodelistGenerator",
+        "CohortCharacteristics",
         "DBI",
         "duckdb",
         "DT",
@@ -472,6 +470,8 @@
         "knitr",
         "lubridate",
         "odbc",
+        "OmopViewer",
+        "reactable",
         "remotes",
         "rmarkdown",
         "RPostgres",
@@ -480,7 +480,8 @@
         "omock (>= 0.3.0)",
         "covr",
         "ggplot2",
-        "visOmopResults (>= 0.5.0)"
+        "visOmopResults (>= 0.5.0)",
+        "devtools"
       ],
       "Config/testthat/edition": "3",
       "Config/testthat/parallel": "true",
@@ -507,8 +508,30 @@
       "BugReports": "https://github.com/OHDSI/OmopSketch/issues",
       "VignetteBuilder": "knitr",
       "NeedsCompilation": "no",
-      "Author": "Marta Alcalde-Herraiz [aut] (<https://orcid.org/0009-0002-4405-1814>), Kim Lopez-Guell [aut] (<https://orcid.org/0000-0002-8462-8668>), Elin Rowlands [aut] (<https://orcid.org/0009-0005-5166-0417>), Cecilia Campanile [aut, cre] (<https://orcid.org/0009-0007-6629-4661>), Edward Burn [aut] (<https://orcid.org/0000-0002-9286-1128>), Martí Català [aut] (<https://orcid.org/0000-0003-3308-9905>)",
+      "Author": "Marta Alcalde-Herraiz [aut] (ORCID: <https://orcid.org/0009-0002-4405-1814>), Kim Lopez-Guell [aut] (ORCID: <https://orcid.org/0000-0002-8462-8668>), Elin Rowlands [aut] (ORCID: <https://orcid.org/0009-0005-5166-0417>), Cecilia Campanile [aut, cre] (ORCID: <https://orcid.org/0009-0007-6629-4661>), Edward Burn [aut] (ORCID: <https://orcid.org/0000-0002-9286-1128>), Martí Català [aut] (ORCID: <https://orcid.org/0000-0003-3308-9905>)",
       "Repository": "CRAN"
+    },
+    "PKI": {
+      "Package": "PKI",
+      "Version": "0.1-14",
+      "Source": "Repository",
+      "Title": "Public Key Infrastucture for R Based on the X.509 Standard",
+      "Author": "Simon Urbanek <Simon.Urbanek@r-project.org>",
+      "Maintainer": "Simon Urbanek <Simon.Urbanek@r-project.org>",
+      "Depends": [
+        "R (>= 2.9.0)",
+        "base64enc"
+      ],
+      "Enhances": [
+        "gmp"
+      ],
+      "Description": "Public Key Infrastucture functions such as verifying certificates, RSA encription and signing which can be used to build PKI infrastructure and perform cryptographic tasks.",
+      "License": "GPL-2 | GPL-3 | file LICENSE",
+      "URL": "http://www.rforge.net/PKI",
+      "SystemRequirements": "OpenSSL library and headers (openssl-dev or similar)",
+      "NeedsCompilation": "yes",
+      "Repository": "CRAN",
+      "ExperimentalWindowsRuntime": "ucrt"
     },
     "PatientProfiles": {
       "Package": "PatientProfiles",
@@ -642,6 +665,58 @@
       "Author": "Dirk Eddelbuettel [aut, cre] (<https://orcid.org/0000-0001-6419-907X>), Romain Francois [aut] (<https://orcid.org/0000-0002-2444-4226>), JJ Allaire [aut] (<https://orcid.org/0000-0003-0174-9868>), Kevin Ushey [aut] (<https://orcid.org/0000-0003-2880-7407>), Qiang Kou [aut] (<https://orcid.org/0000-0001-6786-5453>), Nathan Russell [aut], Iñaki Ucar [aut] (<https://orcid.org/0000-0001-6403-5550>), Doug Bates [aut] (<https://orcid.org/0000-0001-8316-9503>), John Chambers [aut]",
       "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
       "Repository": "CRAN",
+      "ExperimentalWindowsRuntime": "ucrt"
+    },
+    "RcppTOML": {
+      "Package": "RcppTOML",
+      "Version": "0.2.3",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "'Rcpp' Bindings to Parser for \"Tom's Obvious Markup Language\"",
+      "Date": "2025-03-08",
+      "Authors@R": "c(person(\"Dirk\", \"Eddelbuettel\", role = c(\"aut\", \"cre\"), email = \"edd@debian.org\", comment = c(ORCID = \"0000-0001-6419-907X\")), person(\"Mark\", \"Gillard\", role = \"aut\", comment = \"Author of 'toml++' header library\"))",
+      "Description": "The configuration format defined by 'TOML' (which expands to \"Tom's Obvious Markup Language\") specifies an excellent format (described at <https://toml.io/en/>) suitable for both human editing as well as the common uses of a machine-readable format. This package uses 'Rcpp' to connect to the 'toml++' parser written by Mark Gillard to R.",
+      "SystemRequirements": "A C++17 compiler",
+      "BugReports": "https://github.com/eddelbuettel/rcpptoml/issues",
+      "URL": "http://dirk.eddelbuettel.com/code/rcpp.toml.html",
+      "Imports": [
+        "Rcpp (>= 1.0.8)"
+      ],
+      "Depends": [
+        "R (>= 3.3.0)"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "Suggests": [
+        "tinytest"
+      ],
+      "License": "GPL (>= 2)",
+      "NeedsCompilation": "yes",
+      "Author": "Dirk Eddelbuettel [aut, cre] (<https://orcid.org/0000-0001-6419-907X>), Mark Gillard [aut] (Author of 'toml++' header library)",
+      "Maintainer": "Dirk Eddelbuettel <edd@debian.org>",
+      "Repository": "CRAN",
+      "Encoding": "UTF-8",
+      "ExperimentalWindowsRuntime": "ucrt"
+    },
+    "SnowballC": {
+      "Package": "SnowballC",
+      "Version": "0.7.1",
+      "Source": "Repository",
+      "Type": "Package",
+      "Date": "2023-04-25",
+      "Title": "Snowball Stemmers Based on the C 'libstemmer' UTF-8 Library",
+      "Authors@R": "person(\"Milan\", \"Bouchet-Valat\", email=\"nalimilan@club.fr\", role=c(\"aut\", \"cre\"))",
+      "Description": "An R interface to the C 'libstemmer' library that implements Porter's word stemming algorithm for collapsing words to a common root to aid comparison of vocabulary. Currently supported languages are Arabic, Basque, Catalan, Danish, Dutch, English, Finnish, French, German, Greek, Hindi, Hungarian, Indonesian, Irish, Italian, Lithuanian, Nepali, Norwegian, Portuguese, Romanian, Russian, Spanish, Swedish, Tamil and Turkish.",
+      "License": "BSD_3_clause + file LICENSE",
+      "Copyright": "Dr Martin Porter (2001) and Richard Boulton (2004, 2005) for the 'libstemmer' C library, and Milan Bouchet-Valat (2013) for the R package contents.",
+      "URL": "https://github.com/nalimilan/R.TeMiS",
+      "BugReports": "https://github.com/nalimilan/R.TeMiS/issues",
+      "NeedsCompilation": "yes",
+      "Author": "Milan Bouchet-Valat [aut, cre]",
+      "Maintainer": "Milan Bouchet-Valat <nalimilan@club.fr>",
+      "Repository": "CRAN",
+      "Encoding": "UTF-8",
       "ExperimentalWindowsRuntime": "ucrt"
     },
     "V8": {
@@ -1999,6 +2074,44 @@
       "Maintainer": "Thomas Lin Pedersen <thomas.pedersen@posit.co>",
       "Repository": "CRAN"
     },
+    "here": {
+      "Package": "here",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Title": "A Simpler Way to Find Your Files",
+      "Date": "2020-12-13",
+      "Authors@R": "c(person(given = \"Kirill\", family = \"M\\u00fcller\", role = c(\"aut\", \"cre\"), email = \"krlmlr+r@mailbox.org\", comment = c(ORCID = \"0000-0002-1416-3412\")), person(given = \"Jennifer\", family = \"Bryan\", role = \"ctb\", email = \"jenny@rstudio.com\", comment = c(ORCID = \"0000-0002-6983-2759\")))",
+      "Description": "Constructs paths to your project's files. Declare the relative path of a file within your project with 'i_am()'. Use the 'here()' function as a drop-in replacement for 'file.path()', it will always locate the files relative to your project root.",
+      "License": "MIT + file LICENSE",
+      "URL": "https://here.r-lib.org/, https://github.com/r-lib/here",
+      "BugReports": "https://github.com/r-lib/here/issues",
+      "Imports": [
+        "rprojroot (>= 2.0.2)"
+      ],
+      "Suggests": [
+        "conflicted",
+        "covr",
+        "fs",
+        "knitr",
+        "palmerpenguins",
+        "plyr",
+        "readr",
+        "rlang",
+        "rmarkdown",
+        "testthat",
+        "uuid",
+        "withr"
+      ],
+      "VignetteBuilder": "knitr",
+      "Encoding": "UTF-8",
+      "LazyData": "true",
+      "RoxygenNote": "7.1.1.9000",
+      "Config/testthat/edition": "3",
+      "NeedsCompilation": "no",
+      "Author": "Kirill Müller [aut, cre] (<https://orcid.org/0000-0002-1416-3412>), Jennifer Bryan [ctb] (<https://orcid.org/0000-0002-6983-2759>)",
+      "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
+      "Repository": "CRAN"
+    },
     "highr": {
       "Package": "highr",
       "Version": "0.11",
@@ -2259,6 +2372,64 @@
       "Maintainer": "Hadley Wickham <hadley@posit.co>",
       "Repository": "CRAN",
       "ExperimentalWindowsRuntime": "ucrt"
+    },
+    "janeaustenr": {
+      "Package": "janeaustenr",
+      "Version": "1.0.0",
+      "Source": "Repository",
+      "Title": "Jane Austen's Complete Novels",
+      "Authors@R": "person(\"Julia\", \"Silge\", , \"julia.silge@gmail.com\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-3671-836X\"))",
+      "Description": "Full texts for Jane Austen's 6 completed novels, ready for text analysis. These novels are \"Sense and Sensibility\", \"Pride and Prejudice\", \"Mansfield Park\", \"Emma\", \"Northanger Abbey\", and \"Persuasion\".",
+      "License": "MIT + file LICENSE",
+      "URL": "https://github.com/juliasilge/janeaustenr",
+      "BugReports": "https://github.com/juliasilge/janeaustenr/issues",
+      "Depends": [
+        "R (>= 3.5)"
+      ],
+      "Suggests": [
+        "dplyr",
+        "testthat"
+      ],
+      "Config/testthat/edition": "3",
+      "Encoding": "UTF-8",
+      "LazyData": "true",
+      "RoxygenNote": "7.2.1",
+      "NeedsCompilation": "no",
+      "Author": "Julia Silge [aut, cre] (<https://orcid.org/0000-0002-3671-836X>)",
+      "Maintainer": "Julia Silge <julia.silge@gmail.com>",
+      "Repository": "CRAN"
+    },
+    "jose": {
+      "Package": "jose",
+      "Version": "1.2.1",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "JavaScript Object Signing and Encryption",
+      "Authors@R": "person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"),  email = \"jeroenooms@gmail.com\", comment = c(ORCID = \"0000-0002-4035-0289\"))",
+      "Description": "Read and write JSON Web Keys (JWK, rfc7517), generate and verify JSON Web Signatures (JWS, rfc7515) and encode/decode JSON Web Tokens (JWT, rfc7519) <https://datatracker.ietf.org/wg/jose/documents/>. These standards provide  modern signing and encryption formats that are natively supported by browsers via the JavaScript WebCryptoAPI <https://www.w3.org/TR/WebCryptoAPI/#jose>,  and used by services like OAuth 2.0, LetsEncrypt, and Github Apps.",
+      "License": "MIT + file LICENSE",
+      "URL": "https://r-lib.r-universe.dev/jose",
+      "BugReports": "https://github.com/r-lib/jose/issues",
+      "Depends": [
+        "openssl (>= 1.2.1)"
+      ],
+      "Imports": [
+        "jsonlite"
+      ],
+      "RoxygenNote": "7.1.2",
+      "VignetteBuilder": "knitr",
+      "Suggests": [
+        "spelling",
+        "testthat",
+        "knitr",
+        "rmarkdown"
+      ],
+      "Encoding": "UTF-8",
+      "Language": "en-US",
+      "NeedsCompilation": "no",
+      "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>)",
+      "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
+      "Repository": "CRAN"
     },
     "jquerylib": {
       "Package": "jquerylib",
@@ -2842,7 +3013,7 @@
     },
     "omopgenerics": {
       "Package": "omopgenerics",
-      "Version": "1.1.1",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Title": "Methods and Classes for the OMOP Common Data Model",
       "Authors@R": "c( person( \"Martí\", \"Català\", email = \"marti.catalasabate@ndorms.ox.ac.uk\",  role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-3308-9905\") ), person( \"Edward\", \"Burn\", email = \"edward.burn@ndorms.ox.ac.uk\", role = c(\"aut\"), comment = c(ORCID = \"0000-0002-9286-1128\") ), person( \"Mike\", \"Du\", email = \"mike.du@ndorms.ox.ac.uk\", role = c(\"ctb\"),  comment = c(ORCID = \"0000-0002-9517-8834\") ), person( \"Yuchen\", \"Guo\", email = \"yuchen.guo@ndorms.ox.ac.uk\", role = c(\"ctb\"), comment = c(ORCID = \"0000-0002-0847-4855\") ), person( \"Adam\", \"Black\", email = \"black@ohdsi.org\", role = c(\"ctb\"), comment = c(ORCID = \"0000-0001-5576-8701\") ), person( \"Marta\", \"Alcalde-Herraiz\",  email = \"marta.alcaldeherraiz@ndorms.ox.ac.uk\", role = c(\"ctb\"),  comment = c(ORCID = \"0009-0002-4405-1814\") ) )",
@@ -2888,7 +3059,7 @@
       "Config/testthat/parallel": "true",
       "VignetteBuilder": "knitr",
       "NeedsCompilation": "no",
-      "Author": "Martí Català [aut, cre] (<https://orcid.org/0000-0003-3308-9905>), Edward Burn [aut] (<https://orcid.org/0000-0002-9286-1128>), Mike Du [ctb] (<https://orcid.org/0000-0002-9517-8834>), Yuchen Guo [ctb] (<https://orcid.org/0000-0002-0847-4855>), Adam Black [ctb] (<https://orcid.org/0000-0001-5576-8701>), Marta Alcalde-Herraiz [ctb] (<https://orcid.org/0009-0002-4405-1814>)",
+      "Author": "Martí Català [aut, cre] (ORCID: <https://orcid.org/0000-0003-3308-9905>), Edward Burn [aut] (ORCID: <https://orcid.org/0000-0002-9286-1128>), Mike Du [ctb] (ORCID: <https://orcid.org/0000-0002-9517-8834>), Yuchen Guo [ctb] (ORCID: <https://orcid.org/0000-0002-0847-4855>), Adam Black [ctb] (ORCID: <https://orcid.org/0000-0001-5576-8701>), Marta Alcalde-Herraiz [ctb] (ORCID: <https://orcid.org/0009-0002-4405-1814>)",
       "Maintainer": "Martí Català <marti.catalasabate@ndorms.ox.ac.uk>",
       "Repository": "CRAN"
     },
@@ -2925,6 +3096,40 @@
       "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
       "Repository": "CRAN",
       "ExperimentalWindowsRuntime": "ucrt"
+    },
+    "packrat": {
+      "Package": "packrat",
+      "Version": "0.9.2",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "A Dependency Management System for Projects and their R Package Dependencies",
+      "Authors@R": "c( person(\"Aron\", \"Atkins\", , \"aron@posit.co\", role = c(\"aut\", \"cre\")), person(\"Toph\", \"Allen\", role = \"aut\"), person(\"Kevin\", \"Ushey\", role = \"aut\"), person(\"Jonathan\", \"McPherson\", role = \"aut\"), person(\"Joe\", \"Cheng\", role = \"aut\"), person(\"JJ\", \"Allaire\", role = \"aut\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
+      "Description": "Manage the R packages your project depends on in an isolated, portable, and reproducible way.",
+      "License": "GPL-2",
+      "URL": "https://github.com/rstudio/packrat",
+      "BugReports": "https://github.com/rstudio/packrat/issues",
+      "Depends": [
+        "R (>= 3.0.0)"
+      ],
+      "Imports": [
+        "tools",
+        "utils"
+      ],
+      "Suggests": [
+        "devtools",
+        "httr",
+        "knitr",
+        "mockery",
+        "rmarkdown",
+        "testthat (>= 3.0.0)"
+      ],
+      "Config/testthat/edition": "3",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.2.3",
+      "NeedsCompilation": "no",
+      "Author": "Aron Atkins [aut, cre], Toph Allen [aut], Kevin Ushey [aut], Jonathan McPherson [aut], Joe Cheng [aut], JJ Allaire [aut], Posit Software, PBC [cph, fnd]",
+      "Maintainer": "Aron Atkins <aron@posit.co>",
+      "Repository": "CRAN"
     },
     "pillar": {
       "Package": "pillar",
@@ -3589,6 +3794,90 @@
       "Maintainer": "Kirill Müller <kirill@cynkra.com>",
       "Repository": "CRAN"
     },
+    "rsconnect": {
+      "Package": "rsconnect",
+      "Version": "1.4.0",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Deploy Docs, Apps, and APIs to 'Posit Connect', 'shinyapps.io', and 'RPubs'",
+      "Authors@R": "c( person(\"Aron\", \"Atkins\", , \"aron@posit.co\", role = c(\"aut\", \"cre\")), person(\"Toph\", \"Allen\", role = \"aut\"), person(\"Hadley\", \"Wickham\", role = \"aut\"), person(\"Jonathan\", \"McPherson\", role = \"aut\"), person(\"JJ\", \"Allaire\", role = \"aut\"), person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")) )",
+      "Description": "Programmatic deployment interface for 'RPubs', 'shinyapps.io', and 'Posit Connect'. Supported content types include R Markdown documents, Shiny applications, Plumber APIs, plots, and static web content.",
+      "License": "GPL-2",
+      "URL": "https://rstudio.github.io/rsconnect/, https://github.com/rstudio/rsconnect",
+      "BugReports": "https://github.com/rstudio/rsconnect/issues",
+      "Depends": [
+        "R (>= 3.5.0)"
+      ],
+      "Imports": [
+        "cli",
+        "curl",
+        "digest",
+        "jsonlite",
+        "lifecycle",
+        "openssl (>= 2.0.0)",
+        "PKI",
+        "packrat (>= 0.6)",
+        "renv (>= 1.0.0)",
+        "rlang (>= 1.0.0)",
+        "rstudioapi (>= 0.5)",
+        "tools",
+        "yaml (>= 2.1.5)",
+        "RcppTOML",
+        "jose",
+        "utils"
+      ],
+      "Suggests": [
+        "Biobase",
+        "BiocManager",
+        "foreign",
+        "knitr",
+        "MASS",
+        "plumber (>= 0.3.2)",
+        "quarto",
+        "RCurl",
+        "reticulate",
+        "rmarkdown (>= 1.1)",
+        "shiny",
+        "testthat (>= 3.1.9)",
+        "webfakes",
+        "withr"
+      ],
+      "VignetteBuilder": "knitr, rmarkdown",
+      "Config/Needs/website": "tidyverse/tidytemplate",
+      "Config/testthat/edition": "3",
+      "Config/testthat/parallel": "true",
+      "Encoding": "UTF-8",
+      "RoxygenNote": "7.3.2",
+      "NeedsCompilation": "no",
+      "Author": "Aron Atkins [aut, cre], Toph Allen [aut], Hadley Wickham [aut], Jonathan McPherson [aut], JJ Allaire [aut], Posit Software, PBC [cph, fnd]",
+      "Maintainer": "Aron Atkins <aron@posit.co>",
+      "Repository": "CRAN"
+    },
+    "rstudioapi": {
+      "Package": "rstudioapi",
+      "Version": "0.17.1",
+      "Source": "Repository",
+      "Title": "Safely Access the RStudio API",
+      "Description": "Access the RStudio API (if available) and provide informative error messages when it's not.",
+      "Authors@R": "c( person(\"Kevin\", \"Ushey\", role = c(\"aut\", \"cre\"), email = \"kevin@rstudio.com\"), person(\"JJ\", \"Allaire\", role = c(\"aut\"), email = \"jj@posit.co\"), person(\"Hadley\", \"Wickham\", role = c(\"aut\"), email = \"hadley@posit.co\"), person(\"Gary\", \"Ritchie\", role = c(\"aut\"), email = \"gary@posit.co\"), person(family = \"RStudio\", role = \"cph\") )",
+      "Maintainer": "Kevin Ushey <kevin@rstudio.com>",
+      "License": "MIT + file LICENSE",
+      "URL": "https://rstudio.github.io/rstudioapi/, https://github.com/rstudio/rstudioapi",
+      "BugReports": "https://github.com/rstudio/rstudioapi/issues",
+      "RoxygenNote": "7.3.2",
+      "Suggests": [
+        "testthat",
+        "knitr",
+        "rmarkdown",
+        "clipr",
+        "covr"
+      ],
+      "VignetteBuilder": "knitr",
+      "Encoding": "UTF-8",
+      "NeedsCompilation": "no",
+      "Author": "Kevin Ushey [aut, cre], JJ Allaire [aut], Hadley Wickham [aut], Gary Ritchie [aut], RStudio [cph]",
+      "Repository": "RSPM"
+    },
     "sass": {
       "Package": "sass",
       "Version": "0.4.10",
@@ -4210,6 +4499,70 @@
       "Repository": "CRAN",
       "ExperimentalWindowsRuntime": "ucrt"
     },
+    "tidytext": {
+      "Package": "tidytext",
+      "Version": "0.4.2",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Text Mining using 'dplyr', 'ggplot2', and Other Tidy Tools",
+      "Authors@R": "c( person(\"Gabriela\", \"De Queiroz\", , \"gabidequeiroz@gmail.com\", role = \"ctb\"), person(\"Colin\", \"Fay\", , \"contact@colinfay.me\", role = \"ctb\", comment = c(ORCID = \"0000-0001-7343-1846\")), person(\"Emil\", \"Hvitfeldt\", , \"emilhhvitfeldt@gmail.com\", role = \"ctb\"), person(\"Os\", \"Keyes\", , \"ironholds@gmail.com\", role = \"ctb\", comment = c(ORCID = \"0000-0001-5196-609X\")), person(\"Kanishka\", \"Misra\", , \"kmisra@purdue.edu\", role = \"ctb\"), person(\"Tim\", \"Mastny\", , \"tim.mastny@gmail.com\", role = \"ctb\"), person(\"Jeff\", \"Erickson\", , \"jeff@erick.so\", role = \"ctb\"), person(\"David\", \"Robinson\", , \"admiral.david@gmail.com\", role = \"aut\"), person(\"Julia\", \"Silge\", , \"julia.silge@gmail.com\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0002-3671-836X\")) )",
+      "Description": "Using tidy data principles can make many text mining tasks easier, more effective, and consistent with tools already in wide use. Much of the infrastructure needed for text mining with tidy data frames already exists in packages like 'dplyr', 'broom', 'tidyr', and 'ggplot2'. In this package, we provide functions and supporting data sets to allow conversion of text to and from tidy formats, and to switch seamlessly between tidy tools and existing text mining packages.",
+      "License": "MIT + file LICENSE",
+      "URL": "https://juliasilge.github.io/tidytext/, https://github.com/juliasilge/tidytext",
+      "BugReports": "https://github.com/juliasilge/tidytext/issues",
+      "Depends": [
+        "R (>= 2.10)"
+      ],
+      "Imports": [
+        "cli",
+        "dplyr (>= 1.1.1)",
+        "generics",
+        "janeaustenr",
+        "lifecycle",
+        "Matrix",
+        "methods",
+        "purrr (>= 0.1.1)",
+        "rlang (>= 0.4.10)",
+        "stringr",
+        "tibble",
+        "tokenizers",
+        "vctrs"
+      ],
+      "Suggests": [
+        "broom",
+        "covr",
+        "data.table",
+        "ggplot2",
+        "hunspell",
+        "knitr",
+        "mallet",
+        "NLP",
+        "quanteda",
+        "readr",
+        "reshape2",
+        "rmarkdown",
+        "scales",
+        "stm",
+        "stopwords",
+        "testthat (>= 2.1.0)",
+        "textdata",
+        "tidyr",
+        "tm",
+        "topicmodels",
+        "vdiffr",
+        "wordcloud"
+      ],
+      "VignetteBuilder": "knitr",
+      "Config/Needs/website": "ropensci/gutenbergr",
+      "Config/testthat/edition": "3",
+      "Encoding": "UTF-8",
+      "LazyData": "TRUE",
+      "RoxygenNote": "7.3.1",
+      "NeedsCompilation": "no",
+      "Author": "Gabriela De Queiroz [ctb], Colin Fay [ctb] (<https://orcid.org/0000-0001-7343-1846>), Emil Hvitfeldt [ctb], Os Keyes [ctb] (<https://orcid.org/0000-0001-5196-609X>), Kanishka Misra [ctb], Tim Mastny [ctb], Jeff Erickson [ctb], David Robinson [aut], Julia Silge [aut, cre] (<https://orcid.org/0000-0002-3671-836X>)",
+      "Maintainer": "Julia Silge <julia.silge@gmail.com>",
+      "Repository": "CRAN"
+    },
     "tinytex": {
       "Package": "tinytex",
       "Version": "0.57",
@@ -4234,6 +4587,46 @@
       "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>), Posit Software, PBC [cph, fnd], Christophe Dervieux [ctb] (<https://orcid.org/0000-0003-4474-2498>), Devon Ryan [ctb] (<https://orcid.org/0000-0002-8549-0971>), Ethan Heinzen [ctb], Fernando Cagua [ctb]",
       "Maintainer": "Yihui Xie <xie@yihui.name>",
       "Repository": "CRAN"
+    },
+    "tokenizers": {
+      "Package": "tokenizers",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Type": "Package",
+      "Title": "Fast, Consistent Tokenization of Natural Language Text",
+      "Date": "2022-12-19",
+      "Description": "Convert natural language text into tokens. Includes tokenizers for shingled n-grams, skip n-grams, words, word stems, sentences, paragraphs, characters, shingled characters, lines, Penn Treebank, regular expressions, as well as functions for counting characters, words, and sentences, and a function for splitting longer texts into separate documents, each with the same number of words.  The tokenizers have a consistent interface, and the package is built on the 'stringi' and 'Rcpp' packages for  fast yet correct tokenization in 'UTF-8'.",
+      "License": "MIT + file LICENSE",
+      "LazyData": "yes",
+      "Authors@R": "c(person(\"Lincoln\", \"Mullen\", role = c(\"aut\", \"cre\"), email = \"lincoln@lincolnmullen.com\", comment = c(ORCID = \"0000-0001-5103-6917\")), person(\"Os\", \"Keyes\", role = c(\"ctb\"), email = \"ironholds@gmail.com\", comment = c(ORCID = \"0000-0001-5196-609X\")), person(\"Dmitriy\", \"Selivanov\", role = c(\"ctb\"), email = \"selivanov.dmitriy@gmail.com\"), person(\"Jeffrey\", \"Arnold\", role = c(\"ctb\"), email = \"jeffrey.arnold@gmail.com\", comment = c(ORCID = \"0000-0001-9953-3904\")), person(\"Kenneth\", \"Benoit\", role = c(\"ctb\"), email = \"kbenoit@lse.ac.uk\", comment = c(ORCID = \"0000-0002-0797-564X\")))",
+      "URL": "https://docs.ropensci.org/tokenizers/, https://github.com/ropensci/tokenizers",
+      "BugReports": "https://github.com/ropensci/tokenizers/issues",
+      "RoxygenNote": "7.2.1",
+      "Depends": [
+        "R (>= 3.1.3)"
+      ],
+      "Imports": [
+        "stringi (>= 1.0.1)",
+        "Rcpp (>= 0.12.3)",
+        "SnowballC (>= 0.5.1)"
+      ],
+      "LinkingTo": [
+        "Rcpp"
+      ],
+      "Encoding": "UTF-8",
+      "Suggests": [
+        "covr",
+        "knitr",
+        "rmarkdown",
+        "stopwords (>= 0.9.0)",
+        "testthat"
+      ],
+      "VignetteBuilder": "knitr",
+      "NeedsCompilation": "yes",
+      "Author": "Lincoln Mullen [aut, cre] (<https://orcid.org/0000-0001-5103-6917>), Os Keyes [ctb] (<https://orcid.org/0000-0001-5196-609X>), Dmitriy Selivanov [ctb], Jeffrey Arnold [ctb] (<https://orcid.org/0000-0001-9953-3904>), Kenneth Benoit [ctb] (<https://orcid.org/0000-0002-0797-564X>)",
+      "Maintainer": "Lincoln Mullen <lincoln@lincolnmullen.com>",
+      "Repository": "CRAN",
+      "ExperimentalWindowsRuntime": "ucrt"
     },
     "tzdb": {
       "Package": "tzdb",
@@ -4376,12 +4769,9 @@
     },
     "visOmopResults": {
       "Package": "visOmopResults",
-      "Version": "1.0.2",
+      "Version": "1.1.0",
       "Source": "Repository",
       "Title": "Graphs and Tables for OMOP Results",
-      "Depends": [
-        "R (>= 4.1.0)"
-      ],
       "Authors@R": "c( person( \"Martí\", \"Català\", , \"marti.catalasabate@ndorms.ox.ac.uk\",  role = c(\"aut\"), comment = c(ORCID = \"0000-0003-3308-9905\") ), person( \"Núria\", \"Mercadé-Besora\", , \"nuria.mercadebesora@ndorms.ox.ac.uk\",  role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0009-0006-7948-3747\") ), person( \"Yuchen\", \"Guo\", , \"yuchen.guo@ndorms.ox.ac.uk\",  role = c(\"ctb\"), comment = c(ORCID = \"0000-0002-0847-4855\") ), person( \"Elin\", \"Rowlands\", , \"elin.rowlands@ndorms.ox.ac.uk\",  role = c(\"ctb\"), comment = c(ORCID = \"0009-0007-6629-4661\") ), person( \"Marta\", \"Alcalde-Herraiz\", , \"marta.alcaldeherraiz@ndorms.ox.ac.uk\",  role = c(\"ctb\"), comment = c(ORCID = \"0009-0002-4405-1814\") ), person( \"Edward\", \"Burn\", , \"edward.burn@ndorms.ox.ac.uk\",  role = c(\"ctb\"), comment = c(ORCID = \"0000-0002-9286-1128\") ) )",
       "Maintainer": "Núria Mercadé-Besora <nuria.mercadebesora@ndorms.ox.ac.uk>",
       "Description": "Provides methods to transform omop_result objects into formatted tables and figures, facilitating the visualisation of study results working with the Observational Medical Outcomes Partnership (OMOP) Common Data Model.",
@@ -4395,6 +4785,7 @@
         "glue",
         "omopgenerics (>= 0.3.1)",
         "purrr",
+        "reactable",
         "rlang",
         "stringr",
         "tidyr"
@@ -4416,12 +4807,15 @@
         "testthat (>= 3.0.0)"
       ],
       "VignetteBuilder": "knitr",
+      "Depends": [
+        "R (>= 4.1)"
+      ],
       "Config/testthat/edition": "3",
       "Config/testthat/parallel": "true",
       "Encoding": "UTF-8",
       "RoxygenNote": "7.3.2",
       "NeedsCompilation": "no",
-      "Author": "Martí Català [aut] (<https://orcid.org/0000-0003-3308-9905>), Núria Mercadé-Besora [aut, cre] (<https://orcid.org/0009-0006-7948-3747>), Yuchen Guo [ctb] (<https://orcid.org/0000-0002-0847-4855>), Elin Rowlands [ctb] (<https://orcid.org/0009-0007-6629-4661>), Marta Alcalde-Herraiz [ctb] (<https://orcid.org/0009-0002-4405-1814>), Edward Burn [ctb] (<https://orcid.org/0000-0002-9286-1128>)",
+      "Author": "Martí Català [aut] (ORCID: <https://orcid.org/0000-0003-3308-9905>), Núria Mercadé-Besora [aut, cre] (ORCID: <https://orcid.org/0009-0006-7948-3747>), Yuchen Guo [ctb] (ORCID: <https://orcid.org/0000-0002-0847-4855>), Elin Rowlands [ctb] (ORCID: <https://orcid.org/0009-0007-6629-4661>), Marta Alcalde-Herraiz [ctb] (ORCID: <https://orcid.org/0009-0002-4405-1814>), Edward Burn [ctb] (ORCID: <https://orcid.org/0000-0002-9286-1128>)",
       "Repository": "CRAN"
     },
     "vroom": {

@@ -1,0 +1,684 @@
+---
+title: "results_summary"
+format: docx
+editor: visual  
+---
+
+```{r, echo = FALSE, warning = FALSE, message=FALSE}
+library(here)
+library(stringr)
+library(dplyr)
+library(ggplot2)
+library(omopgenerics)
+library(CohortCharacteristics)
+library(tidytext)
+library(CodelistGenerator)
+library(OmopSketch)
+library(tidyr)
+library(visOmopResults)
+library(ggh4x)
+
+atc_ref <- readr::read_csv("atc_ref.csv")
+atc_ref <- atc_ref |> 
+  mutate(cohort_name_short = stringr::str_replace(name, "^[^_]*_", ""))
+
+res <- importSummarisedResult(here::here("data"))
+res <- res |> 
+  mutate(cdm_name = if_else(cdm_name == "GOSH_OMOP", "GOSH", cdm_name)) |> 
+  mutate(cdm_name = if_else(cdm_name == "IDRIL_1", "IDRIL", cdm_name)) |>  
+  mutate(cdm_name = if_else(str_detect(cdm_name, "Barts"), "Barts", cdm_name)) |> 
+  mutate(cdm_name = if_else(str_detect(cdm_name, "UCLH-from-2019-v2"), "UCLH", cdm_name))
+
+res <- res |>
+  mutate(variable_level = case_when(
+    variable_level == "C56 malignant neoplasm of ovary" ~ "Ovarian Cancer",
+    variable_level == "I270 primary pulmonary hypertension" ~ "Pulmonary Hypertension",
+    variable_level == "C92 myeloid leukaemia" ~ "Myeloid Leukemia",
+    variable_level == "C53 malignant neoplasm of cervix uteri" ~ "Cervical Cancer",
+    variable_level == "C91 lymphoid leukaemia" ~ "Lymphoid Leukemia",
+    variable_level == "J45 asthma" ~ "Asthma",
+    variable_level == "N17 n19 renal failure" ~ "Renal Failure",
+    variable_level == "C50 malignant neoplasm of breast" ~ "Breast Cancer",
+    variable_level == "D55 d59 haemolytic anaemias" ~ "Hemolytic Anemias",
+    variable_level == "E22 hyperfunction of pituitary gland" ~ "Pituitary Gland Hyperfunction",
+    variable_level == "C34 malignant neoplasm of bronchus and lung" ~ "Lung Cancer",
+    variable_level == "D65 d69 coagulation defects purpura and other haemorrhagic conditions" ~ "Coagulation and Hemorrhagic Disorders",
+    variable_level == "M32 systemic lupus erythematosus" ~ "Systemic Lupus Erythematosus",
+    variable_level == "C73 c75 malignant neoplasms of thyroid and other endocrine glands" ~ "Thyroid and Endocrine Gland Cancers",
+    variable_level == "E84 cystic fibrosis" ~ "Cystic Fibrosis",
+    variable_level == "G35 multiple sclerosis" ~ "Multiple Sclerosis",
+    variable_level == "B16 acute hepatitis b" ~ "Acute Hepatitis B",
+    variable_level == "C15 c26 malignant neoplasms of digestive organs" ~ "Digestive System Cancers",
+    variable_level == "D70 agranulocytosis" ~ "Agranulocytosis",
+    variable_level == "C81 hodgkin lymphoma" ~ "Hodgkin Lymphoma",
+    variable_level == "C45 mesothelioma" ~ "Mesothelioma",
+    variable_level == "C71 malignant neoplasm of brain" ~ "Brain Cancer",
+    variable_level == "Z940 kidney transplant status" ~ "Kidney Transplant Status",
+    variable_level == "C83 non follicular lymphoma" ~ "Non-Follicular Lymphoma",
+    variable_level == "G710 muscular dystrophy" ~ "Muscular Dystrophy",
+    variable_level == "C900 multiple myeloma" ~ "Multiple Myeloma",
+    variable_level == "B20 b24 human immunodeficiency virus hiv disease" ~ "HIV/AIDS",
+    variable_level == "C82 follicular lymphoma" ~ "Follicular Lymphoma",
+    variable_level == "C64 c68 malignant neoplasms of urinary tract" ~ "Urinary Tract Cancers",
+    variable_level == "B15 acute hepatitis a" ~ "Acute Hepatitis A",
+    variable_level == "A15 a19 tuberculosis" ~ "Tuberculosis",
+    variable_level == "C61 malignant neoplasm of prostate" ~ "Prostate Cancer",
+    TRUE ~ variable_level  # fallback: keep original if no match
+  ))
+
+counts <- tidy(res |> 
+                 filterSettings(result_type == "summarise_characteristics")) |> 
+  filter(variable_name %in% c("Number records", "Number subjects")) |> 
+  mutate(cohort_name_short = cohort_name) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_first", ""))|> 
+  filter(variable_name == "Number subjects") |> 
+  filter(str_detect(cohort_name, "_first")) |> 
+  select("cdm_name", "cohort_name_short", "count") |> 
+  arrange(desc(cohort_name_short))
+
+
+custom_colors <- c("Barts" = "#e41a1c", 
+                   "GOSH" = "#377eb8", 
+                   "IDRIL" = "#4daf4a", 
+                   "UCLH" = "#984ea3")
+
+custom_shapes <- c("Barts Health" = 21, 
+                   "GOSH" = 22, 
+                   "IDRIL" = 23, 
+                   "UCLH" = 24)
+
+custom_shapes_2 <- c("Median age" = 21, 
+                     "Proportion male" = 22)
+
+plot_count <- function(starts, level = "ATC 2nd"){
+  counts %>%
+    left_join(
+      atc_ref %>% 
+        filter(concept_class_id == level,
+               str_starts(concept_code, starts))) %>%
+    filter(!is.na(concept_class_id)) |> 
+    mutate(cohort_name_short= str_replace_all(cohort_name_short, "_", " ")) |> 
+    mutate(cohort_name_short= CodelistGenerator:::tidyWords(cohort_name_short)) |>
+    mutate(cohort_name_short= str_to_title(cohort_name_short)) |> 
+    ungroup() |> 
+    ggplot() +
+    facet_grid(concept_code ~ ., scales = "free_y", space = "free") +
+    geom_col(aes(
+      x = count, 
+      y = reorder_within(cohort_name_short, count, concept_code, fun = sum),
+      fill = cdm_name
+    ), width = 1, colour = 'grey30') +
+    scale_y_reordered()+
+    scale_fill_manual(values = custom_colors)  +  
+    scale_x_continuous(label=scales::comma) +
+    theme_bw() +
+    theme(legend.position = "top", legend.title = element_blank(),
+      plot.margin = margin(0.5, 0.5, 0.5, 0.5, unit = "cm"),
+      plot.title = element_text(size = 15, face = "bold"),
+      strip.text.y = element_text(angle = 0, face = "bold"),
+      strip.background = element_rect(fill = "grey95"),
+      axis.title.x = element_text(margin = margin(t = 0.5, b = 0.5, unit = "cm")),
+      axis.title.y = element_blank(),
+      axis.text = element_text(size = 10),
+      panel.spacing = unit(0.15, "lines"),
+      panel.grid.major.y = element_blank(),
+    )+
+    labs(x = "Number of new users", y = "")
+  
+}
+
+plot_median_age <- function(starts, level = "ATC 2nd"){
+res |> 
+  filterSettings(result_type == "summarise_characteristics") |> 
+  filter(variable_name %in% c("Age")) |> 
+  filter(estimate_name %in% c("median")) |> 
+  tidy() |> 
+  mutate(cohort_name_short = cohort_name) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_first", ""))|> 
+  filter(str_detect(cohort_name, "_first")) |> 
+  select("cdm_name", "cohort_name_short", "median") |> 
+  inner_join(
+    atc_ref %>% 
+      filter(concept_class_id == level,
+             str_starts(concept_code, starts))) |> 
+    mutate(cohort_name_short= str_replace_all(cohort_name_short, "_", " ")) |> 
+    mutate(cohort_name_short= CodelistGenerator:::tidyWords(cohort_name_short)) |>
+    mutate(cohort_name_short= str_to_title(cohort_name_short)) |> 
+  ggplot() +
+  facet_grid(concept_code ~ ., scales = "free_y", space = "free") +
+  geom_point(aes(
+    x = median, 
+    y = reorder_within(cohort_name_short, median, concept_code, fun = max),
+    fill = cdm_name, 
+    shape = cdm_name
+  ), colour = "black", size = 3) +
+  scale_y_reordered()+
+  scale_fill_manual(values = custom_colors)  +  
+  scale_shape_manual(values = custom_shapes) +
+  theme_bw() +
+  theme(legend.position = "top", legend.title = element_blank(),
+        plot.margin = margin(0.5, 0.5, 0.5, 0.5, unit = "cm"),
+        plot.title = element_text(size = 15, face = "bold"),
+        strip.text.y = element_text(angle = 0, face = "bold"),
+        strip.background = element_rect(fill = "grey95"),
+        axis.title.x = element_text(margin = margin(t = 0.5, b = 0.5, unit = "cm")),
+        axis.title.y = element_blank(),
+        axis.text = element_text(size = 10),
+        panel.spacing = unit(0.15, "lines"),
+        panel.grid.major.y = element_blank(),
+  )+
+  labs(x = "Median Age", y = "")
+}
+
+plot_proportion_male <- function(starts, level = "ATC 2nd"){
+  res |> 
+    filterSettings(result_type == "summarise_characteristics") |> 
+    filter(variable_name %in% c("Sex")) |> 
+    filter(variable_level %in% c("Male")) |> 
+    filter(estimate_name %in% c("percentage")) |> 
+    tidy() |> 
+    mutate(cohort_name_short = cohort_name) |> 
+    mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+    mutate(cohort_name_short = str_replace(cohort_name_short, "_first", ""))|> 
+    filter(str_detect(cohort_name, "_first")) |> 
+    select("cdm_name", "cohort_name_short", "percentage") |> 
+    inner_join(
+      atc_ref %>% 
+        filter(concept_class_id == level,
+               str_starts(concept_code, starts))) |> 
+    mutate(cohort_name_short= str_replace_all(cohort_name_short, "_", " ")) |> 
+    mutate(cohort_name_short= CodelistGenerator:::tidyWords(cohort_name_short)) |>
+    mutate(cohort_name_short= str_to_title(cohort_name_short)) |> 
+    ggplot() +
+    facet_grid(concept_code ~ ., scales = "free_y", space = "free") +
+    geom_point(aes(
+      x = percentage, 
+      y = reorder_within(cohort_name_short, percentage, concept_code, fun = max),
+      fill = cdm_name, 
+      shape = cdm_name
+    ), colour = "black", size = 3) +
+    scale_y_reordered()+
+    scale_fill_manual(values = custom_colors)  +  
+    scale_shape_manual(values = custom_shapes) +
+    theme_bw() +
+    theme(legend.position = "top", legend.title = element_blank(),
+          plot.margin = margin(0.5, 0.5, 0.5, 0.5, unit = "cm"),
+          plot.title = element_text(size = 15, face = "bold"),
+          strip.text.y = element_text(angle = 0, face = "bold"),
+          strip.background = element_rect(fill = "grey95"),
+          axis.title.x = element_text(margin = margin(t = 0.5, b = 0.5, unit = "cm")),
+          axis.title.y = element_blank(),
+          axis.text = element_text(size = 10),
+          panel.spacing = unit(0.15, "lines"),
+          panel.grid.major.y = element_blank(),
+    )+
+    labs(x = "Percentage male", y = "") +
+    xlim(0, 100) +
+    geom_vline(aes(xintercept = 50), linetype = "dotted")
+}
+
+plot_median_age_and_sex <- function(starts, level = "ATC 2nd"){
+  
+bind_rows(res |> 
+    filterSettings(result_type == "summarise_characteristics") |> 
+    filter(variable_name %in% c("Sex")) |> 
+    filter(variable_level %in% c("Male")) |> 
+    filter(estimate_name %in% c("percentage")) |> 
+    tidy() |> 
+    rename("estimate" = "percentage") |> 
+  mutate(line_intercept = 50,
+         type = "Proportion male"),
+res |> 
+  filterSettings(result_type == "summarise_characteristics") |> 
+  filter(variable_name %in% c("Age")) |> 
+  filter(estimate_name %in% c("median")) |> 
+  tidy()|> 
+  mutate(type = "Median age") |> 
+  rename("estimate" = "median")) |> 
+  mutate(cohort_name_short = cohort_name) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_first", ""))|> 
+  filter(str_detect(cohort_name, "_first")) |> 
+  select("cdm_name", "cohort_name_short", "estimate", "type", "line_intercept") |> 
+  inner_join(
+      atc_ref %>% 
+        filter(concept_class_id == level,
+               str_starts(concept_code, starts))) |> 
+    mutate(cohort_name_short= str_replace_all(cohort_name_short, "_", " ")) |> 
+    mutate(cohort_name_short= CodelistGenerator:::tidyWords(cohort_name_short)) |>
+    mutate(cohort_name_short= str_to_title(cohort_name_short)) |> 
+    ggplot() +
+    facet_grid(concept_code ~ type, scales = "free", space = "free", switch = "x") +
+    geom_point(aes(
+      x = estimate, 
+      y = reorder_within(cohort_name_short, estimate, concept_code, fun = max),
+      fill = cdm_name, 
+      shape = type, colour = cdm_name
+    ), size = 3) +
+    scale_y_reordered()+
+    scale_colour_manual(values = custom_colors)  + 
+    scale_fill_manual(values = custom_colors)  +   
+    scale_shape_manual(values = custom_shapes_2) +
+    theme_bw() +
+    theme(legend.position = "top", legend.title = element_blank(),
+          plot.margin = margin(0.5, 0.5, 0.5, 0.5, unit = "cm"),
+          plot.title = element_text(size = 15, face = "bold"),
+          strip.text.y = element_text(angle = 0, face = "bold"),
+          strip.text.x = element_text(angle = 0, face = "bold"),
+          strip.background.y = element_rect(fill = "grey95"),
+          strip.background.x = element_rect(fill = "white", color = NA), 
+          axis.title.x = element_text(margin = margin(t = 0.5, b = 0.5, unit = "cm")),
+          axis.title.y = element_blank(),
+          axis.text = element_text(size = 10),
+          panel.spacing.y = unit(0.15, "lines"),
+          panel.spacing.x = unit(0.85, "lines"),
+          strip.placement = "outside",
+          panel.grid.major.y = element_blank(),
+    ) +
+  xlab("")+
+  geom_vline(aes(xintercept = line_intercept), linetype = "dotted") +
+  guides(shape = "none")
+
+}
+
+custom_shapes_3 <- c("b) Median age" = 21, 
+                     "c) Proportion male" = 22)
+
+plot_count_age_and_sex  <- function(starts, level = "ATC 2nd"){
+plot_data<-bind_rows(tidy(res |> 
+                       filterSettings(result_type == "summarise_characteristics") |> 
+                       filter(variable_name == "Number subjects")) |> 
+            rename("estimate" = "count")|> 
+            mutate(type = "a) Number of new users") ,
+          res |> 
+            filterSettings(result_type == "summarise_characteristics") |> 
+            filter(variable_name %in% c("Sex")) |> 
+            filter(variable_level %in% c("Male")) |> 
+            filter(estimate_name %in% c("percentage")) |> 
+            tidy() |> 
+            rename("estimate" = "percentage") |> 
+            mutate(line_intercept = 50,
+                   type = "c) Proportion male"),
+          res |> 
+            filterSettings(result_type == "summarise_characteristics") |> 
+            filter(variable_name %in% c("Age")) |> 
+            filter(estimate_name %in% c("median")) |> 
+            tidy()|> 
+            mutate(type = "b) Median age") |> 
+            rename("estimate" = "median")) |> 
+  mutate(cohort_name_short = cohort_name) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_first", "")) |> 
+  filter(str_detect(cohort_name, "_first")) |> 
+  select("cdm_name", "cohort_name_short", "estimate", "type", "line_intercept") |> 
+  inner_join(
+    atc_ref %>% 
+      filter(concept_class_id == level,
+             str_starts(concept_code, starts))) |> 
+  mutate(cohort_name_short= str_replace_all(cohort_name_short, "_", " ")) |> 
+  mutate(cohort_name_short= CodelistGenerator:::tidyWords(cohort_name_short)) |>
+  mutate(cohort_name_short= str_to_title(cohort_name_short)) 
+
+ggplot() +
+  ggh4x::facet_grid2(concept_code ~ type, scales = "free", space = "free_y", switch = "x") +
+  ggh4x::force_panelsizes(cols = c(3, 2, 2)) +
+  geom_bar(data = plot_data |> filter(type == "a) Number of new users"),
+           aes(x = estimate,
+               y = reorder_within(cohort_name_short, estimate, concept_code, fun = sum),
+               fill = cdm_name),
+           stat = "identity",
+           position = "stack") +
+  geom_point(aes(
+    x = estimate, 
+    y = reorder_within(cohort_name_short, estimate, concept_code, fun = max),
+    fill = cdm_name, 
+    shape = type, colour = cdm_name
+  ), size = 3, data = plot_data |> filter(type != "a) Number of new users")) +
+  scale_y_reordered()+
+  scale_colour_manual(values = custom_colors)  + 
+  scale_fill_manual(values = custom_colors)  +   
+  scale_shape_manual(values = custom_shapes_3) +
+  theme_bw() +
+  theme(legend.position = "top", legend.title = element_blank(),
+        plot.margin = margin(0.5, 0.5, 0.5, 0.5, unit = "cm"),
+        plot.title = element_text(size = 15, face = "bold"),
+        strip.text.y = element_text(angle = 0, face = "bold"),
+        strip.text.x = element_text(angle = 0, face = "bold"),
+        strip.background.y = element_rect(fill = "grey95"),
+        strip.background.x = element_rect(fill = "white", color = NA), 
+        axis.title.x = element_text(margin = margin(t = 0.5, b = 0.5, unit = "cm")),
+        axis.title.y = element_blank(),
+        axis.text = element_text(size = 10),
+        panel.spacing.y = unit(0.15, "lines"),
+        panel.spacing.x = unit(0.15, "lines"),
+        strip.placement = "outside",
+        panel.grid.major.y = element_blank()
+  ) + 
+  scale_x_continuous(label=scales::comma) +
+  xlab("") +
+  geom_vline(aes(xintercept = line_intercept), linetype = "dotted", 
+             data = plot_data) +
+  guides(shape = "none")
+}
+
+plot_indications <- function(working_concept_code, level = "ATC 2nd", working_window = "Icd flag -14 to 14"){
+tidy(res |> filterSettings(result_type == "summarise_characteristics")) |> 
+  filter(variable_name %in% working_window) |>
+  mutate(cohort_name_short = cohort_name) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_first", "")) |> 
+  filter(str_detect(cohort_name, "_first")) |> 
+  inner_join(
+    atc_ref    %>%
+      filter(concept_code== working_concept_code)
+  ) |>
+  filter(!is.na(percentage))  |>
+  filter(percentage > 10) |> 
+  select(cdm_name, cohort_name, cohort_name_short, percentage, concept_code,
+         variable_level) |> 
+    inner_join(
+      atc_ref    %>%
+        filter(stringr::str_starts(concept_code, working_concept_code)) |> 
+        filter(concept_class_id== level) |> 
+        select(cohort_name_short, 
+               atc = "concept_code")
+    ) |> 
+    mutate(cohort_name_short= str_replace_all(cohort_name_short, "_", " ")) |> 
+    mutate(cohort_name_short= CodelistGenerator:::tidyWords(cohort_name_short)) |>
+    mutate(cohort_name_short= str_to_title(cohort_name_short)) |> 
+    mutate(name = paste0(atc, ": ", cohort_name_short)) |> 
+  ggplot() +
+  facet_wrap(vars(name), scales = "free_y")+
+  geom_bar(
+    aes(percentage, cdm_name, fill = variable_level),
+    colour = "black",
+    stat = "identity",
+    position = position_dodge()
+  ) +
+    theme_bw()  +
+    theme(legend.position = "top", legend.title = element_blank(),
+          plot.margin = margin(0.5, 0.5, 0.5, 0.5, unit = "cm"),
+          plot.title = element_text(size = 15, face = "bold"),
+          strip.text = element_text(angle = 0, face = "bold"),
+          strip.background = element_rect(fill = "grey95"),
+          axis.title.x = element_text(margin = margin(t = 0.5, b = 0.5, unit = "cm")),
+          axis.title.y = element_blank(),
+          axis.text = element_text(size = 10),
+          panel.spacing = unit(0.15, "lines"),
+          panel.grid.major.y = element_blank(),
+    )+
+    ylab("") +
+    xlab("Percentage")+
+    guides(fill = guide_legend(ncol = 3)) 
+}
+
+```
+
+```{r, echo = FALSE, warning = FALSE, message=FALSE}
+tableOmopSnapshot(res)
+```
+
+```{r, echo = FALSE, warning = FALSE, message=FALSE}
+library(gt)
+tidy(res |> 
+       filterSettings(result_type == "summarise_characteristics")) |> 
+  filter(variable_name %in% c("Number records", "Number subjects")) |> 
+  mutate(cohort_name_short = cohort_name) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_first", ""))|> 
+  filter(variable_name == "Number subjects") |> 
+  filter(str_detect(cohort_name, "_first")) |> 
+  select("cdm_name", "cohort_name_short", "count") |> 
+  mutate(flag = "Yes") |> 
+  select("cdm_name", "cohort_name_short", "flag") |> 
+  pivot_wider(names_from = "cdm_name", 
+              values_from = "flag") %>%
+  mutate(across(everything(), ~ replace_na(., "No"))) |> 
+  arrange(cohort_name_short) |> 
+  # mutate(row = row_number()) |> 
+  # relocate(row) |> 
+  rename("High-cost medicine" = "cohort_name_short") |> 
+  visOmopResults::visTable() |>
+  tab_style(
+    style = cell_fill(color = "red"),
+    locations = cells_body(
+      columns = c(Barts),
+      rows = Barts == "No"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "green"),
+    locations = cells_body(
+      columns = c(Barts),
+      rows = Barts == "Yes"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "red"),
+    locations = cells_body(
+      columns = c(Gosh),
+      rows = Gosh == "No"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "green"),
+    locations = cells_body(
+      columns = c(Gosh),
+      rows = Gosh == "Yes"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "red"),
+    locations = cells_body(
+      columns = c(Idril),
+      rows = Idril == "No"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "green"),
+    locations = cells_body(
+      columns = c(Idril),
+      rows = Idril == "Yes"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "red"),
+    locations = cells_body(
+      columns = c(Uclh),
+      rows = Uclh == "No"
+    )
+  ) |>
+  tab_style(
+    style = cell_fill(color = "green"),
+    locations = cells_body(
+      columns = c(Uclh),
+      rows = Uclh == "Yes"
+    )
+  )
+```
+
+
+
+```{r, echo = FALSE, warning = FALSE, message=FALSE}
+#distinct meds
+tidy(res |> 
+       filterSettings(result_type == "summarise_characteristics")) |> 
+  filter(variable_name %in% c("Number records", "Number subjects")) |> 
+  mutate(cohort_name_short = cohort_name) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_first", ""))|> 
+  filter(variable_name == "Number subjects") |> 
+  filter(str_detect(cohort_name, "_first")) |> 
+  select(cohort_name_short) |> 
+  distinct() |> 
+  tally()
+
+tidy(res |> 
+       filterSettings(result_type == "summarise_characteristics")) |> 
+  filter(variable_name %in% c("Number records", "Number subjects")) |> 
+  mutate(cohort_name_short = cohort_name) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_first", ""))|> 
+  filter(variable_name == "Number subjects") |> 
+  filter(str_detect(cohort_name, "_first")) |> 
+  select(cdm_name, cohort_name_short) |> 
+  distinct() |> 
+  group_by(cdm_name) |> 
+  tally() |> 
+  visTable()
+```
+
+
+# top 5 meds
+```{r, echo = FALSE, warning = FALSE, message=FALSE}
+tidy(res |> 
+       filterSettings(result_type == "summarise_characteristics")) |> 
+  filter(variable_name %in% c("Number records", "Number subjects")) |> 
+  mutate(cohort_name_short = cohort_name) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_all", "")) |> 
+  mutate(cohort_name_short = str_replace(cohort_name_short, "_first", ""))|> 
+  filter(variable_name == "Number subjects") |> 
+  filter(str_detect(cohort_name, "_first")) |> 
+  mutate(cohort_name_short= str_replace_all(cohort_name_short, "_", " ")) |> 
+    mutate(cohort_name_short= CodelistGenerator:::tidyWords(cohort_name_short)) |>
+    mutate(cohort_name_short= str_to_title(cohort_name_short)) |> 
+  group_by(cdm_name) |> 
+  slice_max(count, n = 15) |> 
+  mutate(rank = row_number()) |> 
+  mutate(tot = paste0(cohort_name_short, " (", scales::comma(count), ")")) |> 
+  select(rank, cdm_name, tot) |> 
+  pivot_wider(names_from = "cdm_name", values_from = "tot") |> 
+  visTable()
+```
+    
+
+# ATC Group A: ALIMENTARY TRACT AND METABOLISM
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=13, out.width = '100%', dpi=600}
+plot_count_age_and_sex("A")
+
+plot_indications("A")
+```
+
+# ATC Group B: BLOOD AND BLOOD FORMING ORGANS
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=10, out.width = '100%', dpi=600}
+plot_count_age_and_sex("B")
+
+plot_indications("B")
+```
+
+# ATC Group C: CARDIOVASCULAR SYSTEM
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=6, out.width = '100%', dpi=600}
+plot_count_age_and_sex("C")
+
+plot_indications("C")
+```
+
+# ATC Group D: DERMATOLOGICALS
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=10, out.width = '100%', dpi=600}
+plot_count_age_and_sex("D")
+
+plot_indications("D")
+```
+
+# ATC Group G: GENITO URINARY SYSTEM AND SEX HORMONES
+
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=5, fig.height=6, out.width = '100%', dpi=600}
+plot_count_age_and_sex("G")
+
+plot_indications("G")
+```
+
+# ATC Group H: SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=10, out.width = '100%', dpi=600}
+plot_count_age_and_sex("H")
+
+plot_indications("H")
+```
+
+# ATC Group J: ANTIINFECTIVES FOR SYSTEMIC USE
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=10, fig.height=11, out.width = '100%', dpi=600}
+plot_count_age_and_sex("J")
+
+plot_indications("J") + facet_wrap(vars(name), scales = "free_y", ncol = 4)
+```
+
+# ATC Group L01: Antineoplastic agents
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=9, fig.height=12, out.width = '100%', dpi=600}
+plot_count_age_and_sex("L01", level = "ATC 3rd")
+ggsave(filename = 'lo1.png', width = 9, height = 12, dpi = 900)
+plot_indications("L01", level = "ATC 3rd") + facet_wrap(vars(name), scales = "free_y", ncol = 4)
+```
+
+# ATC Group L02: Endocrine therapy
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=12, out.width = '100%', dpi=600}
+plot_count_age_and_sex("L02", level = "ATC 3rd")
+
+# plot_indications("L02")
+```
+
+# ATC Group L03: Immunostimulants 
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=12, out.width = '100%', dpi=600}
+plot_count_age_and_sex("L03", level = "ATC 3rd")
+
+plot_indications("L03", level = "ATC 3rd")
+```
+
+# ATC Group L04: Immunosuppressants 
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=10, fig.height=11, out.width = '100%', dpi=600}
+plot_count_age_and_sex("L04", level = "ATC 4th")
+
+plot_indications("L04", level = "ATC 4th")
+```
+
+
+# ATC Group M: MUSCULO-SKELETAL SYSTEM
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=10, out.width = '100%', dpi=600}
+plot_count_age_and_sex("M")
+
+plot_indications("M")
+```
+
+# ATC Group N: NERVOUS SYSTEM
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=10, out.width = '100%', dpi=600}
+plot_count_age_and_sex("N")
+
+# plot_indications("N")
+```
+
+# ATC Group R: RESPIRATORY SYSTEM
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=10, out.width = '100%', dpi=600}
+plot_count_age_and_sex("R")
+
+plot_indications("R")
+```
+
+# ATC Group S: SENSORY ORGANS
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=10, out.width = '100%', dpi=600}
+plot_count_age_and_sex("S")
+
+plot_indications("S")
+```
+
+# ATC Group V: VARIOUS
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis', fig.align="center", fig.width=8, fig.height=10, out.width = '100%', dpi=600}
+plot_count_age_and_sex("V")
+
+plot_indications("V")
+```
+
+# Table characteristics
+```{r, echo=FALSE, warning = FALSE, message=FALSE, results = 'asis'}
+
+res |> 
+  filterSettings(result_type == "summarise_characteristics") |> 
+  filter(
+    # group_level %in% working_cohorts,
+         variable_name %in% c("Number subjects", "Age", "Age group", "Sex"),
+         !estimate_name %in% c("mean", "sd", "range")) |> 
+  mutate(variable_level = if_else(is.na(variable_level), "", variable_level)) |> 
+  arrange(group_level) |> 
+  tableCharacteristics(header = c(), 
+                       groupColumn = c("cohort_name", "cdm_name"))
+```

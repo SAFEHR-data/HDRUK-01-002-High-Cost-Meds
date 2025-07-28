@@ -66,23 +66,53 @@ if (skip_index_codes){
     )
   }
 }
+cli::cli_inform("Get index codes for procedures")
+for(i in seq_along(procedures_with_count)){
+  results[[paste0("procedure_code_diag_", i)]] <- CodelistGenerator::summariseCohortCodeUse(
+    x = omopgenerics::cohortCodelist(cdm$procedures, 
+                                     procedures_with_count[[i]]),
+    cdm = cdm,
+    cohortTable = "procedures",
+    cohortId = procedures_with_count[[i]],
+    timing = "entry",
+    countBy = c("record", "person"),
+    byConcept = TRUE
+  )
+}
+cli::cli_inform("Get index codes for organisms")
+for(i in seq_along(organisms_with_count)){
+  results[[paste0("organism_code_diag_", i)]] <- CodelistGenerator::summariseCohortCodeUse(
+    x = omopgenerics::cohortCodelist(cdm$organisms, 
+                                     organisms_with_count[[i]]),
+    cdm = cdm,
+    cohortTable = "organisms",
+    cohortId = organisms_with_count[[i]],
+    timing = "entry",
+    countBy = c("record", "person"),
+    byConcept = TRUE
+  )
+}
 
 # patient characteristics ----
 cli::cli_inform("Get summary of characteristics")
 results[["chars"]] <- summariseCharacteristics(cdm$high_cost_meds,
                                                ageGroup = study_age_groups,
-                                               cohortIntersectFlag = list(targetCohortTable = "icd",
+                                               cohortIntersectFlag = list(list(targetCohortTable = "icd",
                                                                           window = c(-14, 14)),
+                                                                          list(targetCohortTable = "procedures",
+                                                                               window = c(-14, 14)),
+                                                                          list(targetCohortTable = "organisms",
+                                                                               window = c(-14, 14))),
                                                otherVariables = "inpatient",
-                                               estimates = list(inpatient = c("binary")))  
+                                               estimates = list(inpatient = c("count", "percentage")))  
 # large scale characteristics ----
 cli::cli_inform("Get large scale characteristics")
 results[["lsc"]] <- summariseLargeScaleCharacteristics(cdm$high_cost_meds,
                              eventInWindow = c("condition_occurrence",
                                                "observation",
                                                "procedure_occurrence",
-                                               "drug_exposure",
-                                               "drug_era"),
+                                               "visit_occurrence"),
+                             episodeInWindow = "drug_era",
                              window = list(c(-14, 14),
                                            c(-14, -1),
                                            c(0, 0),
