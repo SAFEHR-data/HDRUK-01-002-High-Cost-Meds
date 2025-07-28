@@ -67,6 +67,7 @@ prefix <- "hdruk_high_cost_meds"
 
 # minimum cell counts used for suppression
 minCellCount <- 5
+min_cell_count <- minCellCount
 
 # to create the cdm object
 cdm <- CDMConnector::cdmFromCon(
