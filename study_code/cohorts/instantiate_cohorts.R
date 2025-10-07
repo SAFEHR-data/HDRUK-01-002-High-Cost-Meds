@@ -92,5 +92,5 @@ cdm$inpatient <- conceptCohort(
 # only inpatient high cost meds ------
 # hospitalised on date of first use of high cost med
 cdm$high_cost_meds <- cdm$high_cost_meds |> 
-  requireCohortIntersect(cdm$inpatient,
+  requireCohortIntersect("inpatient",
                          window = c(0, 0))
