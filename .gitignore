@@ -52,3 +52,7 @@ study_shiny/data/original/*.csv
 study_shiny/*.png
 study_shiny/*.docx
 study_shiny/*.png
+study_shiny/lo1.png
+study_shiny/results_summary.docx
+study_shiny/results_summary.qmd
+study_shiny/lo1.png

@@ -91,11 +91,11 @@ cli::cli_inform("Get summary of characteristics")
 results[["chars"]] <- summariseCharacteristics(cdm$high_cost_meds,
                                                ageGroup = study_age_groups,
                                                cohortIntersectFlag = list(list(targetCohortTable = "icd",
-                                                                          window = c(-14, 14)),
+                                                                          window = c(-14, 0)),
                                                                           list(targetCohortTable = "procedures",
-                                                                               window = c(-14, 14)),
+                                                                               window = c(-14, 0)),
                                                                           list(targetCohortTable = "organisms",
-                                                                               window = c(-14, 14))),
+                                                                               window = c(-14, 0))),
                                                otherVariables = "inpatient",
                                                estimates = list(inpatient = c("count", "percentage")))  
 # large scale characteristics ----

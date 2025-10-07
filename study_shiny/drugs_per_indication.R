@@ -39,9 +39,9 @@ plotDrugsPerIndication <- function(working_indications, working_meds){
     guides(fill = guide_legend(nrow = 1))   +
     scale_fill_manual(values = custom_colors) 
 }
-plotDrugsPerIndication(c("HIV", "Covid-19"),
+plotDrugsPerIndication(c("HIV"),
                        getMeds("J05"))
-ggsave(filename = 'jo5_hiv_covid.png', width = 8, height = 7, dpi = 900)
+ggsave(filename = 'jo5_hiv.png', width = 6, height = 7, dpi = 900)
 
 
 
@@ -63,8 +63,7 @@ plotDrugsPerIndication(c("Crohn's disease",
                          "multiple sclerosis",
                          "lupus",
                          "vasculitis",
-                         "rheumatoid",
-                         "osteoporosis"),
+                         "rheumatoid"),
                        getMeds("L04A"))
 ggsave(filename = 'l04a_crohns_uc.png', 
        width = 13, height = 11, dpi = 900)
