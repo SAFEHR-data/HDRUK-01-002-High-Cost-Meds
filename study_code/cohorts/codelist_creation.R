@@ -47,87 +47,17 @@ drug_codes <- getDrugIngredientCodes(cdm,
                                      hc_concepts, 
                                      nameStyle = "{concept_name}")
 
-# also add combinations
-drug_codes[["casirivimab_imdevimab"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("casirivimab",
-                                     "imdevimab"), 
-                       nameStyle = "{concept_name}"))[[1]]
-drug_codes[["cilgavimab_tixagevimab"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("cilgavimab",
-                                       "tixagevimab"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["elexacaftor_tezacaftor_ivacaftor"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("cilgavimab",
-                                       "tezacaftor",
-                                       "ivacaftor"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["ketorolac_phenylephrine"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("ketorolac",
-                                       "phenylephrine"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["cytarabine_daunorubicin"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("cytarabine",
-                                       "daunorubicin"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["lumacaftor_ivacaftor"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("lumacaftor",
-                                       "ivacaftor"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["nirmatrelvir_ritonavir"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("nirmatrelvir",
-                                       "ritonavir"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["ombitasvir_paritaprevir_ritonavir_dasabuvir_ribavirin"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("ombitasvir",
-                                       "paritaprevir",
-                                       "ritonavir",
-                                       "dasabuvir",
-                                       "ribavirin"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["sofosbuvir_velpatasvir"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("sofosbuvir",
-                                       "velpatasvir"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["sofosbuvir_velpatasvir_voxilaprevir"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("sofosbuvir",
-                                       "velpatasvir",
-                                       "voxilaprevir"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["tezacaftor_ivacaftor"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("tezacaftor",
-                                       "ivacaftor"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes[["trifluoridine_tipiracil"]]<- intersectCodelists(
-  getDrugIngredientCodes(cdm, name = c("trifluoridine",
-                                       "tipiracil"), 
-                         nameStyle = "{concept_name}"))[[1]]
-
-drug_codes <- subsetOnDomain(drug_codes, cdm = cdm, domain = "drug")
-
-exportCodelist(drug_codes, 
-               path = here::here("cohorts", "drug_codelists"), 
-               type = "csv")
-
-# get atc equivalence ------
-atc_ref <- list()
-for(i in seq_along(names(drug_codes))){
+# get atc equivalence - single ingredients ------
+getConceptAtc <- function(codes, 
+                          onlyFromIngredient){
+  if(isTRUE(onlyFromIngredient)){
+    working_concept <- cdm$concept |> 
+      filter(concept_class_id == "Ingredient") 
+  } else {
+    working_concept <- cdm$concept
+  }
   
-  codes <- drug_codes[[i]]
-  working_name <- names(drug_codes)[i]
-  
-  cli::cli_inform("Getting ATC grouping for {working_name} ({i} of {length(names(drug_codes))})") 
-  
-  atc_ref[[i]] <- cdm$concept |> 
+  working_concept |> 
     inner_join(data.frame("concept_id" = codes), 
                copy = TRUE) |> 
     select(concept_id) |> 
@@ -147,12 +77,111 @@ for(i in seq_along(names(drug_codes))){
            "concept_class_id",
            "concept_code") |> 
     distinct() |> 
-    collect() |> 
+    collect()  
+}
+
+atc_ref <- list()
+for(i in seq_along(names(drug_codes))){
+  
+  codes <- drug_codes[[i]]
+  working_name <- names(drug_codes)[i]
+  
+  cli::cli_inform("Getting ATC grouping for {working_name} ({i} of {length(names(drug_codes))})") 
+  
+  atc_ref[[i]] <- getConceptAtc(codes = codes,
+                                onlyFromIngredient = TRUE) |> 
     mutate(name = working_name)
   
 }
-atc_ref <- bind_rows(atc_ref)
 
+
+
+# combinations codelists ----
+comb_drug_codes <- list()
+comb_drug_codes[["casirivimab_imdevimab"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("casirivimab",
+                                     "imdevimab"), 
+                       nameStyle = "{concept_name}"))[[1]]
+comb_drug_codes[["cilgavimab_tixagevimab"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("cilgavimab",
+                                       "tixagevimab"), 
+                         nameStyle = "{concept_name}"))[[1]]
+
+comb_drug_codes[["elexacaftor_tezacaftor_ivacaftor"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("cilgavimab",
+                                       "tezacaftor",
+                                       "ivacaftor"), 
+                         nameStyle = "{concept_name}"))[[1]]
+
+comb_drug_codes[["ketorolac_phenylephrine"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("ketorolac",
+                                       "phenylephrine"), 
+                         nameStyle = "{concept_name}"))[[1]]
+
+comb_drug_codes[["cytarabine_daunorubicin"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("cytarabine",
+                                       "daunorubicin"), 
+                         nameStyle = "{concept_name}"))[[1]]
+
+comb_drug_codes[["lumacaftor_ivacaftor"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("lumacaftor",
+                                       "ivacaftor"), 
+                         nameStyle = "{concept_name}"))[[1]]
+
+comb_drug_codes[["nirmatrelvir_ritonavir"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("nirmatrelvir",
+                                       "ritonavir"), 
+                         nameStyle = "{concept_name}"))[[1]]
+
+comb_drug_codes[["ombitasvir_paritaprevir_ritonavir_dasabuvir_ribavirin"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("ombitasvir",
+                                       "paritaprevir",
+                                       "ritonavir",
+                                       "dasabuvir",
+                                       "ribavirin"), 
+                         nameStyle = "{concept_name}"))[[1]]
+comb_drug_codes[["sofosbuvir_velpatasvir"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("sofosbuvir",
+                                       "velpatasvir"), 
+                         nameStyle = "{concept_name}"))[[1]]
+comb_drug_codes[["sofosbuvir_velpatasvir_voxilaprevir"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("sofosbuvir",
+                                       "velpatasvir",
+                                       "voxilaprevir"), 
+                         nameStyle = "{concept_name}"))[[1]]
+comb_drug_codes[["tezacaftor_ivacaftor"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("tezacaftor",
+                                       "ivacaftor"), 
+                         nameStyle = "{concept_name}"))[[1]]
+comb_drug_codes[["trifluoridine_tipiracil"]]<- intersectCodelists(
+  getDrugIngredientCodes(cdm, name = c("trifluoridine",
+                                       "tipiracil"), 
+                         nameStyle = "{concept_name}"))[[1]]
+
+# get atc equivalence - combinations ------
+
+for(i in seq_along(names(comb_drug_codes))){
+  
+  codes <- comb_drug_codes[[i]]
+  working_name <- names(comb_drug_codes)[i]
+  
+  cli::cli_inform("Getting ATC grouping for {working_name} ({i} of {length(names(comb_drug_codes))})") 
+  
+  atc_ref[[paste0("comb_", i)]] <- getConceptAtc(codes = codes,
+                                onlyFromIngredient = FALSE) |> 
+    mutate(name = working_name)
+  
+}
+
+# export ----
+drug_codes <- bind(drug_codes, comb_drug_codes)
+drug_codes <- subsetOnDomain(drug_codes, cdm = cdm, domain = "drug")
+
+exportCodelist(drug_codes, 
+               path = here::here("cohorts", "drug_codelists"), 
+               type = "csv")
+
+atc_ref <- bind_rows(atc_ref)
 readr::write_csv(atc_ref, "atc_ref.csv")
 
 # icd codes ----

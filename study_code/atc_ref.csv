@@ -25,19 +25,12 @@ Cyclin-dependent kinase (CDK) inhibitors,ATC 4th,L01EF,abemaciclib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,abemaciclib
 abiraterone and corticosteroids; oral,ATC 5th,L02BX53,abiraterone
 abiraterone; oral,ATC 5th,L02BX03,abiraterone
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,abiraterone
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,abiraterone
 ENDOCRINE THERAPY,ATC 2nd,L02,abiraterone
 HORMONE ANTAGONISTS AND RELATED AGENTS,ATC 3rd,L02B,abiraterone
 niraparib and abiraterone; oral,ATC 5th,L01XK52,abiraterone
-OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,abiraterone
 Other hormone antagonists and related agents,ATC 4th,L02BX,abiraterone
-Poly (ADP-ribose) polymerase (PARP) inhibitors,ATC 4th,L01XK,abiraterone
 abrocitinib; oral,ATC 5th,D11AH08,abrocitinib
-"Agents for dermatitis, excluding corticosteroids",ATC 4th,D11AH,abrocitinib
-DERMATOLOGICALS,ATC 1st,D,abrocitinib
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 2nd,D11,abrocitinib
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 3rd,D11A,abrocitinib
 acalabrutinib; oral,ATC 5th,L01EL02,acalabrutinib
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,acalabrutinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,acalabrutinib
@@ -100,33 +93,11 @@ ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,alglucosidase_alfa
 Enzymes,ATC 4th,A16AB,alglucosidase_alfa
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,alglucosidase_alfa
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,alglucosidase_alfa
-alirocumab; parenteral,ATC 5th,C10AX14,alirocumab
-CARDIOVASCULAR SYSTEM,ATC 1st,C,alirocumab
-LIPID MODIFYING AGENTS,ATC 2nd,C10,alirocumab
-"LIPID MODIFYING AGENTS, PLAIN",ATC 3rd,C10A,alirocumab
-Other lipid modifying agents,ATC 4th,C10AX,alirocumab
-"Agents for dermatitis, excluding corticosteroids",ATC 4th,D11AH,alitretinoin
-alitretinoin; oral,ATC 5th,D11AH04,alitretinoin
-"alitretinoin; oral, topical",ATC 5th,L01XF02,alitretinoin
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,alitretinoin
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,alitretinoin
-DERMATOLOGICALS,ATC 1st,D,alitretinoin
-OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,alitretinoin
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 2nd,D11,alitretinoin
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 3rd,D11A,alitretinoin
-Retinoids for cancer treatment,ATC 4th,L01XF,alitretinoin
 alpelisib; oral,ATC 5th,L01EM03,alpelisib
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,alpelisib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,alpelisib
 Phosphatidylinositol-3-kinase (Pi3K) inhibitors,ATC 4th,L01EM,alpelisib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,alpelisib
-alfa1 antitrypsin; parenteral,ATC 5th,B02AB02,alpha_1_antitrypsin
-ANTIFIBRINOLYTICS,ATC 3rd,B02A,alpha_1_antitrypsin
-ANTIHEMORRHAGICS,ATC 2nd,B02,alpha_1_antitrypsin
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,alpha_1_antitrypsin
-Proteinase inhibitors,ATC 4th,B02AB,alpha_1_antitrypsin
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,alunacedase_alfa
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,alunacedase_alfa
 ambrisentan and tadalafil; oral,ATC 5th,C02KX52,ambrisentan
 ambrisentan; oral,ATC 5th,C02KX02,ambrisentan
 ANTIHYPERTENSIVES,ATC 2nd,C02,ambrisentan
@@ -138,95 +109,6 @@ NERVOUS SYSTEM,ATC 1st,N,amifampridine
 OTHER NERVOUS SYSTEM DRUGS,ATC 2nd,N07,amifampridine
 OTHER NERVOUS SYSTEM DRUGS,ATC 3rd,N07X,amifampridine
 Other nervous system drugs,ATC 4th,N07XX,amifampridine
-amikacin; ophthalmic,ATC 5th,S01AA21,amikacin
-amikacin; parenteral,ATC 5th,J01GB06,amikacin
-amikacin; topical,ATC 5th,D06AX12,amikacin
-AMINOGLYCOSIDE ANTIBACTERIALS,ATC 3rd,J01G,amikacin
-ANTIBACTERIALS FOR SYSTEMIC USE,ATC 2nd,J01,amikacin
-Antibiotics,ATC 4th,S01AA,amikacin
-ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE,ATC 2nd,D06,amikacin
-ANTIBIOTICS FOR TOPICAL USE,ATC 3rd,D06A,amikacin
-antibiotics in combination with other drugs; ophthalmic,ATC 5th,S01AA20,amikacin
-ANTIINFECTIVES,ATC 3rd,S01A,amikacin
-ANTIINFECTIVES,ATC 3rd,S02A,amikacin
-ANTIINFECTIVES,ATC 3rd,S03A,amikacin
-Antiinfectives,ATC 4th,B05CA,amikacin
-Antiinfectives,ATC 4th,S02AA,amikacin
-Antiinfectives,ATC 4th,S03AA,amikacin
-antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,amikacin
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,amikacin
-"antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,amikacin
-"antiinfectives, combinations; otic",ATC 5th,S02AA30,amikacin
-ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S01C,amikacin
-"Antiinflammatory agents, non-steroids and antiinfectives in combination",ATC 4th,S01CC,amikacin
-beclometasone and antibiotics; topical,ATC 5th,D07CC04,amikacin
-betamethasone and antibiotics; topical,ATC 5th,D07CC01,amikacin
-betamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA05,amikacin
-"betamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA06,amikacin
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,amikacin
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,amikacin
-cefepime and amikacin; systemic,ATC 5th,J01RA06,amikacin
-chloroprednisone and antiinfectives; ophthalmic,ATC 5th,S01CA09,amikacin
-clobetasol and antibiotics; topical,ATC 5th,D07CD01,amikacin
-clobetasone and antiinfectives; ophthalmic,ATC 5th,S01CA11,amikacin
-COMBINATIONS OF ANTIBACTERIALS,ATC 3rd,J01R,amikacin
-Combinations of antibacterials,ATC 4th,J01RA,amikacin
-combinations of different antibiotics; ophthalmic,ATC 5th,S01AA30,amikacin
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S02C,amikacin
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S03C,amikacin
-Corticosteroids and antiinfectives in combination,ATC 4th,S01CA,amikacin
-Corticosteroids and antiinfectives in combination,ATC 4th,S02CA,amikacin
-Corticosteroids and antiinfectives in combination,ATC 4th,S03CA,amikacin
-"CORTICOSTEROIDS, COMBINATIONS WITH ANTIBIOTICS",ATC 3rd,D07C,amikacin
-"Corticosteroids, moderately potent, combinations with antibiotics",ATC 4th,D07CB,amikacin
-"Corticosteroids, potent, combinations with antibiotics",ATC 4th,D07CC,amikacin
-"Corticosteroids, very potent, combinations with antibiotics",ATC 4th,D07CD,amikacin
-"Corticosteroids, weak, combinations with antibiotics",ATC 4th,D07CA,amikacin
-DERMATOLOGICALS,ATC 1st,D,amikacin
-dexamethasone and antibiotics; topical,ATC 5th,D07CB04,amikacin
-dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,amikacin
-"dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,amikacin
-dexamethasone and antiinfectives; otic,ATC 5th,S02CA06,amikacin
-diclofenac and antiinfectives; ophthalmic,ATC 5th,S01CC01,amikacin
-fludrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA06,amikacin
-"fludrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA05,amikacin
-fludrocortisone and antiinfectives; otic,ATC 5th,S02CA07,amikacin
-fludroxycortide and antibiotics; topical,ATC 5th,D07CC03,amikacin
-flumetasone and antibiotics; topical,ATC 5th,D07CB05,amikacin
-flumetasone and antiinfectives; otic,ATC 5th,S02CA02,amikacin
-fluocinolone acetonide and antibiotics; topical,ATC 5th,D07CC02,amikacin
-fluocinolone acetonide and antiinfectives; ophthalmic,ATC 5th,S01CA10,amikacin
-fluocinolone acetonide and antiinfectives; otic,ATC 5th,S02CA05,amikacin
-fluocinonide and antibiotics; topical,ATC 5th,D07CC05,amikacin
-fluocortolone and antibiotics; topical,ATC 5th,D07CC06,amikacin
-fluocortolone and antiinfectives; ophthalmic,ATC 5th,S01CA04,amikacin
-fluorometholone and antibiotics; topical,ATC 5th,D07CB03,amikacin
-fluorometholone and antiinfectives; ophthalmic,ATC 5th,S01CA07,amikacin
-fluprednidene and antibiotics; topical,ATC 5th,D07CB02,amikacin
-hydrocortisone and antibiotics; topical,ATC 5th,D07CA01,amikacin
-hydrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA03,amikacin
-"hydrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA04,amikacin
-hydrocortisone and antiinfectives; otic,ATC 5th,S02CA03,amikacin
-indometacin and antiinfectives; ophthalmic,ATC 5th,S01CC02,amikacin
-IRRIGATING SOLUTIONS,ATC 3rd,B05C,amikacin
-loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,amikacin
-methylprednisolone and antibiotics; topical,ATC 5th,D07CA02,amikacin
-methylprednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA08,amikacin
-"methylprednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA07,amikacin
-OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,amikacin
-OPHTHALMOLOGICALS,ATC 2nd,S01,amikacin
-Other aminoglycosides,ATC 4th,J01GB,amikacin
-Other antibiotics for topical use,ATC 4th,D06AX,amikacin
-OTOLOGICALS,ATC 2nd,S02,amikacin
-"penicillins, combinations with other antibacterials; systemic",ATC 5th,J01RA01,amikacin
-prednisolone and antibiotics; topical,ATC 5th,D07CA03,amikacin
-prednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA02,amikacin
-"prednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA02,amikacin
-prednisolone and antiinfectives; otic,ATC 5th,S02CA01,amikacin
-SENSORY ORGANS,ATC 1st,S,amikacin
-"sulfonamides, combinations with other antibacterials (excl. trimethoprim); systemic",ATC 5th,J01RA02,amikacin
-triamcinolone and antibiotics; topical,ATC 5th,D07CB01,amikacin
-triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,amikacin
 4-aminosalicylic acid; oral,ATC 5th,J04AA01,aminosalicylic_acid
 Aminosalicylic acid and derivatives,ATC 4th,J04AA,aminosalicylic_acid
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,aminosalicylic_acid
@@ -242,11 +124,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,anakinra
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,anakinra
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,anakinra
 Interleukin inhibitors,ATC 4th,L04AC,anakinra
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,andexanet_alfa
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,andexanet_alfa
-andexanet alfa; parenteral,ATC 5th,V03AB38,andexanet_alfa
-Antidotes,ATC 4th,V03AB,andexanet_alfa
-VARIOUS,ATC 1st,V,andexanet_alfa
 anidulafungin; parenteral,ATC 5th,J02AX06,anidulafungin
 ANTIINFECTIVES,ATC 3rd,S02A,anidulafungin
 ANTIINFECTIVES,ATC 3rd,S03A,anidulafungin
@@ -305,26 +182,16 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,anifrolumab
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,anifrolumab
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,anifrolumab
 Monoclonal antibodies,ATC 4th,L04AG,anifrolumab
-ANTIHEMORRHAGICS,ATC 2nd,B02,anti_inhibitor_coagulant_complex
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,anti_inhibitor_coagulant_complex
-Blood coagulation factors,ATC 4th,B02BD,anti_inhibitor_coagulant_complex
-"coagulation factor IX, II, VII and X in combination; parenteral",ATC 5th,B02BD01,anti_inhibitor_coagulant_complex
-factor VIII inhibitor bypassing activity; parenteral,ATC 5th,B02BD03,anti_inhibitor_coagulant_complex
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,anti_inhibitor_coagulant_complex
 antilymphocyte immunoglobulin (horse); systemic,ATC 5th,L04AA03,antilymphocyte_immunoglobulin
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,antilymphocyte_immunoglobulin
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,antilymphocyte_immunoglobulin
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,antilymphocyte_immunoglobulin
 Selective immunosuppressants,ATC 4th,L04AA,antilymphocyte_immunoglobulin
-ANTIHEMORRHAGICS,ATC 2nd,B02,antithrombin_iii
 antithrombin III; parenteral,ATC 5th,B01AB02,antithrombin_iii
 ANTITHROMBOTIC AGENTS,ATC 2nd,B01,antithrombin_iii
 ANTITHROMBOTIC AGENTS,ATC 3rd,B01A,antithrombin_iii
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,antithrombin_iii
-Blood coagulation factors,ATC 4th,B02BD,antithrombin_iii
-"coagulation factor IX, II, VII and X in combination; parenteral",ATC 5th,B02BD01,antithrombin_iii
 Heparin group,ATC 4th,B01AB,antithrombin_iii
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,antithrombin_iii
 ANTITHROMBOTIC AGENTS,ATC 2nd,B01,apadamtase_alfa
 ANTITHROMBOTIC AGENTS,ATC 3rd,B01A,apadamtase_alfa
 apadamtase alfa and cinaxadamtase alfa; parenteral,ATC 5th,B01AD13,apadamtase_alfa
@@ -335,42 +202,18 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,apalutamide
 apalutamide; oral,ATC 5th,L02BB05,apalutamide
 ENDOCRINE THERAPY,ATC 2nd,L02,apalutamide
 HORMONE ANTAGONISTS AND RELATED AGENTS,ATC 3rd,L02B,apalutamide
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,apremilast
-apremilast; oral,ATC 5th,L04AA32,apremilast
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,apremilast
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,apremilast
-Selective immunosuppressants,ATC 4th,L04AA,apremilast
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,arsenic_trioxide
-"Anesthetics, local",ATC 4th,R02AD,arsenic_trioxide
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,arsenic_trioxide
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,arsenic_trioxide
 arsenic trioxide; parenteral,ATC 5th,L01XX27,arsenic_trioxide
-"Belladonna alkaloids, tertiary amines",ATC 4th,A03BA,arsenic_trioxide
-"BELLADONNA AND DERIVATIVES, PLAIN",ATC 3rd,A03B,arsenic_trioxide
 belladonna total alkaloids; oral,ATC 5th,A03BA04,arsenic_trioxide
-CALCIUM,ATC 3rd,A12A,arsenic_trioxide
-Calcium,ATC 4th,A12AA,arsenic_trioxide
 calcium (different salts in combination); oral,ATC 5th,A12AA20,arsenic_trioxide
-DRUGS FOR CONSTIPATION,ATC 2nd,A06,arsenic_trioxide
-DRUGS FOR CONSTIPATION,ATC 3rd,A06A,arsenic_trioxide
-DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS,ATC 2nd,A03,arsenic_trioxide
 "ephedrine, combinations; oral, rectal",ATC 5th,A08AA56,arsenic_trioxide
 "lidocaine, combinations; parenteral",ATC 5th,N01BB52,arsenic_trioxide
-lidocaine; local oral,ATC 5th,R02AD02,arsenic_trioxide
 "medicinal charcoal, combinations; oral",ATC 5th,A07BA51,arsenic_trioxide
 mineral salts in combination; oral,ATC 5th,A06AD10,arsenic_trioxide
-MINERAL SUPPLEMENTS,ATC 2nd,A12,arsenic_trioxide
-Osmotically acting laxatives,ATC 4th,A06AD,arsenic_trioxide
 OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,arsenic_trioxide
 Other antineoplastic agents,ATC 4th,L01XX,arsenic_trioxide
-RESPIRATORY SYSTEM,ATC 1st,R,arsenic_trioxide
-THROAT PREPARATIONS,ATC 2nd,R02,arsenic_trioxide
-THROAT PREPARATIONS,ATC 3rd,R02A,arsenic_trioxide
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,asciminib
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,asciminib
 asciminib; systemic,ATC 5th,L01EA06,asciminib
-BCR-ABL tyrosine kinase inhibitors,ATC 4th,L01EA,asciminib
-PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,asciminib
 ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,asfotase_alfa
 asfotase alfa; parenteral,ATC 5th,A16AB13,asfotase_alfa
 Enzymes,ATC 4th,A16AB,asfotase_alfa
@@ -395,11 +238,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,atezolizumab
 atezolizumab; parenteral,ATC 5th,L01FF05,atezolizumab
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,atezolizumab
 PD-1/PD-L1 (Programmed cell death protein 1/death ligand 1) inhibitors,ATC 4th,L01FF,atezolizumab
-ANALGESICS,ATC 2nd,N02,atogepant
-ANTIMIGRAINE PREPARATIONS,ATC 3rd,N02C,atogepant
-atogepant; oral,ATC 5th,N02CD07,atogepant
-Calcitonin gene-related peptide (CGRP) antagonists,ATC 4th,N02CD,atogepant
-NERVOUS SYSTEM,ATC 1st,N,atogepant
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,aumolertinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,aumolertinib
 aumolertinib; oral,ATC 5th,L01EB11,aumolertinib
@@ -430,11 +268,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,avapritinib
 avapritinib; oral,ATC 5th,L01EX18,avapritinib
 Other protein kinase inhibitors,ATC 4th,L01EX,avapritinib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,avapritinib
-ANTIHEMORRHAGICS,ATC 2nd,B02,avatrombopag
-avatrombopag; systemic,ATC 5th,B02BX08,avatrombopag
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,avatrombopag
-Other systemic hemostatics,ATC 4th,B02BX,avatrombopag
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,avatrombopag
 [U] avelumab; parenteral,ATC 5th,L01XC31,avelumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,avelumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,avelumab
@@ -630,11 +463,7 @@ IMMUNOSUPPRESSANTS,ATC 2nd,L04,belimumab
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,belimumab
 Monoclonal antibodies,ATC 4th,L04AG,belimumab
 Selective immunosuppressants,ATC 4th,L04AA,belimumab
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,belumosudil
 belumosudil; systemic,ATC 5th,L04AA48,belumosudil
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,belumosudil
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,belumosudil
-Selective immunosuppressants,ATC 4th,L04AA,belumosudil
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,belzutifan
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,belzutifan
 belzutifan; oral,ATC 5th,L01XX74,belzutifan
@@ -659,102 +488,38 @@ Drugs used in hereditary angioedema,ATC 4th,B06AC,berotralstat
 OTHER HEMATOLOGICAL AGENTS,ATC 2nd,B06,berotralstat
 OTHER HEMATOLOGICAL AGENTS,ATC 3rd,B06A,berotralstat
 Acid preparations,ATC 4th,A09AB,betaine
-Acidifiers,ATC 4th,G04BA,betaine
 ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,betaine
 Amino acids and derivatives,ATC 4th,A16AA,betaine
-ammonium chloride; oral,ATC 5th,G04BA01,betaine
-ANALGESICS,ATC 2nd,N02,betaine
-"ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS",ATC 2nd,A07,betaine
-ANTISEPTICS AND DISINFECTANTS,ATC 2nd,D08,betaine
-ANTISEPTICS AND DISINFECTANTS,ATC 3rd,D08A,betaine
 betaine hydrochloride; oral,ATC 5th,A09AB02,betaine
 betaine; oral,ATC 5th,A16AA06,betaine
-Biguanides and amidines,ATC 4th,D08AC,betaine
-BILE AND LIVER THERAPY,ATC 2nd,A05,betaine
-bromelains; oral,ATC 5th,M09AB03,betaine
-Bulk-forming laxatives,ATC 4th,A06AC,betaine
-CALCIUM,ATC 3rd,A12A,betaine
-Calcium,ATC 4th,A12AA,betaine
 calcium (different salts in combination); oral,ATC 5th,A12AA20,betaine
-calcium compounds; oral,ATC 5th,A07XA03,betaine
 "calcium dobesilate, combinations; oral, topical",ATC 5th,C05BX51,betaine
-Carbamide products,ATC 4th,D02AE,betaine
 "carbamide, combinations; topical",ATC 5th,D02AE51,betaine
-CARDIOVASCULAR SYSTEM,ATC 1st,C,betaine
-Caries prophylactic agents,ATC 4th,A01AA,betaine
 caries prophylactic agents - combinations; local oral,ATC 5th,A01AA30,betaine
-choline salicylate; oral,ATC 5th,N02BA03,betaine
 "colecalciferol, combinations; systemic",ATC 5th,A11CC55,betaine
 combinations of imidazole derivatives; vaginal,ATC 5th,G01AF20,betaine
 "cyanocobalamin, combinations; systemic",ATC 5th,B03BA51,betaine
-DERMATOLOGICALS,ATC 1st,D,betaine
-DIAGNOSTIC AGENTS,ATC 2nd,V04,betaine
-diastase; oral,ATC 5th,A09AA01,betaine
 "DIGESTIVES, INCL. ENZYMES",ATC 2nd,A09,betaine
 "DIGESTIVES, INCL. ENZYMES",ATC 3rd,A09A,betaine
-DRUGS FOR CONSTIPATION,ATC 2nd,A06,betaine
-DRUGS FOR CONSTIPATION,ATC 3rd,A06A,betaine
-EMOLLIENTS AND PROTECTIVES,ATC 2nd,D02,betaine
-EMOLLIENTS AND PROTECTIVES,ATC 3rd,D02A,betaine
 "Enzyme and acid preparations, combinations",ATC 4th,A09AC,betaine
-Enzyme preparations,ATC 4th,A09AA,betaine
-Enzymes,ATC 4th,M09AB,betaine
-Fluoride,ATC 4th,A12CD,betaine
 Folic acid and derivatives,ATC 4th,B03BB,betaine
 "folic acid, combinations; systemic",ATC 5th,B03BB51,betaine
 "fumaric acid derivatives, combinations; systemic",ATC 5th,D05BX51,betaine
-GENITO URINARY SYSTEM AND SEX HORMONES,ATC 1st,G,betaine
-glutamic acid hydrochloride; oral,ATC 5th,A09AB01,betaine
-inositol nicotinate; oral,ATC 5th,C04AC03,betaine
-inositol; oral,ATC 5th,A11HA07,betaine
 Iron in other combinations,ATC 4th,B03AE,betaine
 iron in other combinations - various combinations; systemic,ATC 5th,B03AE10,betaine
-Liver therapy,ATC 4th,A05BA,betaine
-"LIVER THERAPY, LIPOTROPICS",ATC 3rd,A05B,betaine
-metadoxine; systemic,ATC 5th,A05BA09,betaine
-methylcellulose; oral,ATC 5th,A06AC06,betaine
 mineral salts in combination; oral,ATC 5th,A06AD10,betaine
-MINERAL SUPPLEMENTS,ATC 2nd,A12,betaine
 multienzymes and acid preparations; systemic,ATC 5th,A09AC02,betaine
-MUSCULO-SKELETAL SYSTEM,ATC 1st,M,betaine
-NERVOUS SYSTEM,ATC 1st,N,betaine
-Nicotinic acid and derivatives,ATC 4th,C04AC,betaine
 Nicotinic acid and derivatives,ATC 4th,C10AD,betaine
 "nicotinic acid, combinations; systemic",ATC 5th,C10AD52,betaine
-Osmotically acting laxatives,ATC 4th,A06AD,betaine
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,betaine
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,betaine
-OTHER ANALGESICS AND ANTIPYRETICS,ATC 3rd,N02B,betaine
-OTHER ANTIDIARRHEALS,ATC 3rd,A07X,betaine
-Other antidiarrheals,ATC 4th,A07XA,betaine
-OTHER DIAGNOSTIC AGENTS,ATC 3rd,V04C,betaine
-OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM,ATC 2nd,M09,betaine
-OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM,ATC 3rd,M09A,betaine
-OTHER MINERAL SUPPLEMENTS,ATC 3rd,A12C,betaine
-OTHER PLAIN VITAMIN PREPARATIONS,ATC 3rd,A11H,betaine
-Other plain vitamin preparations,ATC 4th,A11HA,betaine
 pepsin and acid preparations; oral,ATC 5th,A09AC01,betaine
-PERIPHERAL VASODILATORS,ATC 2nd,C04,betaine
-PERIPHERAL VASODILATORS,ATC 3rd,C04A,betaine
-polihexanide; topical,ATC 5th,D08AC05,betaine
 "potassium, combinations; systemic",ATC 5th,A12BA51,betaine
-Salicylic acid and derivatives,ATC 4th,N02BA,betaine
-sodium monofluorophosphate; local oral,ATC 5th,A01AA02,betaine
-sodium monofluorophosphate; oral,ATC 5th,A12CD02,betaine
 "sodium picosulfate, combinations; oral, topical",ATC 5th,A06AB58,betaine
-sorbitol; oral,ATC 5th,V04CC01,betaine
-STOMATOLOGICAL PREPARATIONS,ATC 2nd,A01,betaine
-STOMATOLOGICAL PREPARATIONS,ATC 3rd,A01A,betaine
-Tests for bile duct patency,ATC 4th,V04CC,betaine
-tilactase; oral,ATC 5th,A09AA04,betaine
-UROLOGICALS,ATC 2nd,G04,betaine
-UROLOGICALS,ATC 3rd,G04B,betaine
-VARIOUS,ATC 1st,V,betaine
 "VITAMIN A AND D, INCL. COMBINATIONS OF THE TWO",ATC 3rd,A11C,betaine
 Vitamin B12 (cyanocobalamin and analogues),ATC 4th,B03BA,betaine
 VITAMIN B12 AND FOLIC ACID,ATC 3rd,B03B,betaine
 Vitamin D and analogues,ATC 4th,A11CC,betaine
-VITAMINS,ATC 2nd,A11,betaine
 [U] bevacizumab; parenteral,ATC 5th,L01XC07,bevacizumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,bevacizumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,bevacizumab
@@ -766,18 +531,7 @@ OCULAR VASCULAR DISORDER AGENTS,ATC 3rd,S01L,bevacizumab
 OPHTHALMOLOGICALS,ATC 2nd,S01,bevacizumab
 SENSORY ORGANS,ATC 1st,S,bevacizumab
 VEGF/VEGFR (Vascular Endothelial Growth Factor / -Receptor) inhibitors,ATC 4th,L01FG,bevacizumab
-[U] bezlotoxumab; parenteral,ATC 5th,J06BB21,bezlotoxumab
-Antibacterial monoclonal antibodies,ATC 4th,J06BC,bezlotoxumab
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,bezlotoxumab
-bezlotoxumab; parenteral,ATC 5th,J06BC03,bezlotoxumab
-IMMUNE SERA AND IMMUNOGLOBULINS,ATC 2nd,J06,bezlotoxumab
-IMMUNOGLOBULINS,ATC 3rd,J06B,bezlotoxumab
-Specific immunoglobulins,ATC 4th,J06BB,bezlotoxumab
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,bictegravir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,bictegravir
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,bictegravir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,bictegravir
-emtricitabine and tenofovir alafenamide; oral,ATC 5th,J05AR17,bictegravir
 "emtricitabine, tenofovir alafenamide and bictegravir; systemic",ATC 5th,J05AR20,bictegravir
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,binimetinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,binimetinib
@@ -787,110 +541,43 @@ PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,binimetinib
 AGENTS AGAINST AMOEBIASIS AND OTHER PROTOZOAL DISEASES,ATC 3rd,P01A,biotin
 ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,biotin
 amino acids; parenteral,ATC 5th,B05BA01,biotin
-ANTI-ACNE PREPARATIONS,ATC 2nd,D10,biotin
-ANTI-ACNE PREPARATIONS FOR TOPICAL USE,ATC 3rd,D10A,biotin
-ANTIANEMIC PREPARATIONS,ATC 2nd,B03,biotin
-ANTIBACTERIALS FOR SYSTEMIC USE,ATC 2nd,J01,biotin
-ANTIDIARRHEAL MICROORGANISMS,ATC 3rd,A07F,biotin
-Antidiarrheal microorganisms,ATC 4th,A07FA,biotin
-"ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS",ATC 2nd,A07,biotin
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,biotin
-ascorbic acid (vit C); systemic,ATC 5th,A11GA01,biotin
-"ASCORBIC ACID (VITAMIN C), INCL. COMBINATIONS",ATC 3rd,A11G,biotin
-"Ascorbic acid (vitamin C), plain",ATC 4th,A11GA,biotin
-betacarotene; oral,ATC 5th,A11CA02,biotin
-betacarotene; oral,ATC 5th,D02BB01,biotin
-BILE AND LIVER THERAPY,ATC 2nd,A05,biotin
 biotin; systemic,ATC 5th,A11HA05,biotin
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,biotin
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,biotin
-CALCIUM,ATC 3rd,A12A,biotin
-Calcium,ATC 4th,A12AA,biotin
 calcium (different salts in combination); oral,ATC 5th,A12AA20,biotin
-calcium compounds; oral,ATC 5th,A07XA03,biotin
 "calcium dobesilate, combinations; oral, topical",ATC 5th,C05BX51,biotin
-calcium pantothenate; oral,ATC 5th,A11HA31,biotin
-calcium pantothenate; topical,ATC 5th,D03AX04,biotin
-CARDIOVASCULAR SYSTEM,ATC 1st,C,biotin
 "chlorphenamine, combinations; systemic",ATC 5th,R06AB54,biotin
-CICATRIZANTS,ATC 3rd,D03A,biotin
-cobalt (57Co) cyanocobalamine; systemic,ATC 5th,V09XX01,biotin
 "colecalciferol, combinations; systemic",ATC 5th,A11CC55,biotin
 combinations of electrolytes; parenteral,ATC 5th,B05XA30,biotin
 combinations of imidazole derivatives; vaginal,ATC 5th,G01AF20,biotin
 combinations of tetracyclines; oral,ATC 5th,J01AA20,biotin
 "cyanocobalamin, combinations; systemic",ATC 5th,B03BA51,biotin
-DERMATOLOGICALS,ATC 1st,D,biotin
-dexpanthenol; topical,ATC 5th,D03AX03,biotin
-DIAGNOSTIC AGENTS,ATC 2nd,V04,biotin
-DIAGNOSTIC RADIOPHARMACEUTICALS,ATC 2nd,V09,biotin
-Electrolyte solutions,ATC 4th,B05XA,biotin
 electrolytes in combination with other drugs; parenteral,ATC 5th,B05BB04,biotin
 electrolytes in combination with other drugs; parenteral,ATC 5th,B05XA31,biotin
 electrolytes with carbohydrates; parenteral,ATC 5th,B05BB02,biotin
 electrolytes; parenteral,ATC 5th,B05BB01,biotin
 "emetine, combinations; systemic",ATC 5th,P01AX52,biotin
-EMOLLIENTS AND PROTECTIVES,ATC 2nd,D02,biotin
-erythromycin; systemic,ATC 5th,J01FA01,biotin
 ferrous sulfate and folic acid; systemic,ATC 5th,B03AD03,biotin
 Folic acid and derivatives,ATC 4th,B03BB,biotin
 "folic acid, combinations; systemic",ATC 5th,B03BB51,biotin
-folic acid; systemic,ATC 5th,B03BB01,biotin
-folic acid; systemic,ATC 5th,V04CX02,biotin
 "fumaric acid derivatives, combinations; systemic",ATC 5th,D05BX51,biotin
 "glucose, combinations; parenteral",ATC 5th,C05BB56,biotin
-I.V. SOLUTION ADDITIVES,ATC 3rd,B05X,biotin
-I.V. SOLUTIONS,ATC 3rd,B05B,biotin
 Iron in combination with folic acid,ATC 4th,B03AD,biotin
 Iron in other combinations,ATC 4th,B03AE,biotin
 iron in other combinations - various combinations; systemic,ATC 5th,B03AE10,biotin
-IRON PREPARATIONS,ATC 3rd,B03A,biotin
 "lactic acid producing organisms, combinations; oral",ATC 5th,A07FA51,biotin
-LIPID MODIFYING AGENTS,ATC 2nd,C10,biotin
-"LIPID MODIFYING AGENTS, PLAIN",ATC 3rd,C10A,biotin
-Liver therapy,ATC 4th,A05BA,biotin
-"LIVER THERAPY, LIPOTROPICS",ATC 3rd,A05B,biotin
-Macrolides,ATC 4th,J01FA,biotin
-"MACROLIDES, LINCOSAMIDES AND STREPTOGRAMINS",ATC 3rd,J01F,biotin
-metadoxine; systemic,ATC 5th,A05BA09,biotin
 mineral salts in combination; oral,ATC 5th,A06AD10,biotin
-MINERAL SUPPLEMENTS,ATC 2nd,A12,biotin
 Nicotinic acid and derivatives,ATC 4th,C10AD,biotin
 "nicotinic acid, combinations; systemic",ATC 5th,C10AD52,biotin
 Other agents against amoebiasis and other protozoal diseases,ATC 4th,P01AX,biotin
-OTHER ANTIDIARRHEALS,ATC 3rd,A07X,biotin
-Other antidiarrheals,ATC 4th,A07XA,biotin
-Other cicatrizants,ATC 4th,D03AX,biotin
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 2nd,D11,biotin
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 3rd,D11A,biotin
-Other dermatologicals,ATC 4th,D11AX,biotin
-OTHER DIAGNOSTIC AGENTS,ATC 3rd,V04C,biotin
-Other diagnostic agents,ATC 4th,V04CX,biotin
-OTHER DIAGNOSTIC RADIOPHARMACEUTICALS,ATC 3rd,V09X,biotin
 OTHER PLAIN VITAMIN PREPARATIONS,ATC 3rd,A11H,biotin
 Other plain vitamin preparations,ATC 4th,A11HA,biotin
 "oxytetracycline, combinations; systemic",ATC 5th,J01AA56,biotin
 "papaverine, combinations; systemic",ATC 5th,G04BE52,biotin
 "potassium phosphate, incl. combinations with other potassium salts; parenteral",ATC 5th,B05XA06,biotin
 "potassium, combinations; systemic",ATC 5th,A12BA51,biotin
-PREPARATIONS FOR TREATMENT OF WOUNDS AND ULCERS,ATC 2nd,D03,biotin
-PROTECTIVES AGAINST UV-RADIATION,ATC 3rd,D02B,biotin
-Protectives against UV-radiation for systemic use,ATC 4th,D02BB,biotin
-pyrithione zinc; topical,ATC 5th,D11AX12,biotin
-Retinoids for topical use in acne,ATC 4th,D10AD,biotin
-retinol; topical,ATC 5th,D10AD02,biotin
-riboflavin (vit B2); systemic,ATC 5th,A11HA04,biotin
 "rutoside, combinations; systemic",ATC 5th,C05CA51,biotin
 "sodium picosulfate, combinations; oral, topical",ATC 5th,A06AB58,biotin
-Solutions for parenteral nutrition,ATC 4th,B05BA,biotin
 solutions for parenteral nutrition - combinations; parenteral,ATC 5th,B05BA10,biotin
-thiamine (vit B1); systemic,ATC 5th,A11DA01,biotin
-VARIOUS,ATC 1st,V,biotin
-Various diagnostic radiopharmaceuticals,ATC 4th,V09XX,biotin
 "VITAMIN A AND D, INCL. COMBINATIONS OF THE TWO",ATC 3rd,A11C,biotin
-"Vitamin A, plain",ATC 4th,A11CA,biotin
-"Vitamin B1, plain",ATC 4th,A11DA,biotin
-"VITAMIN B1, PLAIN AND IN COMBINATION WITH VITAMIN B6 AND B12",ATC 3rd,A11D,biotin
 Vitamin B12 (cyanocobalamin and analogues),ATC 4th,B03BA,biotin
 VITAMIN B12 AND FOLIC ACID,ATC 3rd,B03B,biotin
 Vitamin D and analogues,ATC 4th,A11CC,biotin
@@ -930,153 +617,41 @@ ANTINEOPLASTIC AGENTS,ATC 2nd,L01,brigatinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,brigatinib
 brigatinib; oral,ATC 5th,L01ED04,brigatinib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,brigatinib
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,brodalumab
-brodalumab; systemic,ATC 5th,L04AC12,brodalumab
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,brodalumab
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,brodalumab
-Interleukin inhibitors,ATC 4th,L04AC,brodalumab
-Antineovascularisation agents,ATC 4th,S01LA,brolucizumab
-brolucizumab; ophthalmic,ATC 5th,S01LA06,brolucizumab
-OCULAR VASCULAR DISORDER AGENTS,ATC 3rd,S01L,brolucizumab
-OPHTHALMOLOGICALS,ATC 2nd,S01,brolucizumab
-SENSORY ORGANS,ATC 1st,S,brolucizumab
 [U] bromelains,ATC 5th,B06AA11,bromelains
-Acid preparations,ATC 4th,A09AB,bromelains
-AGENTS AGAINST AMOEBIASIS AND OTHER PROTOZOAL DISEASES,ATC 3rd,P01A,bromelains
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,bromelains
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,bromelains
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,bromelains
-Amino acids and derivatives,ATC 4th,A16AA,bromelains
-ANALGESICS,ATC 2nd,N02,bromelains
-Anilides,ATC 4th,N02BE,bromelains
-ANTIANEMIC PREPARATIONS,ATC 2nd,B03,bromelains
-ANTIBACTERIALS FOR SYSTEMIC USE,ATC 2nd,J01,bromelains
-"ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS",ATC 2nd,A07,bromelains
-Antidotes,ATC 4th,V03AB,bromelains
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,bromelains
-ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS,ATC 2nd,M01,bromelains
-"ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS",ATC 3rd,M01A,bromelains
-"ANTIPARASITIC PRODUCTS, INSECTICIDES AND REPELLENTS",ATC 1st,P,bromelains
-ANTIPROTOZOALS,ATC 2nd,P01,bromelains
-ascorbic acid (vit C); systemic,ATC 5th,A11GA01,bromelains
-"ASCORBIC ACID (VITAMIN C), INCL. COMBINATIONS",ATC 3rd,A11G,bromelains
-"Ascorbic acid (vitamin C), plain",ATC 4th,A11GA,bromelains
-betaine hydrochloride; oral,ATC 5th,A09AB02,bromelains
-betaine; oral,ATC 5th,A16AA06,bromelains
-Bioflavonoids,ATC 4th,C05CA,bromelains
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,bromelains
 bromelains; oral,ATC 5th,M09AB03,bromelains
 bromelains; topical,ATC 5th,D03BA03,bromelains
-CALCIUM,ATC 3rd,A12A,bromelains
-Calcium,ATC 4th,A12AA,bromelains
 calcium (different salts in combination); oral,ATC 5th,A12AA20,bromelains
 "calcium dobesilate, combinations; oral, topical",ATC 5th,C05BX51,bromelains
-CAPILLARY STABILIZING AGENTS,ATC 3rd,C05C,bromelains
-CARDIOVASCULAR SYSTEM,ATC 1st,C,bromelains
-Charcoal preparations,ATC 4th,A07BA,bromelains
-choline salicylate; oral,ATC 5th,N02BA03,bromelains
-chondroitin sulfate-iron complex; oral,ATC 5th,B03AB07,bromelains
-chondroitin sulfate; systemic,ATC 5th,M01AX25,bromelains
-"chymotrypsin; systemic, topical",ATC 5th,B06AA04,bromelains
 "clioquinol, combinations; oral, otic, rectal, topical, transdermal, vaginal",ATC 5th,P01AA52,bromelains
-"clioquinol; oral, otic, rectal, topical, transdermal, vaginal",ATC 5th,P01AA02,bromelains
 combinations of imidazole derivatives; vaginal,ATC 5th,G01AF20,bromelains
 combinations of sulfonamides; vaginal,ATC 5th,G01AE10,bromelains
 combinations of tetracyclines; oral,ATC 5th,J01AA20,bromelains
 "cyanocobalamin, combinations; systemic",ATC 5th,B03BA51,bromelains
 DERMATOLOGICALS,ATC 1st,D,bromelains
-DIAGNOSTIC AGENTS,ATC 2nd,V04,bromelains
-diastase; oral,ATC 5th,A09AA01,bromelains
-"DIGESTIVES, INCL. ENZYMES",ATC 2nd,A09,bromelains
-"DIGESTIVES, INCL. ENZYMES",ATC 3rd,A09A,bromelains
-DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS,ATC 2nd,A03,bromelains
-DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS,ATC 3rd,A03A,bromelains
 "Enzyme and acid preparations, combinations",ATC 4th,A09AC,bromelains
-Enzyme preparations,ATC 4th,A09AA,bromelains
 ENZYMES,ATC 3rd,D03B,bromelains
-Enzymes,ATC 4th,B06AA,bromelains
 Enzymes,ATC 4th,M09AB,bromelains
 Folic acid and derivatives,ATC 4th,B03BB,bromelains
 "folic acid, combinations; systemic",ATC 5th,B03BB51,bromelains
 "fumaric acid derivatives, combinations; systemic",ATC 5th,D05BX51,bromelains
-glucosamine; oral,ATC 5th,M01AX05,bromelains
-glutamic acid hydrochloride; oral,ATC 5th,A09AB01,bromelains
-Hydroxyquinoline derivatives,ATC 4th,P01AA,bromelains
-inositol nicotinate; oral,ATC 5th,C04AC03,bromelains
-inositol; oral,ATC 5th,A11HA07,bromelains
-INTESTINAL ADSORBENTS,ATC 3rd,A07B,bromelains
 Iron in other combinations,ATC 4th,B03AE,bromelains
 iron in other combinations - various combinations; systemic,ATC 5th,B03AE10,bromelains
-IRON PREPARATIONS,ATC 3rd,B03A,bromelains
-"Iron trivalent, oral preparations",ATC 4th,B03AB,bromelains
-LIPID MODIFYING AGENTS,ATC 2nd,C10,bromelains
-"LIPID MODIFYING AGENTS, PLAIN",ATC 3rd,C10A,bromelains
-magnesium pyridoxal 5-phosphate glutamate; systemic,ATC 5th,C10AX07,bromelains
 "medicinal charcoal, combinations; oral",ATC 5th,A07BA51,bromelains
-medicinal charcoal; oral,ATC 5th,A07BA01,bromelains
-methionine; systemic,ATC 5th,V03AB26,bromelains
 mineral salts in combination; oral,ATC 5th,A06AD10,bromelains
-MINERAL SUPPLEMENTS,ATC 2nd,A12,bromelains
 MUSCULO-SKELETAL SYSTEM,ATC 1st,M,bromelains
-NERVOUS SYSTEM,ATC 1st,N,bromelains
-Nicotinic acid and derivatives,ATC 4th,C04AC,bromelains
-Other agents against amoebiasis and other protozoal diseases,ATC 4th,P01AX,bromelains
-OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,bromelains
-OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,bromelains
-OTHER ANALGESICS AND ANTIPYRETICS,ATC 3rd,N02B,bromelains
-"Other antiinflammatory and antirheumatic agents, non-steroids",ATC 4th,M01AX,bromelains
-OTHER DIAGNOSTIC AGENTS,ATC 3rd,V04C,bromelains
 OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM,ATC 2nd,M09,bromelains
 OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM,ATC 3rd,M09A,bromelains
-OTHER HEMATOLOGICAL AGENTS,ATC 2nd,B06,bromelains
-OTHER HEMATOLOGICAL AGENTS,ATC 3rd,B06A,bromelains
-Other intestinal adsorbents,ATC 4th,A07BC,bromelains
 other intestinal adsorbents - combinations; oral,ATC 5th,A07BC30,bromelains
-Other lipid modifying agents,ATC 4th,C10AX,bromelains
-OTHER PLAIN VITAMIN PREPARATIONS,ATC 3rd,A11H,bromelains
-Other plain vitamin preparations,ATC 4th,A11HA,bromelains
 "paracetamol, combinations excl. psycholeptics; systemic",ATC 5th,N02BE51,bromelains
-"paracetamol; systemic, rectal",ATC 5th,N02BE01,bromelains
-pectin; oral,ATC 5th,A07BC01,bromelains
 pepsin and acid preparations; oral,ATC 5th,A09AC01,bromelains
-pepsin; oral,ATC 5th,A09AA03,bromelains
-PERIPHERAL VASODILATORS,ATC 2nd,C04,bromelains
-PERIPHERAL VASODILATORS,ATC 3rd,C04A,bromelains
-phanquinone; oral,ATC 5th,P01AX04,bromelains
 "potassium, combinations; systemic",ATC 5th,A12BA51,bromelains
 PREPARATIONS FOR TREATMENT OF WOUNDS AND ULCERS,ATC 2nd,D03,bromelains
 Proteolytic enzymes,ATC 4th,D03BA,bromelains
-pyridoxal phosphate; oral,ATC 5th,A11HA06,bromelains
-pyridoxine (vit B6); systemic,ATC 5th,A11HA02,bromelains
-retinol (vit A); systemic,ATC 5th,A11CA01,bromelains
 "rutoside, combinations; systemic",ATC 5th,C05CA51,bromelains
-rutoside; systemic,ATC 5th,C05CA01,bromelains
-Salicylic acid and derivatives,ATC 4th,N02BA,bromelains
 "sodium picosulfate, combinations; oral, topical",ATC 5th,A06AB58,bromelains
-"Synthetic anticholinergics, esters with tertiary amino group",ATC 4th,A03AA,bromelains
-Tests for fat absorption,ATC 4th,V04CB,bromelains
-tetracycline; systemic,ATC 5th,J01AA07,bromelains
-TETRACYCLINES,ATC 3rd,J01A,bromelains
-Tetracyclines,ATC 4th,J01AA,bromelains
-tilactase; oral,ATC 5th,A09AA04,bromelains
-tocopherol (vit E); systemic,ATC 5th,A11HA03,bromelains
-trimebutine; oral,ATC 5th,A03AA05,bromelains
 "trypsin, combinations; oral, topical",ATC 5th,M09AB52,bromelains
-"trypsin; systemic, topical",ATC 5th,B06AA07,bromelains
-trypsin; topical,ATC 5th,D03BA01,bromelains
-VARIOUS,ATC 1st,V,bromelains
-VASOPROTECTIVES,ATC 2nd,C05,bromelains
-"VITAMIN A AND D, INCL. COMBINATIONS OF THE TWO",ATC 3rd,A11C,bromelains
-vitamin A concentrates; systemic,ATC 5th,V04CB01,bromelains
-"Vitamin A, plain",ATC 4th,A11CA,bromelains
 Vitamin B12 (cyanocobalamin and analogues),ATC 4th,B03BA,bromelains
 VITAMIN B12 AND FOLIC ACID,ATC 3rd,B03B,bromelains
-VITAMINS,ATC 2nd,A11,bromelains
-ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS,ATC 2nd,M01,bucillamine
-bucillamine; oral,ATC 5th,M01CC02,bucillamine
-MUSCULO-SKELETAL SYSTEM,ATC 1st,M,bucillamine
-Penicillamine and similar agents,ATC 4th,M01CC,bucillamine
-SPECIFIC ANTIRHEUMATIC AGENTS,ATC 3rd,M01C,bucillamine
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,bulevirtide
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,bulevirtide
 bulevirtide; systemic,ATC 5th,J05AX28,bulevirtide
@@ -1166,27 +741,6 @@ Amino acids and derivatives,ATC 4th,A16AA,carglumic_acid
 carglumic acid; oral,ATC 5th,A16AA05,carglumic_acid
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,carglumic_acid
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,carglumic_acid
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,carnitine
-almagate; oral,ATC 5th,A02AD03,carnitine
-almasilate; oral,ATC 5th,A02AD05,carnitine
-ANTACIDS,ATC 3rd,A02A,carnitine
-Bile acids and derivatives,ATC 4th,A05AA,carnitine
-BILE AND LIVER THERAPY,ATC 2nd,A05,carnitine
-BILE THERAPY,ATC 3rd,A05A,carnitine
-"Combinations and complexes of aluminium, calcium and magnesium compounds",ATC 4th,A02AD,carnitine
-DRUGS FOR ACID RELATED DISORDERS,ATC 2nd,A02,carnitine
-Liver therapy,ATC 4th,A05BA,carnitine
-"LIVER THERAPY, LIPOTROPICS",ATC 3rd,A05B,carnitine
-metadoxine; systemic,ATC 5th,A05BA09,carnitine
-OTHER PLAIN VITAMIN PREPARATIONS,ATC 3rd,A11H,carnitine
-Other plain vitamin preparations,ATC 4th,A11HA,carnitine
-pyridoxine (vit B6); systemic,ATC 5th,A11HA02,carnitine
-riboflavin (vit B2); systemic,ATC 5th,A11HA04,carnitine
-thiamine (vit B1); systemic,ATC 5th,A11DA01,carnitine
-ursodeoxycholic acid; oral,ATC 5th,A05AA02,carnitine
-"Vitamin B1, plain",ATC 4th,A11DA,carnitine
-"VITAMIN B1, PLAIN AND IN COMBINATION WITH VITAMIN B6 AND B12",ATC 3rd,A11D,carnitine
-VITAMINS,ATC 2nd,A11,carnitine
 ANTIINFECTIVES,ATC 3rd,S02A,caspofungin
 ANTIINFECTIVES,ATC 3rd,S03A,caspofungin
 Antiinfectives,ATC 4th,B05CA,caspofungin
@@ -1261,11 +815,6 @@ cerliponase alfa; systemic,ATC 5th,A16AB17,cerliponase
 Enzymes,ATC 4th,A16AB,cerliponase
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,cerliponase
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,cerliponase
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,certolizumab_pegol
-certolizumab pegol; parenteral,ATC 5th,L04AB05,certolizumab_pegol
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,certolizumab_pegol
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,certolizumab_pegol
-Tumor necrosis factor alpha (TNF-a) inhibitors,ATC 4th,L04AB,certolizumab_pegol
 [U] cetuximab,ATC 5th,L01XC06,cetuximab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,cetuximab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,cetuximab
@@ -1277,31 +826,12 @@ Bile acids and derivatives,ATC 4th,A05AA,chenodeoxycholate
 BILE AND LIVER THERAPY,ATC 2nd,A05,chenodeoxycholate
 BILE THERAPY,ATC 3rd,A05A,chenodeoxycholate
 chenodeoxycholic acid; oral,ATC 5th,A05AA01,chenodeoxycholate
-ursodeoxycholic acid; oral,ATC 5th,A05AA02,chenodeoxycholate
 ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,cholic_acid
-"Alkaloids, excl. rauwolfia",ATC 4th,C02KA,cholic_acid
-ANTIHYPERTENSIVES,ATC 2nd,C02,cholic_acid
-atropine; systemic,ATC 5th,A03BA01,cholic_acid
-"Belladonna alkaloids, semisynthetic, quaternary ammonium compounds",ATC 4th,A03BB,cholic_acid
-"Belladonna alkaloids, tertiary amines",ATC 4th,A03BA,cholic_acid
-"BELLADONNA AND DERIVATIVES, PLAIN",ATC 3rd,A03B,cholic_acid
 Bile acids and derivatives,ATC 4th,A05AA,cholic_acid
 BILE AND LIVER THERAPY,ATC 2nd,A05,cholic_acid
 BILE THERAPY,ATC 3rd,A05A,cholic_acid
-CARDIOVASCULAR SYSTEM,ATC 1st,C,cholic_acid
 cholic acid; oral,ATC 5th,A05AA03,cholic_acid
-DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS,ATC 2nd,A03,cholic_acid
-DRUGS FOR FUNCTIONAL GASTROINTESTINAL DISORDERS,ATC 3rd,A03A,cholic_acid
-Drugs used in erectile dysfunction,ATC 4th,G04BE,cholic_acid
-GENITO URINARY SYSTEM AND SEX HORMONES,ATC 1st,G,cholic_acid
-methylatropine; oral,ATC 5th,A03BB02,cholic_acid
-OTHER ANTIHYPERTENSIVES,ATC 3rd,C02K,cholic_acid
-Papaverine and derivatives,ATC 4th,A03AD,cholic_acid
 "papaverine, combinations; systemic",ATC 5th,G04BE52,cholic_acid
-papaverine; systemic,ATC 5th,A03AD01,cholic_acid
-UROLOGICALS,ATC 2nd,G04,cholic_acid
-UROLOGICALS,ATC 3rd,G04B,cholic_acid
-veratrum; systemic,ATC 5th,C02KA01,cholic_acid
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,ciltacabtagene_autoleucel
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,ciltacabtagene_autoleucel
 Antineoplastic cell and gene therapy,ATC 4th,L01XL,ciltacabtagene_autoleucel
@@ -1326,30 +856,16 @@ ANTINEOPLASTIC AGENTS,ATC 2nd,L01,clofarabine
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,clofarabine
 clofarabine; parenteral,ATC 5th,L01BB06,clofarabine
 Purine analogues,ATC 4th,L01BB,clofarabine
-ANTIHEMORRHAGICS,ATC 2nd,B02,coagulation_factor_ix_recombinant_immunoglobulin_g1_fusion_protein
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,coagulation_factor_ix_recombinant_immunoglobulin_g1_fusion_protein
-Blood coagulation factors,ATC 4th,B02BD,coagulation_factor_ix_recombinant_immunoglobulin_g1_fusion_protein
-coagulation factor IX; parenteral,ATC 5th,B02BD04,coagulation_factor_ix_recombinant_immunoglobulin_g1_fusion_protein
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,coagulation_factor_ix_recombinant_immunoglobulin_g1_fusion_protein
 ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,cobicistat
 ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,cobicistat
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,cobicistat
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,cobicistat
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,cobicistat
 atazanavir and cobicistat; systemic,ATC 5th,J05AR15,cobicistat
 cobicistat; oral,ATC 5th,V03AX03,cobicistat
 darunavir and cobicistat; oral,ATC 5th,J05AR14,cobicistat
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,cobicistat
-elvitegravir; oral,ATC 5th,J05AJ02,cobicistat
 "emtricitabine, tenofovir alafenamide, darunavir and cobicistat; oral",ATC 5th,J05AR22,cobicistat
 "emtricitabine, tenofovir alafenamide, elvitegravir and cobicistat; oral",ATC 5th,J05AR18,cobicistat
 "emtricitabine, tenofovir disoproxil, elvitegravir and cobicistat; oral",ATC 5th,J05AR09,cobicistat
-emtricitabine; oral,ATC 5th,J05AF09,cobicistat
-Integrase inhibitors,ATC 4th,J05AJ,cobicistat
-Nucleoside and nucleotide reverse transcriptase inhibitors,ATC 4th,J05AF,cobicistat
 Other therapeutic products,ATC 4th,V03AX,cobicistat
-tenofovir disoproxil and emtricitabine; oral,ATC 5th,J05AR03,cobicistat
-tenofovir disoproxil; oral,ATC 5th,J05AF07,cobicistat
 VARIOUS,ATC 1st,V,cobicistat
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,cobimetinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,cobimetinib
@@ -1361,15 +877,10 @@ ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,colestilan
 colestilan; oral,ATC 5th,V03AE06,colestilan
 Drugs for treatment of hyperkalemia and hyperphosphatemia,ATC 4th,V03AE,colestilan
 VARIOUS,ATC 1st,V,colestilan
-AGENTS FOR TREATMENT OF HEMORRHOIDS AND ANAL FISSURES FOR TOPICAL USE,ATC 3rd,C05A,colistin
 ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,colistin
-ANTI-ACNE PREPARATIONS,ATC 2nd,D10,colistin
-ANTI-ACNE PREPARATIONS FOR TOPICAL USE,ATC 3rd,D10A,colistin
 ANTIBACTERIALS FOR SYSTEMIC USE,ATC 2nd,J01,colistin
 Antibiotics,ATC 4th,A07AA,colistin
 Antibiotics,ATC 4th,S01AA,colistin
-ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE,ATC 2nd,D06,colistin
-ANTIBIOTICS FOR TOPICAL USE,ATC 3rd,D06A,colistin
 antibiotics in combination with other drugs; ophthalmic,ATC 5th,S01AA20,colistin
 "ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS",ATC 2nd,A07,colistin
 ANTIINFECTIVES,ATC 3rd,S01A,colistin
@@ -1380,7 +891,6 @@ Antiinfectives,ATC 4th,S02AA,colistin
 Antiinfectives,ATC 4th,S03AA,colistin
 antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,colistin
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,colistin
-Antiinfectives for treatment of acne,ATC 4th,D10AF,colistin
 "antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,colistin
 "antiinfectives, combinations; otic",ATC 5th,S02AA30,colistin
 ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S01C,colistin
@@ -1391,7 +901,6 @@ betamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA05,colistin
 "betamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA06,colistin
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,colistin
 BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,colistin
-CARDIOVASCULAR SYSTEM,ATC 1st,C,colistin
 chloroprednisone and antiinfectives; ophthalmic,ATC 5th,S01CA09,colistin
 clobetasol and antibiotics; topical,ATC 5th,D07CD01,colistin
 clobetasone and antiinfectives; ophthalmic,ATC 5th,S01CA11,colistin
@@ -1399,23 +908,16 @@ clobetasone and antiinfectives; ophthalmic,ATC 5th,S01CA11,colistin
 colistin; oral,ATC 5th,A07AA10,colistin
 combinations of different antibiotics; ophthalmic,ATC 5th,S01AA30,colistin
 combinations of imidazole derivatives; vaginal,ATC 5th,G01AF20,colistin
-Corticosteroids,ATC 4th,C05AA,colistin
 CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S02C,colistin
 CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S03C,colistin
 Corticosteroids and antiinfectives in combination,ATC 4th,S01CA,colistin
 Corticosteroids and antiinfectives in combination,ATC 4th,S02CA,colistin
 Corticosteroids and antiinfectives in combination,ATC 4th,S03CA,colistin
 "CORTICOSTEROIDS, COMBINATIONS WITH ANTIBIOTICS",ATC 3rd,D07C,colistin
-"CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS",ATC 2nd,D07,colistin
-"Corticosteroids, moderately potent (group II)",ATC 4th,D07AB,colistin
 "Corticosteroids, moderately potent, combinations with antibiotics",ATC 4th,D07CB,colistin
-"CORTICOSTEROIDS, PLAIN",ATC 3rd,D07A,colistin
-"Corticosteroids, potent (group III)",ATC 4th,D07AC,colistin
 "Corticosteroids, potent, combinations with antibiotics",ATC 4th,D07CC,colistin
 "Corticosteroids, very potent, combinations with antibiotics",ATC 4th,D07CD,colistin
-"Corticosteroids, weak (group I)",ATC 4th,D07AA,colistin
 "Corticosteroids, weak, combinations with antibiotics",ATC 4th,D07CA,colistin
-DERMATOLOGICALS,ATC 1st,D,colistin
 dexamethasone and antibiotics; topical,ATC 5th,D07CB04,colistin
 dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,colistin
 "dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,colistin
@@ -1437,15 +939,10 @@ fluocortolone and antiinfectives; ophthalmic,ATC 5th,S01CA04,colistin
 fluorometholone and antibiotics; topical,ATC 5th,D07CB03,colistin
 fluorometholone and antiinfectives; ophthalmic,ATC 5th,S01CA07,colistin
 fluprednidene and antibiotics; topical,ATC 5th,D07CB02,colistin
-hydrocortisone aceponate; topical,ATC 5th,D07AC16,colistin
 hydrocortisone and antibiotics; topical,ATC 5th,D07CA01,colistin
 hydrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA03,colistin
 "hydrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA04,colistin
 hydrocortisone and antiinfectives; otic,ATC 5th,S02CA03,colistin
-hydrocortisone buteprate; topical,ATC 5th,D07AB11,colistin
-hydrocortisone butyrate; topical,ATC 5th,D07AB02,colistin
-"hydrocortisone; rectal, topical",ATC 5th,C05AA01,colistin
-hydrocortisone; topical,ATC 5th,D07AA02,colistin
 indometacin and antiinfectives; ophthalmic,ATC 5th,S01CC02,colistin
 INTESTINAL ANTIINFECTIVES,ATC 3rd,A07A,colistin
 IRRIGATING SOLUTIONS,ATC 3rd,B05C,colistin
@@ -1453,11 +950,9 @@ loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,colistin
 methylprednisolone and antibiotics; topical,ATC 5th,D07CA02,colistin
 methylprednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA08,colistin
 "methylprednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA07,colistin
-neomycin; topical,ATC 5th,D06AX04,colistin
 OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,colistin
 OPHTHALMOLOGICALS,ATC 2nd,S01,colistin
 OTHER ANTIBACTERIALS,ATC 3rd,J01X,colistin
-Other antibiotics for topical use,ATC 4th,D06AX,colistin
 OTOLOGICALS,ATC 2nd,S02,colistin
 Polymyxins,ATC 4th,J01XB,colistin
 prednisolone and antibiotics; topical,ATC 5th,D07CA03,colistin
@@ -1467,26 +962,6 @@ prednisolone and antiinfectives; otic,ATC 5th,S02CA01,colistin
 SENSORY ORGANS,ATC 1st,S,colistin
 triamcinolone and antibiotics; topical,ATC 5th,D07CB01,colistin
 triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,colistin
-VASOPROTECTIVES,ATC 2nd,C05,colistin
-ANTI-ACNE PREPARATIONS,ATC 2nd,D10,collagenase
-ANTI-ACNE PREPARATIONS FOR TOPICAL USE,ATC 3rd,D10A,collagenase
-Antibiotics,ATC 4th,G01AA,collagenase
-ANTIBIOTICS AND CHEMOTHERAPEUTICS FOR DERMATOLOGICAL USE,ATC 2nd,D06,collagenase
-ANTIBIOTICS FOR TOPICAL USE,ATC 3rd,D06A,collagenase
-"ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS",ATC 3rd,G01A,collagenase
-Antiinfectives for treatment of acne,ATC 4th,D10AF,collagenase
-chloramphenicol; topical,ATC 5th,D06AX02,collagenase
-chloramphenicol; topical,ATC 5th,D10AF03,collagenase
-chloramphenicol; vaginal,ATC 5th,G01AA05,collagenase
-"collagenase, combinations; topical",ATC 5th,D03BA52,collagenase
-collagenase; topical,ATC 5th,D03BA02,collagenase
-DERMATOLOGICALS,ATC 1st,D,collagenase
-ENZYMES,ATC 3rd,D03B,collagenase
-GENITO URINARY SYSTEM AND SEX HORMONES,ATC 1st,G,collagenase
-GYNECOLOGICAL ANTIINFECTIVES AND ANTISEPTICS,ATC 2nd,G01,collagenase
-Other antibiotics for topical use,ATC 4th,D06AX,collagenase
-PREPARATIONS FOR TREATMENT OF WOUNDS AND ULCERS,ATC 2nd,D03,collagenase
-Proteolytic enzymes,ATC 4th,D03BA,collagenase
 ANTIHEMORRHAGICS,ATC 2nd,B02,concizumab
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,concizumab
 concizumab; parenteral,ATC 5th,B02BX10,concizumab
@@ -1502,11 +977,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,copanlisib
 copanlisib; oral,ATC 5th,L01EM02,copanlisib
 Phosphatidylinositol-3-kinase (Pi3K) inhibitors,ATC 4th,L01EM,copanlisib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,copanlisib
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,crizanlizumab
-"crizanlizumab; systemic, topical",ATC 5th,B06AX01,crizanlizumab
-OTHER HEMATOLOGICAL AGENTS,ATC 2nd,B06,crizanlizumab
-OTHER HEMATOLOGICAL AGENTS,ATC 3rd,B06A,crizanlizumab
-Other hematological agents,ATC 4th,B06AX,crizanlizumab
 Anaplastic lymphoma kinase (ALK) inhibitors,ATC 4th,L01ED,crizotinib
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,crizotinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,crizotinib
@@ -1572,11 +1042,6 @@ darunavir; oral,ATC 5th,J05AE10,darunavir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,darunavir
 "emtricitabine, tenofovir alafenamide, darunavir and cobicistat; oral",ATC 5th,J05AR22,darunavir
 Protease inhibitors,ATC 4th,J05AE,darunavir
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,darvadstrocel
-darvadstrocel; parenteral,ATC 5th,L04AX08,darvadstrocel
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,darvadstrocel
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,darvadstrocel
-Other immunosuppressants,ATC 4th,L04AX,darvadstrocel
 ANTIINFECTIVES,ATC 3rd,S02A,dasabuvir
 ANTIINFECTIVES,ATC 3rd,S03A,dasabuvir
 Antiinfectives,ATC 4th,B05CA,dasabuvir
@@ -1624,13 +1089,11 @@ IRRIGATING SOLUTIONS,ATC 3rd,B05C,dasabuvir
 loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,dasabuvir
 methylprednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA08,dasabuvir
 "methylprednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA07,dasabuvir
-"ombitasvir, paritaprevir and ritonavir; oral",ATC 5th,J05AP53,dasabuvir
 OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,dasabuvir
 OTOLOGICALS,ATC 2nd,S02,dasabuvir
 prednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA02,dasabuvir
 "prednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA02,dasabuvir
 prednisolone and antiinfectives; otic,ATC 5th,S02CA01,dasabuvir
-"ribavirin; inhalant, oral",ATC 5th,J05AP01,dasabuvir
 SENSORY ORGANS,ATC 1st,S,dasabuvir
 triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,dasabuvir
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,dasatinib
@@ -1694,24 +1157,15 @@ ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,difelikefalin
 difelikefalin; parenteral,ATC 5th,V03AX04,difelikefalin
 Other therapeutic products,ATC 4th,V03AX,difelikefalin
 VARIOUS,ATC 1st,V,difelikefalin
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,digoxin_antibodies_fab_fragments
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,digoxin_antibodies_fab_fragments
-Antidotes,ATC 4th,V03AB,digoxin_antibodies_fab_fragments
-digitalis antitoxin; parenteral,ATC 5th,V03AB24,digoxin_antibodies_fab_fragments
-VARIOUS,ATC 1st,V,digoxin_antibodies_fab_fragments
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,dimethyl_fumarate
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,dimethyl_fumarate
 ANTIPSORIATICS,ATC 2nd,D05,dimethyl_fumarate
 ANTIPSORIATICS FOR SYSTEMIC USE,ATC 3rd,D05B,dimethyl_fumarate
-CALCIUM,ATC 3rd,A12A,dimethyl_fumarate
-Calcium,ATC 4th,A12AA,dimethyl_fumarate
 calcium (different salts in combination); oral,ATC 5th,A12AA20,dimethyl_fumarate
 DERMATOLOGICALS,ATC 1st,D,dimethyl_fumarate
 dimethyl fumarate; oral,ATC 5th,L04AX07,dimethyl_fumarate
 "fumaric acid derivatives, combinations; systemic",ATC 5th,D05BX51,dimethyl_fumarate
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,dimethyl_fumarate
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,dimethyl_fumarate
-MINERAL SUPPLEMENTS,ATC 2nd,A12,dimethyl_fumarate
 Other antipsoriatics for systemic use,ATC 4th,D05BX,dimethyl_fumarate
 Other immunosuppressants,ATC 4th,L04AX,dimethyl_fumarate
 [U] dinutuximab beta; parenteral,ATC 5th,L01XC16,dinutuximab_beta
@@ -1750,17 +1204,14 @@ ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,doravirine
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,doravirine
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,doravirine
 doravirine; oral,ATC 5th,J05AG06,doravirine
-lamivudine and tenofovir disoproxil; oral,ATC 5th,J05AR12,doravirine
 "lamivudine, tenofovir disoproxil and doravirine; oral",ATC 5th,J05AR24,doravirine
 Non-nucleoside reverse transcriptase inhibitors,ATC 4th,J05AG,doravirine
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,dornase_alfa
 COUGH AND COLD PREPARATIONS,ATC 2nd,R05,dornase_alfa
 "COUGH SUPPRESSANTS AND EXPECTORANTS, COMBINATIONS",ATC 3rd,R05F,dornase_alfa
 cough suppressants and expectorants; systemic,ATC 5th,R05FB02,dornase_alfa
 cough suppressants and mucolytics; systemic,ATC 5th,R05FB01,dornase_alfa
 "COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS",ATC 3rd,R05D,dornase_alfa
 dornase alfa (desoxyribonuclease); inhalant,ATC 5th,R05CB13,dornase_alfa
-Enzymes,ATC 4th,B06AA,dornase_alfa
 "EXPECTORANTS, EXCL. COMBINATIONS WITH COUGH SUPPRESSANTS",ATC 3rd,R05C,dornase_alfa
 Mucolytics,ATC 4th,R05CB,dornase_alfa
 mucolytics - combinations,ATC 5th,R05CB10,dornase_alfa
@@ -1769,8 +1220,6 @@ opium derivatives and mucolytics; systemic,ATC 5th,R05FA01,dornase_alfa
 Other cough suppressants,ATC 4th,R05DB,dornase_alfa
 other cough suppressants - combinations,ATC 5th,R05DB20,dornase_alfa
 Other cough suppressants and expectorants,ATC 4th,R05FB,dornase_alfa
-OTHER HEMATOLOGICAL AGENTS,ATC 2nd,B06,dornase_alfa
-OTHER HEMATOLOGICAL AGENTS,ATC 3rd,B06A,dornase_alfa
 RESPIRATORY SYSTEM,ATC 1st,R,dornase_alfa
 "streptokinase, combinations; systemic, topical",ATC 5th,B06AA55,dornase_alfa
 [U] dostarlimab; parenteral,ATC 5th,L01XC40,dostarlimab
@@ -1815,7 +1264,6 @@ efavirenz; oral,ATC 5th,J05AG03,efavirenz
 "emtricitabine, tenofovir disoproxil and efavirenz; systemic",ATC 5th,J05AR06,efavirenz
 "lamivudine, tenofovir disoproxil and efavirenz; systemic",ATC 5th,J05AR11,efavirenz
 Non-nucleoside reverse transcriptase inhibitors,ATC 4th,J05AG,efavirenz
-tenofovir disoproxil and emtricitabine; oral,ATC 5th,J05AR03,efavirenz
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,efgartigimod_alfa
 efgartigimod alfa; parenteral,ATC 5th,L04AA58,efgartigimod_alfa
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,efgartigimod_alfa
@@ -1896,42 +1344,23 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,elotuzumab
 elotuzumab; parenteral,ATC 5th,L01FX08,elotuzumab
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,elotuzumab
 Other monoclonal antibodies and antibody drug conjugates,ATC 4th,L01FX,elotuzumab
-ANTIHEMORRHAGICS,ATC 2nd,B02,eltrombopag
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,eltrombopag
-eltrombopag; oral,ATC 5th,B02BX05,eltrombopag
-Other systemic hemostatics,ATC 4th,B02BX,eltrombopag
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,eltrombopag
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,elvitegravir
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,elvitegravir
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,elvitegravir
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,elvitegravir
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,elvitegravir
-cobicistat; oral,ATC 5th,V03AX03,elvitegravir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,elvitegravir
 elvitegravir; oral,ATC 5th,J05AJ02,elvitegravir
-"emtricitabine, tenofovir alafenamide, darunavir and cobicistat; oral",ATC 5th,J05AR22,elvitegravir
 "emtricitabine, tenofovir alafenamide, elvitegravir and cobicistat; oral",ATC 5th,J05AR18,elvitegravir
 "emtricitabine, tenofovir disoproxil, elvitegravir and cobicistat; oral",ATC 5th,J05AR09,elvitegravir
-emtricitabine; oral,ATC 5th,J05AF09,elvitegravir
 Integrase inhibitors,ATC 4th,J05AJ,elvitegravir
-Nucleoside and nucleotide reverse transcriptase inhibitors,ATC 4th,J05AF,elvitegravir
-Other therapeutic products,ATC 4th,V03AX,elvitegravir
-tenofovir disoproxil and emtricitabine; oral,ATC 5th,J05AR03,elvitegravir
-tenofovir disoproxil; oral,ATC 5th,J05AF07,elvitegravir
-VARIOUS,ATC 1st,V,elvitegravir
 ANTIHEMORRHAGICS,ATC 2nd,B02,emicizumab
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,emicizumab
 emicizumab; parenteral,ATC 5th,B02BX06,emicizumab
 Other systemic hemostatics,ATC 4th,B02BX,emicizumab
 VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,emicizumab
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,emtricitabine
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,emtricitabine
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,emtricitabine
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,emtricitabine
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,emtricitabine
-cobicistat; oral,ATC 5th,V03AX03,emtricitabine
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,emtricitabine
-elvitegravir; oral,ATC 5th,J05AJ02,emtricitabine
 emtricitabine and tenofovir alafenamide; oral,ATC 5th,J05AR17,emtricitabine
 "emtricitabine, tenofovir alafenamide and bictegravir; systemic",ATC 5th,J05AR20,emtricitabine
 "emtricitabine, tenofovir alafenamide and rilpivirine; systemic",ATC 5th,J05AR19,emtricitabine
@@ -1941,12 +1370,8 @@ emtricitabine and tenofovir alafenamide; oral,ATC 5th,J05AR17,emtricitabine
 "emtricitabine, tenofovir disoproxil and rilpivirine; systemic",ATC 5th,J05AR08,emtricitabine
 "emtricitabine, tenofovir disoproxil, elvitegravir and cobicistat; oral",ATC 5th,J05AR09,emtricitabine
 emtricitabine; oral,ATC 5th,J05AF09,emtricitabine
-Integrase inhibitors,ATC 4th,J05AJ,emtricitabine
 Nucleoside and nucleotide reverse transcriptase inhibitors,ATC 4th,J05AF,emtricitabine
-Other therapeutic products,ATC 4th,V03AX,emtricitabine
 tenofovir disoproxil and emtricitabine; oral,ATC 5th,J05AR03,emtricitabine
-tenofovir disoproxil; oral,ATC 5th,J05AF07,emtricitabine
-VARIOUS,ATC 1st,V,emtricitabine
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,encorafenib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,encorafenib
 B-Raf serine-threonine kinase (BRAF) inhibitors,ATC 4th,L01EC,encorafenib
@@ -2053,16 +1478,6 @@ Platelet aggregation inhibitors excl. heparin,ATC 4th,B01AC,epoprostenol
 platelet aggregation inhibitors excl. heparin - combinations,ATC 5th,B01AC30,epoprostenol
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,epratuzumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,epratuzumab
-ANALGESICS,ATC 2nd,N02,eptinezumab
-ANTIMIGRAINE PREPARATIONS,ATC 3rd,N02C,eptinezumab
-Calcitonin gene-related peptide (CGRP) antagonists,ATC 4th,N02CD,eptinezumab
-eptinezumab; parenteral,ATC 5th,N02CD05,eptinezumab
-NERVOUS SYSTEM,ATC 1st,N,eptinezumab
-Bone morphogenetic proteins,ATC 4th,M05BC,eptotermin_alfa
-DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION,ATC 3rd,M05B,eptotermin_alfa
-DRUGS FOR TREATMENT OF BONE DISEASES,ATC 2nd,M05,eptotermin_alfa
-"eptotermin alfa; parenteral, transdermal",ATC 5th,M05BC02,eptotermin_alfa
-MUSCULO-SKELETAL SYSTEM,ATC 1st,M,eptotermin_alfa
 [U] erdafitinib,ATC 5th,L01EX16,erdafitinib
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,erdafitinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,erdafitinib
@@ -2070,27 +1485,6 @@ erdafitinib; oral,ATC 5th,L01EN01,erdafitinib
 Fibroblast growth factor receptor (FGFR) tyrosine kinase inhibitors,ATC 4th,L01EN,erdafitinib
 Other protein kinase inhibitors,ATC 4th,L01EX,erdafitinib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,erdafitinib
-ANALGESICS,ATC 2nd,N02,erenumab
-Analgesics and anesthetics,ATC 4th,S02DA,erenumab
-analgesics and anesthetics - combinations; otic,ATC 5th,S02DA30,erenumab
-ANTIMIGRAINE PREPARATIONS,ATC 3rd,N02C,erenumab
-ANTISPASMODICS IN COMBINATION WITH ANALGESICS,ATC 3rd,A03D,erenumab
-Belladonna and derivatives in combination with analgesics,ATC 4th,A03DB,erenumab
-bevonium and analgesics,ATC 5th,A03DA03,erenumab
-butylscopolamine and analgesics; systemic,ATC 5th,A03DB04,erenumab
-Calcitonin gene-related peptide (CGRP) antagonists,ATC 4th,N02CD,erenumab
-camylofin and analgesics; systemic,ATC 5th,A03DA05,erenumab
-ciclonium and analgesics; systemic,ATC 5th,A03DA04,erenumab
-erenumab; parenteral,ATC 5th,N02CD01,erenumab
-NERVOUS SYSTEM,ATC 1st,N,erenumab
-OTHER OTOLOGICALS,ATC 3rd,S02D,erenumab
-OTOLOGICALS,ATC 2nd,S02,erenumab
-pitofenone and analgesics; systemic,ATC 5th,A03DA02,erenumab
-SENSORY ORGANS,ATC 1st,S,erenumab
-Synthetic anticholinergic agents in combination with analgesics,ATC 4th,A03DA,erenumab
-tiemonium iodide and analgesics; oral,ATC 5th,A03DA07,erenumab
-tropenzilone and analgesics,ATC 5th,A03DA01,erenumab
-trospium and analgesics; systemic,ATC 5th,A03DA06,erenumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,eribulin
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,eribulin
 eribulin; parenteral,ATC 5th,L01XX41,eribulin
@@ -2152,107 +1546,19 @@ exagamglogene autotemcel; parenteral,ATC 5th,B06AX05,exagamglogene_autotemcel
 OTHER HEMATOLOGICAL AGENTS,ATC 2nd,B06,exagamglogene_autotemcel
 OTHER HEMATOLOGICAL AGENTS,ATC 3rd,B06A,exagamglogene_autotemcel
 Other hematological agents,ATC 4th,B06AX,exagamglogene_autotemcel
-ANTIHEMORRHAGICS,ATC 2nd,B02,factor_ix
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,factor_ix
-Blood coagulation factors,ATC 4th,B02BD,factor_ix
-"coagulation factor IX, II, VII and X in combination; parenteral",ATC 5th,B02BD01,factor_ix
-coagulation factor IX; parenteral,ATC 5th,B02BD04,factor_ix
-"heparin, combinations; parenteral",ATC 5th,B01AB51,factor_ix
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,factor_ix
 ANTIHEMORRHAGICS,ATC 2nd,B02,factor_ix_complex
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,factor_ix_complex
 Blood coagulation factors,ATC 4th,B02BD,factor_ix_complex
 "coagulation factor IX, II, VII and X in combination; parenteral",ATC 5th,B02BD01,factor_ix_complex
 coagulation factor IX; parenteral,ATC 5th,B02BD04,factor_ix_complex
-coagulation factor VII; parenteral,ATC 5th,B02BD05,factor_ix_complex
-coagulation factor VIII; parenteral,ATC 5th,B02BD02,factor_ix_complex
-coagulation factor X; parenteral,ATC 5th,B02BD13,factor_ix_complex
-susoctocog alfa; parenteral,ATC 5th,B02BD14,factor_ix_complex
 VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,factor_ix_complex
-ANTIHEMORRHAGICS,ATC 2nd,B02,factor_vi_ia
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,factor_vi_ia
-Blood coagulation factors,ATC 4th,B02BD,factor_vi_ia
-"coagulation factor IX, II, VII and X in combination; parenteral",ATC 5th,B02BD01,factor_vi_ia
-coagulation factor VIIa; parenteral,ATC 5th,B02BD08,factor_vi_ia
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,factor_vi_ia
 ANTIHEMORRHAGICS,ATC 2nd,B02,factor_vii
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,factor_vii
 Blood coagulation factors,ATC 4th,B02BD,factor_vii
 "coagulation factor IX, II, VII and X in combination; parenteral",ATC 5th,B02BD01,factor_vii
-coagulation factor IX; parenteral,ATC 5th,B02BD04,factor_vii
 coagulation factor VII; parenteral,ATC 5th,B02BD05,factor_vii
-coagulation factor VIII; parenteral,ATC 5th,B02BD02,factor_vii
-coagulation factor X; parenteral,ATC 5th,B02BD13,factor_vii
 "heparin, combinations; parenteral",ATC 5th,B01AB51,factor_vii
-susoctocog alfa; parenteral,ATC 5th,B02BD14,factor_vii
 VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,factor_vii
-ANTIHEMORRHAGICS,ATC 2nd,B02,factor_viii
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,factor_viii
-Blood coagulation factors,ATC 4th,B02BD,factor_viii
-coagulation factor IX; parenteral,ATC 5th,B02BD04,factor_viii
-coagulation factor VII; parenteral,ATC 5th,B02BD05,factor_viii
-coagulation factor VIII; parenteral,ATC 5th,B02BD02,factor_viii
-coagulation factor X; parenteral,ATC 5th,B02BD13,factor_viii
-Local hemostatics,ATC 4th,B02BC,factor_viii
-local hemostatics - combinations; topical,ATC 5th,B02BC30,factor_viii
-susoctocog alfa; parenteral,ATC 5th,B02BD14,factor_viii
-thrombin; topical,ATC 5th,B02BC06,factor_viii
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,factor_viii
-"von Willebrand factor and coagulation factor VIII in combination; parenteral, topical, urethral",ATC 5th,B02BD06,factor_viii
-von Willebrand factor; parenteral,ATC 5th,B02BD10,factor_viii
-ANTIHEMORRHAGICS,ATC 2nd,B02,factor_x
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,factor_x
-Blood coagulation factors,ATC 4th,B02BD,factor_x
-"coagulation factor IX, II, VII and X in combination; parenteral",ATC 5th,B02BD01,factor_x
-coagulation factor IX; parenteral,ATC 5th,B02BD04,factor_x
-coagulation factor VII; parenteral,ATC 5th,B02BD05,factor_x
-coagulation factor VIII; parenteral,ATC 5th,B02BD02,factor_x
-coagulation factor X; parenteral,ATC 5th,B02BD13,factor_x
-"heparin, combinations; parenteral",ATC 5th,B01AB51,factor_x
-susoctocog alfa; parenteral,ATC 5th,B02BD14,factor_x
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,factor_x
-Acidifiers,ATC 4th,G04BA,factor_xiii
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,factor_xiii
-ANTIFIBRINOLYTICS,ATC 3rd,B02A,factor_xiii
-ANTIHEMORRHAGICS,ATC 2nd,B02,factor_xiii
-ANTITHROMBOTIC AGENTS,ATC 2nd,B01,factor_xiii
-ANTITHROMBOTIC AGENTS,ATC 3rd,B01A,factor_xiii
-aprotinin; parenteral,ATC 5th,B02AB01,factor_xiii
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,factor_xiii
-BLOOD AND RELATED PRODUCTS,ATC 3rd,B05A,factor_xiii
-Blood coagulation factors,ATC 4th,B02BD,factor_xiii
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,factor_xiii
-Blood substitutes and plasma protein fractions,ATC 4th,B05AA,factor_xiii
-CALCIUM,ATC 3rd,A12A,factor_xiii
-Calcium,ATC 4th,A12AA,factor_xiii
-calcium chloride; parenteral,ATC 5th,A12AA07,factor_xiii
-calcium chloride; parenteral,ATC 5th,B05XA07,factor_xiii
-calcium chloride; systemic,ATC 5th,G04BA03,factor_xiii
-catridecacog; parenteral,ATC 5th,B02BD11,factor_xiii
-coagulation factor XIII; parenteral,ATC 5th,B02BD07,factor_xiii
-combinations of electrolytes; parenteral,ATC 5th,B05XA30,factor_xiii
-Electrolyte solutions,ATC 4th,B05XA,factor_xiii
-Enzymes,ATC 4th,B01AD,factor_xiii
-Fibrinogen,ATC 4th,B02BB,factor_xiii
-"fibrinogen, human; parenteral",ATC 5th,B02BB01,factor_xiii
-fibrinolysin; parenteral,ATC 5th,B01AD05,factor_xiii
-GENITO URINARY SYSTEM AND SEX HORMONES,ATC 1st,G,factor_xiii
-I.V. SOLUTION ADDITIVES,ATC 3rd,B05X,factor_xiii
-Local hemostatics,ATC 4th,B02BC,factor_xiii
-local hemostatics - combinations; topical,ATC 5th,B02BC30,factor_xiii
-MINERAL SUPPLEMENTS,ATC 2nd,A12,factor_xiii
-other plasma protein fractions; parenteral,ATC 5th,B05AA02,factor_xiii
-Proteinase inhibitors,ATC 4th,B02AB,factor_xiii
-thrombin; parenteral,ATC 5th,B02BD30,factor_xiii
-thrombin; topical,ATC 5th,B02BC06,factor_xiii
-UROLOGICALS,ATC 2nd,G04,factor_xiii
-UROLOGICALS,ATC 3rd,G04B,factor_xiii
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,factor_xiii
-Antineovascularisation agents,ATC 4th,S01LA,faricimab
-faricimab; ophthalmic,ATC 5th,S01LA09,faricimab
-OCULAR VASCULAR DISORDER AGENTS,ATC 3rd,S01L,faricimab
-OPHTHALMOLOGICALS,ATC 2nd,S01,faricimab
-SENSORY ORGANS,ATC 1st,S,faricimab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,fedratinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,fedratinib
 fedratinib; oral,ATC 5th,L01EJ02,fedratinib
@@ -2268,53 +1574,18 @@ fenfluramine; oral,ATC 5th,A08AA02,fenfluramine
 fenfluramine; oral,ATC 5th,N03AX26,fenfluramine
 NERVOUS SYSTEM,ATC 1st,N,fenfluramine
 Other antiepileptics,ATC 4th,N03AX,fenfluramine
-Acidifiers,ATC 4th,G04BA,fibrinogen
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,fibrinogen
-ANTIFIBRINOLYTICS,ATC 3rd,B02A,fibrinogen
 ANTIHEMORRHAGICS,ATC 2nd,B02,fibrinogen
-ANTITHROMBOTIC AGENTS,ATC 2nd,B01,fibrinogen
-ANTITHROMBOTIC AGENTS,ATC 3rd,B01A,fibrinogen
-aprotinin; parenteral,ATC 5th,B02AB01,fibrinogen
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,fibrinogen
-BLOOD AND RELATED PRODUCTS,ATC 3rd,B05A,fibrinogen
-Blood coagulation factors,ATC 4th,B02BD,fibrinogen
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,fibrinogen
-Blood substitutes and plasma protein fractions,ATC 4th,B05AA,fibrinogen
-CALCIUM,ATC 3rd,A12A,fibrinogen
-Calcium,ATC 4th,A12AA,fibrinogen
-calcium (different salts in combination); oral,ATC 5th,A12AA20,fibrinogen
-calcium chloride; parenteral,ATC 5th,A12AA07,fibrinogen
-calcium chloride; parenteral,ATC 5th,B05XA07,fibrinogen
-calcium chloride; systemic,ATC 5th,G04BA03,fibrinogen
 CARDIOVASCULAR SYSTEM,ATC 3rd,V09G,fibrinogen
-catridecacog; parenteral,ATC 5th,B02BD11,fibrinogen
-coagulation factor XIII; parenteral,ATC 5th,B02BD07,fibrinogen
 "collagen, combinations; topical",ATC 5th,D11AX57,fibrinogen
-collagen; topical,ATC 5th,B02BC07,fibrinogen
 combinations of electrolytes; parenteral,ATC 5th,B05XA30,fibrinogen
-DERMATOLOGICALS,ATC 1st,D,fibrinogen
 DIAGNOSTIC RADIOPHARMACEUTICALS,ATC 2nd,V09,fibrinogen
-Electrolyte solutions,ATC 4th,B05XA,fibrinogen
-Enzymes,ATC 4th,B01AD,fibrinogen
 Fibrinogen,ATC 4th,B02BB,fibrinogen
 fibrinogen (125I); parenteral,ATC 5th,V09GB01,fibrinogen
 "fibrinogen, human; parenteral",ATC 5th,B02BB01,fibrinogen
-fibrinolysin; parenteral,ATC 5th,B01AD05,fibrinogen
-GENITO URINARY SYSTEM AND SEX HORMONES,ATC 1st,G,fibrinogen
-I.V. SOLUTION ADDITIVES,ATC 3rd,B05X,fibrinogen
 Iodine (125I) compounds,ATC 4th,V09GB,fibrinogen
 Local hemostatics,ATC 4th,B02BC,fibrinogen
 local hemostatics - combinations; topical,ATC 5th,B02BC30,fibrinogen
-MINERAL SUPPLEMENTS,ATC 2nd,A12,fibrinogen
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 2nd,D11,fibrinogen
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 3rd,D11A,fibrinogen
-Other dermatologicals,ATC 4th,D11AX,fibrinogen
-other plasma protein fractions; parenteral,ATC 5th,B05AA02,fibrinogen
-Proteinase inhibitors,ATC 4th,B02AB,fibrinogen
-thrombin; parenteral,ATC 5th,B02BD30,fibrinogen
-thrombin; topical,ATC 5th,B02BC06,fibrinogen
-UROLOGICALS,ATC 2nd,G04,fibrinogen
-UROLOGICALS,ATC 3rd,G04B,fibrinogen
 VARIOUS,ATC 1st,V,fibrinogen
 VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,fibrinogen
 ANTIHEMORRHAGICS,ATC 2nd,B02,fidanacogene_elaparvovec
@@ -2322,90 +1593,6 @@ BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,fidanacogene_elaparvovec
 Blood coagulation factors,ATC 4th,B02BD,fidanacogene_elaparvovec
 fidanacogene elaparvovec,ATC 5th,B02BD17,fidanacogene_elaparvovec
 VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,fidanacogene_elaparvovec
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,fidaxomicin
-Antibiotics,ATC 4th,A07AA,fidaxomicin
-Antibiotics,ATC 4th,S01AA,fidaxomicin
-antibiotics in combination with other drugs; ophthalmic,ATC 5th,S01AA20,fidaxomicin
-"ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS",ATC 2nd,A07,fidaxomicin
-ANTIINFECTIVES,ATC 3rd,S01A,fidaxomicin
-ANTIINFECTIVES,ATC 3rd,S02A,fidaxomicin
-ANTIINFECTIVES,ATC 3rd,S03A,fidaxomicin
-Antiinfectives,ATC 4th,B05CA,fidaxomicin
-Antiinfectives,ATC 4th,S02AA,fidaxomicin
-Antiinfectives,ATC 4th,S03AA,fidaxomicin
-antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,fidaxomicin
-"antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,fidaxomicin
-"antiinfectives, combinations; otic",ATC 5th,S02AA30,fidaxomicin
-ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S01C,fidaxomicin
-"Antiinflammatory agents, non-steroids and antiinfectives in combination",ATC 4th,S01CC,fidaxomicin
-beclometasone and antibiotics; topical,ATC 5th,D07CC04,fidaxomicin
-betamethasone and antibiotics; topical,ATC 5th,D07CC01,fidaxomicin
-betamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA05,fidaxomicin
-"betamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA06,fidaxomicin
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,fidaxomicin
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,fidaxomicin
-chloroprednisone and antiinfectives; ophthalmic,ATC 5th,S01CA09,fidaxomicin
-clobetasol and antibiotics; topical,ATC 5th,D07CD01,fidaxomicin
-clobetasone and antiinfectives; ophthalmic,ATC 5th,S01CA11,fidaxomicin
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S02C,fidaxomicin
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S03C,fidaxomicin
-Corticosteroids and antiinfectives in combination,ATC 4th,S01CA,fidaxomicin
-Corticosteroids and antiinfectives in combination,ATC 4th,S02CA,fidaxomicin
-Corticosteroids and antiinfectives in combination,ATC 4th,S03CA,fidaxomicin
-"CORTICOSTEROIDS, COMBINATIONS WITH ANTIBIOTICS",ATC 3rd,D07C,fidaxomicin
-"Corticosteroids, moderately potent, combinations with antibiotics",ATC 4th,D07CB,fidaxomicin
-"Corticosteroids, potent, combinations with antibiotics",ATC 4th,D07CC,fidaxomicin
-"Corticosteroids, very potent, combinations with antibiotics",ATC 4th,D07CD,fidaxomicin
-"Corticosteroids, weak, combinations with antibiotics",ATC 4th,D07CA,fidaxomicin
-dexamethasone and antibiotics; topical,ATC 5th,D07CB04,fidaxomicin
-dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,fidaxomicin
-"dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,fidaxomicin
-dexamethasone and antiinfectives; otic,ATC 5th,S02CA06,fidaxomicin
-diclofenac and antiinfectives; ophthalmic,ATC 5th,S01CC01,fidaxomicin
-fidaxomicin; oral,ATC 5th,A07AA12,fidaxomicin
-fludrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA06,fidaxomicin
-"fludrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA05,fidaxomicin
-fludrocortisone and antiinfectives; otic,ATC 5th,S02CA07,fidaxomicin
-fludroxycortide and antibiotics; topical,ATC 5th,D07CC03,fidaxomicin
-flumetasone and antibiotics; topical,ATC 5th,D07CB05,fidaxomicin
-flumetasone and antiinfectives; otic,ATC 5th,S02CA02,fidaxomicin
-fluocinolone acetonide and antibiotics; topical,ATC 5th,D07CC02,fidaxomicin
-fluocinolone acetonide and antiinfectives; ophthalmic,ATC 5th,S01CA10,fidaxomicin
-fluocinolone acetonide and antiinfectives; otic,ATC 5th,S02CA05,fidaxomicin
-fluocinonide and antibiotics; topical,ATC 5th,D07CC05,fidaxomicin
-fluocortolone and antibiotics; topical,ATC 5th,D07CC06,fidaxomicin
-fluocortolone and antiinfectives; ophthalmic,ATC 5th,S01CA04,fidaxomicin
-fluorometholone and antibiotics; topical,ATC 5th,D07CB03,fidaxomicin
-fluorometholone and antiinfectives; ophthalmic,ATC 5th,S01CA07,fidaxomicin
-fluprednidene and antibiotics; topical,ATC 5th,D07CB02,fidaxomicin
-hydrocortisone and antibiotics; topical,ATC 5th,D07CA01,fidaxomicin
-hydrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA03,fidaxomicin
-"hydrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA04,fidaxomicin
-hydrocortisone and antiinfectives; otic,ATC 5th,S02CA03,fidaxomicin
-indometacin and antiinfectives; ophthalmic,ATC 5th,S01CC02,fidaxomicin
-INTESTINAL ANTIINFECTIVES,ATC 3rd,A07A,fidaxomicin
-IRRIGATING SOLUTIONS,ATC 3rd,B05C,fidaxomicin
-loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,fidaxomicin
-methylprednisolone and antibiotics; topical,ATC 5th,D07CA02,fidaxomicin
-methylprednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA08,fidaxomicin
-"methylprednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA07,fidaxomicin
-OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,fidaxomicin
-OPHTHALMOLOGICALS,ATC 2nd,S01,fidaxomicin
-OTOLOGICALS,ATC 2nd,S02,fidaxomicin
-prednisolone and antibiotics; topical,ATC 5th,D07CA03,fidaxomicin
-prednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA02,fidaxomicin
-"prednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA02,fidaxomicin
-prednisolone and antiinfectives; otic,ATC 5th,S02CA01,fidaxomicin
-SENSORY ORGANS,ATC 1st,S,fidaxomicin
-triamcinolone and antibiotics; topical,ATC 5th,D07CB01,fidaxomicin
-triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,fidaxomicin
-[U] filgotinib,ATC 5th,L04AA45,filgotinib
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,filgotinib
-filgotinib; oral,ATC 5th,L04AF04,filgotinib
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,filgotinib
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,filgotinib
-Janus-associated kinase (JAK) inhibitors,ATC 4th,L04AF,filgotinib
-Selective immunosuppressants,ATC 4th,L04AA,filgotinib
 [U] fingolimod,ATC 5th,L04AA27,fingolimod
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,fingolimod
 fingolimod; oral,ATC 5th,L04AE01,fingolimod
@@ -2413,11 +1600,6 @@ IMMUNOSUPPRESSANTS,ATC 2nd,L04,fingolimod
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,fingolimod
 Selective immunosuppressants,ATC 4th,L04AA,fingolimod
 Sphingosine-1-phosphate (S1P) receptor modulators,ATC 4th,L04AE,fingolimod
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,fomepizole
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,fomepizole
-Antidotes,ATC 4th,V03AB,fomepizole
-fomepizole; parenteral,ATC 5th,V03AB34,fomepizole
-VARIOUS,ATC 1st,V,fomepizole
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,fosamprenavir
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,fosamprenavir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,fosamprenavir
@@ -2428,26 +1610,11 @@ fosdenopterin; systemic,ATC 5th,A16AX19,fosdenopterin
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,fosdenopterin
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,fosdenopterin
 Various alimentary tract and metabolism products,ATC 4th,A16AX,fosdenopterin
-ANTIHEMORRHAGICS,ATC 2nd,B02,fostamatinib
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,fostamatinib
-fostamatinib; systemic,ATC 5th,B02BX09,fostamatinib
-Other systemic hemostatics,ATC 4th,B02BX,fostamatinib
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,fostamatinib
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,fostemsavir
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,fostemsavir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,fostemsavir
 fostemsavir; oral,ATC 5th,J05AX29,fostemsavir
 Other antivirals,ATC 4th,J05AX,fostemsavir
-ANALGESICS,ATC 2nd,N02,fremanezumab
-Analgesics and anesthetics,ATC 4th,S02DA,fremanezumab
-analgesics and anesthetics - combinations; otic,ATC 5th,S02DA30,fremanezumab
-ANTIMIGRAINE PREPARATIONS,ATC 3rd,N02C,fremanezumab
-Calcitonin gene-related peptide (CGRP) antagonists,ATC 4th,N02CD,fremanezumab
-fremanezumab; systemic,ATC 5th,N02CD03,fremanezumab
-NERVOUS SYSTEM,ATC 1st,N,fremanezumab
-OTHER OTOLOGICALS,ATC 3rd,S02D,fremanezumab
-OTOLOGICALS,ATC 2nd,S02,fremanezumab
-SENSORY ORGANS,ATC 1st,S,fremanezumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,fruquintinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,fruquintinib
 fruquintinib; oral,ATC 5th,L01EK04,fruquintinib
@@ -2458,16 +1625,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,futibatinib
 Fibroblast growth factor receptor (FGFR) tyrosine kinase inhibitors,ATC 4th,L01EN,futibatinib
 futibatinib; oral,ATC 5th,L01EN04,futibatinib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,futibatinib
-ANALGESICS,ATC 2nd,N02,galcanezumab
-Analgesics and anesthetics,ATC 4th,S02DA,galcanezumab
-analgesics and anesthetics - combinations; otic,ATC 5th,S02DA30,galcanezumab
-ANTIMIGRAINE PREPARATIONS,ATC 3rd,N02C,galcanezumab
-Calcitonin gene-related peptide (CGRP) antagonists,ATC 4th,N02CD,galcanezumab
-galcanezumab; parenteral,ATC 5th,N02CD02,galcanezumab
-NERVOUS SYSTEM,ATC 1st,N,galcanezumab
-OTHER OTOLOGICALS,ATC 3rd,S02D,galcanezumab
-OTOLOGICALS,ATC 2nd,S02,galcanezumab
-SENSORY ORGANS,ATC 1st,S,galcanezumab
 ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,galsulfase
 Enzymes,ATC 4th,A16AB,galsulfase
 galsulfase; parenteral,ATC 5th,A16AB08,galsulfase
@@ -2528,26 +1685,13 @@ ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,glycerol_phenylbutyrate
 glycerol phenylbutyrate; oral,ATC 5th,A16AX09,glycerol_phenylbutyrate
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,glycerol_phenylbutyrate
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,glycerol_phenylbutyrate
-sodium phenylbutyrate; oral,ATC 5th,A16AX03,glycerol_phenylbutyrate
 Various alimentary tract and metabolism products,ATC 4th,A16AX,glycerol_phenylbutyrate
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,golimumab
-golimumab; parenteral,ATC 5th,L04AB06,golimumab
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,golimumab
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,golimumab
-Tumor necrosis factor alpha (TNF-a) inhibitors,ATC 4th,L04AB,golimumab
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,grazoprevir
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,grazoprevir
 Antivirals for treatment of HCV infections,ATC 4th,J05AP,grazoprevir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,grazoprevir
 elbasvir and grazoprevir; systemic,ATC 5th,J05AP54,grazoprevir
 grazoprevir; oral,ATC 5th,J05AP11,grazoprevir
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,guselkumab
-guselkumab; systemic,ATC 5th,L04AC16,guselkumab
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,guselkumab
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,guselkumab
-Interleukin inhibitors,ATC 4th,L04AC,guselkumab
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,halofuginone
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,halofuginone
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,ibalizumab
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,ibalizumab
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,ibalizumab
@@ -2568,26 +1712,11 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,icotinib
 Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors,ATC 4th,L01EB,icotinib
 icotinib; oral,ATC 5th,L01EB08,icotinib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,icotinib
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,idarucizumab
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,idarucizumab
-Antidotes,ATC 4th,V03AB,idarucizumab
-idarucizumab; parenteral,ATC 5th,V03AB37,idarucizumab
-VARIOUS,ATC 1st,V,idarucizumab
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,idebenone
-CALCIUM CHANNEL BLOCKERS,ATC 2nd,C08,idebenone
-CARDIOVASCULAR SYSTEM,ATC 1st,C,idebenone
-Dihydropyridine derivatives,ATC 4th,C08CA,idebenone
 idebenone; oral,ATC 5th,N06BX13,idebenone
 NERVOUS SYSTEM,ATC 1st,N,idebenone
-nimodipine; systemic,ATC 5th,C08CA06,idebenone
-OTHER PLAIN VITAMIN PREPARATIONS,ATC 3rd,A11H,idebenone
-Other plain vitamin preparations,ATC 4th,A11HA,idebenone
 Other psychostimulants and nootropics,ATC 4th,N06BX,idebenone
 PSYCHOANALEPTICS,ATC 2nd,N06,idebenone
 "PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS",ATC 3rd,N06B,idebenone
-SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS,ATC 3rd,C08C,idebenone
-tocopherol (vit E); systemic,ATC 5th,A11HA03,idebenone
-VITAMINS,ATC 2nd,A11,idebenone
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,idecabtagene_vicleucel
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,idecabtagene_vicleucel
 Antineoplastic cell and gene therapy,ATC 4th,L01XL,idecabtagene_vicleucel
@@ -2630,22 +1759,6 @@ imlifidase; parenteral,ATC 5th,L04AA41,imlifidase
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,imlifidase
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,imlifidase
 Selective immunosuppressants,ATC 4th,L04AA,imlifidase
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,immunoglobulin_g
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,immunoglobulin_g
-DIAGNOSTIC AGENTS,ATC 2nd,V04,immunoglobulin_g
-histamine dihydrochloride; parenteral,ATC 5th,L03AX14,immunoglobulin_g
-histamine phosphate; systemic,ATC 5th,V04CG03,immunoglobulin_g
-IMMUNE SERA AND IMMUNOGLOBULINS,ATC 2nd,J06,immunoglobulin_g
-IMMUNOGLOBULINS,ATC 3rd,J06B,immunoglobulin_g
-"Immunoglobulins, normal human",ATC 4th,J06BA,immunoglobulin_g
-"immunoglobulins, normal human, for extravascular adm.; systemic",ATC 5th,J06BA01,immunoglobulin_g
-"immunoglobulins, normal human, for intravascular adm.; systemic",ATC 5th,J06BA02,immunoglobulin_g
-IMMUNOSTIMULANTS,ATC 2nd,L03,immunoglobulin_g
-IMMUNOSTIMULANTS,ATC 3rd,L03A,immunoglobulin_g
-OTHER DIAGNOSTIC AGENTS,ATC 3rd,V04C,immunoglobulin_g
-Other immunostimulants,ATC 4th,L03AX,immunoglobulin_g
-Tests for gastric secretion,ATC 4th,V04CG,immunoglobulin_g
-VARIOUS,ATC 1st,V,immunoglobulin_g
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,indinavir
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,indinavir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,indinavir
@@ -2684,34 +1797,6 @@ IMMUNOSTIMULANTS,ATC 2nd,L03,interferon_alfa_2a
 IMMUNOSTIMULANTS,ATC 3rd,L03A,interferon_alfa_2a
 interferon alfa-2a; parenteral,ATC 5th,L03AB04,interferon_alfa_2a
 Interferons,ATC 4th,L03AB,interferon_alfa_2a
-ANTIINFECTIVES,ATC 3rd,S01A,interferon_alfa_2b
-ANTIINFECTIVES,ATC 3rd,S02A,interferon_alfa_2b
-ANTIINFECTIVES,ATC 3rd,S03A,interferon_alfa_2b
-Antiinfectives,ATC 4th,B05CA,interferon_alfa_2b
-Antiinfectives,ATC 4th,S02AA,interferon_alfa_2b
-Antiinfectives,ATC 4th,S03AA,interferon_alfa_2b
-antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,interferon_alfa_2b
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,interferon_alfa_2b
-"antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,interferon_alfa_2b
-"antiinfectives, combinations; otic",ATC 5th,S02AA30,interferon_alfa_2b
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,interferon_alfa_2b
-Antivirals,ATC 4th,S01AD,interferon_alfa_2b
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,interferon_alfa_2b
-Antivirals for treatment of HCV infections,ATC 4th,J05AP,interferon_alfa_2b
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,interferon_alfa_2b
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,interferon_alfa_2b
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,interferon_alfa_2b
-IMMUNOSTIMULANTS,ATC 2nd,L03,interferon_alfa_2b
-IMMUNOSTIMULANTS,ATC 3rd,L03A,interferon_alfa_2b
-interferon alfa-2b; parenteral,ATC 5th,L03AB05,interferon_alfa_2b
-interferon; ophthalmic,ATC 5th,S01AD05,interferon_alfa_2b
-Interferons,ATC 4th,L03AB,interferon_alfa_2b
-IRRIGATING SOLUTIONS,ATC 3rd,B05C,interferon_alfa_2b
-OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,interferon_alfa_2b
-OPHTHALMOLOGICALS,ATC 2nd,S01,interferon_alfa_2b
-OTOLOGICALS,ATC 2nd,S02,interferon_alfa_2b
-"ribavirin; inhalant, oral",ATC 5th,J05AP01,interferon_alfa_2b
-SENSORY ORGANS,ATC 1st,S,interferon_alfa_2b
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,interferon_alfa_n3
 IMMUNOSTIMULANTS,ATC 2nd,L03,interferon_alfa_n3
 IMMUNOSTIMULANTS,ATC 3rd,L03A,interferon_alfa_n3
@@ -2722,12 +1807,6 @@ IMMUNOSTIMULANTS,ATC 2nd,L03,interferon_beta
 IMMUNOSTIMULANTS,ATC 3rd,L03A,interferon_beta
 interferon beta natural; parenteral,ATC 5th,L03AB02,interferon_beta
 Interferons,ATC 4th,L03AB,interferon_beta
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,invertase
-diastase; oral,ATC 5th,A09AA01,invertase
-"DIGESTIVES, INCL. ENZYMES",ATC 2nd,A09,invertase
-"DIGESTIVES, INCL. ENZYMES",ATC 3rd,A09A,invertase
-Enzyme preparations,ATC 4th,A09AA,invertase
-tilactase; oral,ATC 5th,A09AA04,invertase
 [U] ipilimumab,ATC 5th,L01XC11,ipilimumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,ipilimumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,ipilimumab
@@ -2773,11 +1852,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,ixazomib
 ixazomib; oral,ATC 5th,L01XG03,ixazomib
 OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,ixazomib
 Proteasome inhibitors,ATC 4th,L01XG,ixazomib
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,ixekizumab
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,ixekizumab
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,ixekizumab
-Interleukin inhibitors,ATC 4th,L04AC,ixekizumab
-ixekizumab; parenteral,ATC 5th,L04AC13,ixekizumab
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,lanadelumab
 Drugs used in hereditary angioedema,ATC 4th,B06AC,lanadelumab
 lanadelumab; parenteral,ATC 5th,B06AC05,lanadelumab
@@ -2813,60 +1887,6 @@ DERMATOLOGICALS,ATC 1st,D,lebrikizumab
 lebrikizumab; parenteral,ATC 5th,D11AH10,lebrikizumab
 OTHER DERMATOLOGICAL PREPARATIONS,ATC 2nd,D11,lebrikizumab
 OTHER DERMATOLOGICAL PREPARATIONS,ATC 3rd,D11A,lebrikizumab
-ANTIINFECTIVES,ATC 3rd,S02A,ledipasvir
-ANTIINFECTIVES,ATC 3rd,S03A,ledipasvir
-Antiinfectives,ATC 4th,B05CA,ledipasvir
-Antiinfectives,ATC 4th,S02AA,ledipasvir
-Antiinfectives,ATC 4th,S03AA,ledipasvir
-antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,ledipasvir
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,ledipasvir
-"antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,ledipasvir
-"antiinfectives, combinations; otic",ATC 5th,S02AA30,ledipasvir
-ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S01C,ledipasvir
-"Antiinflammatory agents, non-steroids and antiinfectives in combination",ATC 4th,S01CC,ledipasvir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,ledipasvir
-Antivirals for treatment of HCV infections,ATC 4th,J05AP,ledipasvir
-betamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA05,ledipasvir
-"betamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA06,ledipasvir
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,ledipasvir
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,ledipasvir
-chloroprednisone and antiinfectives; ophthalmic,ATC 5th,S01CA09,ledipasvir
-clobetasone and antiinfectives; ophthalmic,ATC 5th,S01CA11,ledipasvir
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S02C,ledipasvir
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S03C,ledipasvir
-Corticosteroids and antiinfectives in combination,ATC 4th,S01CA,ledipasvir
-Corticosteroids and antiinfectives in combination,ATC 4th,S02CA,ledipasvir
-Corticosteroids and antiinfectives in combination,ATC 4th,S03CA,ledipasvir
-dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,ledipasvir
-"dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,ledipasvir
-dexamethasone and antiinfectives; otic,ATC 5th,S02CA06,ledipasvir
-diclofenac and antiinfectives; ophthalmic,ATC 5th,S01CC01,ledipasvir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,ledipasvir
-fludrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA06,ledipasvir
-"fludrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA05,ledipasvir
-fludrocortisone and antiinfectives; otic,ATC 5th,S02CA07,ledipasvir
-flumetasone and antiinfectives; otic,ATC 5th,S02CA02,ledipasvir
-fluocinolone acetonide and antiinfectives; ophthalmic,ATC 5th,S01CA10,ledipasvir
-fluocinolone acetonide and antiinfectives; otic,ATC 5th,S02CA05,ledipasvir
-fluocortolone and antiinfectives; ophthalmic,ATC 5th,S01CA04,ledipasvir
-fluorometholone and antiinfectives; ophthalmic,ATC 5th,S01CA07,ledipasvir
-hydrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA03,ledipasvir
-"hydrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA04,ledipasvir
-hydrocortisone and antiinfectives; otic,ATC 5th,S02CA03,ledipasvir
-indometacin and antiinfectives; ophthalmic,ATC 5th,S01CC02,ledipasvir
-IRRIGATING SOLUTIONS,ATC 3rd,B05C,ledipasvir
-loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,ledipasvir
-methylprednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA08,ledipasvir
-"methylprednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA07,ledipasvir
-OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,ledipasvir
-OTOLOGICALS,ATC 2nd,S02,ledipasvir
-prednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA02,ledipasvir
-"prednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA02,ledipasvir
-prednisolone and antiinfectives; otic,ATC 5th,S02CA01,ledipasvir
-SENSORY ORGANS,ATC 1st,S,ledipasvir
-sofosbuvir and ledipasvir; systemic,ATC 5th,J05AP51,ledipasvir
-sofosbuvir; oral,ATC 5th,J05AP08,ledipasvir
-triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,ledipasvir
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,lenacapavir
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,lenacapavir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,lenacapavir
@@ -2899,138 +1919,6 @@ letermovir; oral,ATC 5th,J05AX18,letermovir
 Other antivirals,ATC 4th,J05AX,letermovir
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,letetresgene_autoleucel
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,letetresgene_autoleucel
-ANTIBACTERIALS FOR SYSTEMIC USE,ATC 2nd,J01,levofloxacin
-Antibiotics,ATC 4th,S01AA,levofloxacin
-antibiotics in combination with other drugs; ophthalmic,ATC 5th,S01AA20,levofloxacin
-ANTIINFECTIVES,ATC 3rd,S01A,levofloxacin
-ANTIINFECTIVES,ATC 3rd,S02A,levofloxacin
-ANTIINFECTIVES,ATC 3rd,S03A,levofloxacin
-Antiinfectives,ATC 4th,B05CA,levofloxacin
-Antiinfectives,ATC 4th,S02AA,levofloxacin
-Antiinfectives,ATC 4th,S03AA,levofloxacin
-antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,levofloxacin
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,levofloxacin
-"antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,levofloxacin
-"antiinfectives, combinations; otic",ATC 5th,S02AA30,levofloxacin
-ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S01C,levofloxacin
-"Antiinflammatory agents, non-steroids and antiinfectives in combination",ATC 4th,S01CC,levofloxacin
-beclometasone and antibiotics; topical,ATC 5th,D07CC04,levofloxacin
-betamethasone and antibiotics; topical,ATC 5th,D07CC01,levofloxacin
-betamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA05,levofloxacin
-"betamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA06,levofloxacin
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,levofloxacin
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,levofloxacin
-chloroprednisone and antiinfectives; ophthalmic,ATC 5th,S01CA09,levofloxacin
-clobetasol and antibiotics; topical,ATC 5th,D07CD01,levofloxacin
-clobetasone and antiinfectives; ophthalmic,ATC 5th,S01CA11,levofloxacin
-Combinations for eradication of Helicobacter pylori,ATC 4th,A02BD,levofloxacin
-COMBINATIONS OF ANTIBACTERIALS,ATC 3rd,J01R,levofloxacin
-Combinations of antibacterials,ATC 4th,J01RA,levofloxacin
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S02C,levofloxacin
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S03C,levofloxacin
-Corticosteroids and antiinfectives in combination,ATC 4th,S01CA,levofloxacin
-Corticosteroids and antiinfectives in combination,ATC 4th,S02CA,levofloxacin
-Corticosteroids and antiinfectives in combination,ATC 4th,S03CA,levofloxacin
-"CORTICOSTEROIDS, COMBINATIONS WITH ANTIBIOTICS",ATC 3rd,D07C,levofloxacin
-"Corticosteroids, moderately potent, combinations with antibiotics",ATC 4th,D07CB,levofloxacin
-"Corticosteroids, potent, combinations with antibiotics",ATC 4th,D07CC,levofloxacin
-"Corticosteroids, very potent, combinations with antibiotics",ATC 4th,D07CD,levofloxacin
-"Corticosteroids, weak, combinations with antibiotics",ATC 4th,D07CA,levofloxacin
-dexamethasone and antibiotics; topical,ATC 5th,D07CB04,levofloxacin
-dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,levofloxacin
-"dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,levofloxacin
-dexamethasone and antiinfectives; otic,ATC 5th,S02CA06,levofloxacin
-diclofenac and antiinfectives; ophthalmic,ATC 5th,S01CC01,levofloxacin
-DRUGS FOR PEPTIC ULCER AND GASTRO-OESOPHAGEAL REFLUX DISEASE (GORD),ATC 3rd,A02B,levofloxacin
-electrolytes with carbohydrates; parenteral,ATC 5th,B05BB02,levofloxacin
-electrolytes; parenteral,ATC 5th,B05BB01,levofloxacin
-fludrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA06,levofloxacin
-"fludrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA05,levofloxacin
-fludrocortisone and antiinfectives; otic,ATC 5th,S02CA07,levofloxacin
-fludroxycortide and antibiotics; topical,ATC 5th,D07CC03,levofloxacin
-flumetasone and antibiotics; topical,ATC 5th,D07CB05,levofloxacin
-flumetasone and antiinfectives; otic,ATC 5th,S02CA02,levofloxacin
-fluocinolone acetonide and antibiotics; topical,ATC 5th,D07CC02,levofloxacin
-fluocinolone acetonide and antiinfectives; ophthalmic,ATC 5th,S01CA10,levofloxacin
-fluocinolone acetonide and antiinfectives; otic,ATC 5th,S02CA05,levofloxacin
-fluocinonide and antibiotics; topical,ATC 5th,D07CC05,levofloxacin
-fluocortolone and antibiotics; topical,ATC 5th,D07CC06,levofloxacin
-fluocortolone and antiinfectives; ophthalmic,ATC 5th,S01CA04,levofloxacin
-fluorometholone and antibiotics; topical,ATC 5th,D07CB03,levofloxacin
-fluorometholone and antiinfectives; ophthalmic,ATC 5th,S01CA07,levofloxacin
-Fluoroquinolones,ATC 4th,J01MA,levofloxacin
-Fluoroquinolones,ATC 4th,S01AE,levofloxacin
-fluprednidene and antibiotics; topical,ATC 5th,D07CB02,levofloxacin
-"glucose, combinations; parenteral",ATC 5th,C05BB56,levofloxacin
-hydrocortisone and antibiotics; topical,ATC 5th,D07CA01,levofloxacin
-hydrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA03,levofloxacin
-"hydrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA04,levofloxacin
-hydrocortisone and antiinfectives; otic,ATC 5th,S02CA03,levofloxacin
-indometacin and antiinfectives; ophthalmic,ATC 5th,S01CC02,levofloxacin
-IRRIGATING SOLUTIONS,ATC 3rd,B05C,levofloxacin
-"lansoprazole, amoxicillin and levofloxacin; systemic",ATC 5th,A02BD10,levofloxacin
-levofloxacin and ornidazole; systemic,ATC 5th,J01RA05,levofloxacin
-levofloxacin; ophthalmic,ATC 5th,S01AE05,levofloxacin
-levofloxacin; systemic,ATC 5th,J01MA12,levofloxacin
-loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,levofloxacin
-methylprednisolone and antibiotics; topical,ATC 5th,D07CA02,levofloxacin
-methylprednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA08,levofloxacin
-"methylprednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA07,levofloxacin
-ofloxacin; systemic,ATC 5th,J01MA01,levofloxacin
-OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,levofloxacin
-OPHTHALMOLOGICALS,ATC 2nd,S01,levofloxacin
-OTOLOGICALS,ATC 2nd,S02,levofloxacin
-"penicillins, combinations with other antibacterials; systemic",ATC 5th,J01RA01,levofloxacin
-prednisolone and antibiotics; topical,ATC 5th,D07CA03,levofloxacin
-prednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA02,levofloxacin
-"prednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA02,levofloxacin
-prednisolone and antiinfectives; otic,ATC 5th,S02CA01,levofloxacin
-QUINOLONE ANTIBACTERIALS,ATC 3rd,J01M,levofloxacin
-SENSORY ORGANS,ATC 1st,S,levofloxacin
-"sulfonamides, combinations with other antibacterials (excl. trimethoprim); systemic",ATC 5th,J01RA02,levofloxacin
-triamcinolone and antibiotics; topical,ATC 5th,D07CB01,levofloxacin
-triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,levofloxacin
-Acid preparations,ATC 4th,A09AB,liothyronine
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,liothyronine
-ANABOLIC AGENTS FOR SYSTEMIC USE,ATC 2nd,A14,liothyronine
-ANABOLIC STEROIDS,ATC 3rd,A14A,liothyronine
-Androstan derivatives,ATC 4th,A14AA,liothyronine
-BILE AND LIVER THERAPY,ATC 2nd,A05,liothyronine
-calcium (different salts in combination); oral,ATC 5th,A12AA20,liothyronine
-"calcium dobesilate, combinations; oral, topical",ATC 5th,C05BX51,liothyronine
-CALCIUM HOMEOSTASIS,ATC 2nd,H05,liothyronine
-combinations of corticosteroids; topical,ATC 5th,D07AB30,liothyronine
-combinations of corticosteroids; topical,ATC 5th,D07XB30,liothyronine
-combinations of levothyroxine and liothyronine; systemic,ATC 5th,H03AA03,liothyronine
-"CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS",ATC 2nd,D07,liothyronine
-"Corticosteroids, moderately potent (group II)",ATC 4th,D07AB,liothyronine
-"Corticosteroids, moderately potent, other combinations",ATC 4th,D07XB,liothyronine
-"CORTICOSTEROIDS, OTHER COMBINATIONS",ATC 3rd,D07X,liothyronine
-"CORTICOSTEROIDS, PLAIN",ATC 3rd,D07A,liothyronine
-"cyanocobalamin, combinations; systemic",ATC 5th,B03BA51,liothyronine
-DERMATOLOGICALS,ATC 1st,D,liothyronine
-"DIGESTIVES, INCL. ENZYMES",ATC 2nd,A09,liothyronine
-"DIGESTIVES, INCL. ENZYMES",ATC 3rd,A09A,liothyronine
-flumetasone; topical,ATC 5th,D07XB01,liothyronine
-glutamic acid hydrochloride; oral,ATC 5th,A09AB01,liothyronine
-"heparin, combinations; parenteral",ATC 5th,B01AB51,liothyronine
-Iron in other combinations,ATC 4th,B03AE,liothyronine
-iron in other combinations - various combinations; systemic,ATC 5th,B03AE10,liothyronine
-liothyronine sodium; systemic,ATC 5th,H03AA02,liothyronine
-Liver therapy,ATC 4th,A05BA,liothyronine
-"LIVER THERAPY, LIPOTROPICS",ATC 3rd,A05B,liothyronine
-metadoxine; systemic,ATC 5th,A05BA09,liothyronine
-metenolone; systemic,ATC 5th,A14AA04,liothyronine
-parathyroid gland extract; systemic,ATC 5th,H05AA01,liothyronine
-PARATHYROID HORMONES AND ANALOGUES,ATC 3rd,H05A,liothyronine
-Parathyroid hormones and analogues,ATC 4th,H05AA,liothyronine
-"procaine, combinations; parenteral",ATC 5th,N01BA52,liothyronine
-"SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS",ATC 1st,H,liothyronine
-Thyroid hormones,ATC 4th,H03AA,liothyronine
-THYROID PREPARATIONS,ATC 3rd,H03A,liothyronine
-THYROID THERAPY,ATC 2nd,H03,liothyronine
-Vitamin B12 (cyanocobalamin and analogues),ATC 4th,B03BA,liothyronine
-VITAMIN B12 AND FOLIC ACID,ATC 3rd,B03B,liothyronine
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,lisocabtagene_maraleucel
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,lisocabtagene_maraleucel
 Antineoplastic cell and gene therapy,ATC 4th,L01XL,lisocabtagene_maraleucel
@@ -3046,11 +1934,6 @@ lonafarnib; oral,ATC 5th,A16AX20,lonafarnib
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,lonafarnib
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,lonafarnib
 Various alimentary tract and metabolism products,ATC 4th,A16AX,lonafarnib
-ANTERIOR PITUITARY LOBE HORMONES AND ANALOGUES,ATC 3rd,H01A,lonapegsomatropin
-lonapegsomatropin; parenteral,ATC 5th,H01AC09,lonapegsomatropin
-PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES,ATC 2nd,H01,lonapegsomatropin
-Somatropin and somatropin agonists,ATC 4th,H01AC,lonapegsomatropin
-"SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS",ATC 1st,H,lonapegsomatropin
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,lopinavir
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,lopinavir
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,lopinavir
@@ -3071,125 +1954,19 @@ BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,luspatercept
 luspatercept; parenteral,ATC 5th,B03XA06,luspatercept
 OTHER ANTIANEMIC PREPARATIONS,ATC 3rd,B03X,luspatercept
 Other antianemic preparations,ATC 4th,B03XA,luspatercept
-ANTIHEMORRHAGICS,ATC 2nd,B02,lusutrombopag
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,lusutrombopag
-lusutrombopag; systemic,ATC 5th,B02BX07,lusutrombopag
-Other systemic hemostatics,ATC 4th,B02BX,lusutrombopag
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,lusutrombopag
-DIAGNOSTIC AGENTS,ATC 2nd,V04,macimorelin
-macimorelin,ATC 5th,V04CD06,macimorelin
-OTHER DIAGNOSTIC AGENTS,ATC 3rd,V04C,macimorelin
-Tests for pituitary function,ATC 4th,V04CD,macimorelin
-VARIOUS,ATC 1st,V,macimorelin
 ANTIHYPERTENSIVES,ATC 2nd,C02,macitentan
 Antihypertensives for pulmonary arterial hypertension,ATC 4th,C02KX,macitentan
 CARDIOVASCULAR SYSTEM,ATC 1st,C,macitentan
 macitentan and tadalafil; oral,ATC 5th,C02KX54,macitentan
 macitentan; oral,ATC 5th,C02KX04,macitentan
 OTHER ANTIHYPERTENSIVES,ATC 3rd,C02K,macitentan
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,magrolimab
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,magrolimab
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,mannitol
-ALKYLATING AGENTS,ATC 3rd,L01A,mannitol
-ANTIANEMIC PREPARATIONS,ATC 2nd,B03,mannitol
-ANTIDEPRESSANTS,ATC 3rd,N06A,mannitol
-ANTIEPILEPTICS,ATC 2nd,N03,mannitol
-ANTIEPILEPTICS,ATC 3rd,N03A,mannitol
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,mannitol
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,mannitol
-Barbiturates and derivatives,ATC 4th,N03AA,mannitol
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,mannitol
-BLOOD AND RELATED PRODUCTS,ATC 3rd,B05A,mannitol
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,mannitol
-Blood substitutes and plasma protein fractions,ATC 4th,B05AA,mannitol
-CALCIUM,ATC 3rd,A12A,mannitol
-Calcium,ATC 4th,A12AA,mannitol
-calcium (different salts in combination); oral,ATC 5th,A12AA20,mannitol
-"calcium dobesilate, combinations; oral, topical",ATC 5th,C05BX51,mannitol
-Carbamide products,ATC 4th,D02AE,mannitol
-"carbamide, combinations; topical",ATC 5th,D02AE51,mannitol
-combinations of electrolytes; parenteral,ATC 5th,B05XA30,mannitol
-combinations of imidazole derivatives; vaginal,ATC 5th,G01AF20,mannitol
-combinations of xanthines; systemic,ATC 5th,R03DA20,mannitol
-COUGH AND COLD PREPARATIONS,ATC 2nd,R05,mannitol
-"COUGH SUPPRESSANTS AND EXPECTORANTS, COMBINATIONS",ATC 3rd,R05F,mannitol
-cough suppressants and expectorants; systemic,ATC 5th,R05FB02,mannitol
-cough suppressants and mucolytics; systemic,ATC 5th,R05FB01,mannitol
-"COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS",ATC 3rd,R05D,mannitol
-cyclophosphamide; systemic,ATC 5th,L01AA01,mannitol
-DERMATOLOGICALS,ATC 1st,D,mannitol
-dextran; parenteral,ATC 5th,B05AA05,mannitol
-DIAGNOSTIC AGENTS,ATC 2nd,V04,mannitol
-DRUGS FOR CONSTIPATION,ATC 2nd,A06,mannitol
-DRUGS FOR CONSTIPATION,ATC 3rd,A06A,mannitol
-DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES,ATC 2nd,R03,mannitol
-Electrolyte solutions,ATC 4th,B05XA,mannitol
-electrolytes in combination with other drugs; parenteral,ATC 5th,B05BB04,mannitol
-electrolytes in combination with other drugs; parenteral,ATC 5th,B05XA31,mannitol
-electrolytes with carbohydrates; parenteral,ATC 5th,B05BB02,mannitol
-electrolytes; parenteral,ATC 5th,B05BB01,mannitol
-EMOLLIENTS AND PROTECTIVES,ATC 2nd,D02,mannitol
-EMOLLIENTS AND PROTECTIVES,ATC 3rd,D02A,mannitol
-"EXPECTORANTS, EXCL. COMBINATIONS WITH COUGH SUPPRESSANTS",ATC 3rd,R05C,mannitol
-"glucose, combinations; parenteral",ATC 5th,C05BB56,mannitol
-I.V. SOLUTION ADDITIVES,ATC 3rd,B05X,mannitol
-I.V. SOLUTIONS,ATC 3rd,B05B,mannitol
-IRRIGATING SOLUTIONS,ATC 3rd,B05C,mannitol
-Magnesium,ATC 4th,A12CC,mannitol
-magnesium pidolate; systemic,ATC 5th,A12CC08,mannitol
-mannitol; inhalant,ATC 5th,R05CB16,mannitol
-mannitol; irrigating solution,ATC 5th,B05CX04,mannitol
-mannitol; oral,ATC 5th,A06AD16,mannitol
-mannitol; parenteral,ATC 5th,B05BC01,mannitol
-mannitol; systemic,ATC 5th,V04CX04,mannitol
-mecobalamin; systemic,ATC 5th,B03BA05,mannitol
-mineral salts in combination; oral,ATC 5th,A06AD10,mannitol
-MINERAL SUPPLEMENTS,ATC 2nd,A12,mannitol
-Mucolytics,ATC 4th,R05CB,mannitol
-mucolytics - combinations,ATC 5th,R05CB10,mannitol
-NERVOUS SYSTEM,ATC 1st,N,mannitol
-Nitrogen mustard analogues,ATC 4th,L01AA,mannitol
-Osmotically acting laxatives,ATC 4th,A06AD,mannitol
-Other antidepressants,ATC 4th,N06AX,mannitol
-Other cough suppressants,ATC 4th,R05DB,mannitol
-other cough suppressants - combinations,ATC 5th,R05DB20,mannitol
-Other cough suppressants and expectorants,ATC 4th,R05FB,mannitol
-OTHER DIAGNOSTIC AGENTS,ATC 3rd,V04C,mannitol
-Other diagnostic agents,ATC 4th,V04CX,mannitol
-Other irrigating solutions,ATC 4th,B05CX,mannitol
-other irrigating solutions - combinations; irrigating solution,ATC 5th,B05CX10,mannitol
-OTHER MINERAL SUPPLEMENTS,ATC 3rd,A12C,mannitol
-OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES,ATC 3rd,R03D,mannitol
-phenobarbital; systemic,ATC 5th,N03AA02,mannitol
-"potassium, combinations; systemic",ATC 5th,A12BA51,mannitol
-"procaine, combinations; parenteral",ATC 5th,N01BA52,mannitol
-PSYCHOANALEPTICS,ATC 2nd,N06,mannitol
-RESPIRATORY SYSTEM,ATC 1st,R,mannitol
-"sodium picosulfate, combinations; oral, topical",ATC 5th,A06AB58,mannitol
-Solutions affecting the electrolyte balance,ATC 4th,B05BB,mannitol
-Solutions producing osmotic diuresis,ATC 4th,B05BC,mannitol
-"theophylline, combinations excl. psycholeptics; systemic",ATC 5th,R03DA54,mannitol
-"theophylline, combinations with psycholeptics; systemic",ATC 5th,R03DA74,mannitol
-tryptophan; systemic,ATC 5th,N06AX02,mannitol
-VARIOUS,ATC 1st,V,mannitol
-Vitamin B12 (cyanocobalamin and analogues),ATC 4th,B03BA,mannitol
-VITAMIN B12 AND FOLIC ACID,ATC 3rd,B03B,mannitol
-Xanthines,ATC 4th,R03DA,mannitol
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,maralixibat
-BILE AND LIVER THERAPY,ATC 2nd,A05,maralixibat
-BILE THERAPY,ATC 3rd,A05A,maralixibat
 maralixibat chloride; systemic,ATC 5th,A05AX04,maralixibat
-Other drugs for bile therapy,ATC 4th,A05AX,maralixibat
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,maraviroc
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,maraviroc
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,maraviroc
 maraviroc; oral,ATC 5th,J05AX09,maraviroc
 Other antivirals,ATC 4th,J05AX,maraviroc
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,maribavir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,maribavir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,maribavir
 maribavir; systemic,ATC 5th,J05AX10,maribavir
-Other antivirals,ATC 4th,J05AX,maribavir
 ANTIHEMORRHAGICS,ATC 2nd,B02,marstacimab
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,marstacimab
 marstacimab,ATC 5th,B02BX11,marstacimab
@@ -3343,11 +2120,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,mogamulizumab
 mogamulizumab; parenteral,ATC 5th,L01FX09,mogamulizumab
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,mogamulizumab
 Other monoclonal antibodies and antibody drug conjugates,ATC 4th,L01FX,mogamulizumab
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,molnupiravir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,molnupiravir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,molnupiravir
-molnupiravir; oral,ATC 5th,J05AB18,molnupiravir
-Nucleosides and nucleotides excl. reverse transcriptase inhibitors,ATC 4th,J05AB,molnupiravir
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,momelotinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,momelotinib
 Janus-associated kinase (JAK) inhibitors,ATC 4th,L01EJ,momelotinib
@@ -3358,21 +2130,11 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,mosunetuzumab
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,mosunetuzumab
 mosunetuzumab; parenteral,ATC 5th,L01FX25,mosunetuzumab
 Other monoclonal antibodies and antibody drug conjugates,ATC 4th,L01FX,mosunetuzumab
-ANESTHETICS,ATC 2nd,N01,mycophenolate_mofetil
-"ANESTHETICS, LOCAL",ATC 3rd,N01B,mycophenolate_mofetil
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,mycophenolate_mofetil
-ANTIVARICOSE THERAPY,ATC 3rd,C05B,mycophenolate_mofetil
-CARDIOVASCULAR SYSTEM,ATC 1st,C,mycophenolate_mofetil
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,mycophenolate_mofetil
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,mycophenolate_mofetil
 mycophenolic acid; systemic,ATC 5th,L04AA06,mycophenolate_mofetil
-NERVOUS SYSTEM,ATC 1st,N,mycophenolate_mofetil
-Other local anesthetics,ATC 4th,N01BX,mycophenolate_mofetil
-phenol; parenteral,ATC 5th,C05BB05,mycophenolate_mofetil
-phenol; parenteral,ATC 5th,N01BX03,mycophenolate_mofetil
-Sclerosing agents for local injection,ATC 4th,C05BB,mycophenolate_mofetil
 Selective immunosuppressants,ATC 4th,L04AA,mycophenolate_mofetil
-VASOPROTECTIVES,ATC 2nd,C05,mycophenolate_mofetil
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,mycophenolic_acid
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,mycophenolic_acid
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,mycophenolic_acid
@@ -3429,16 +2191,6 @@ nevirapine; oral,ATC 5th,J05AG01,nevirapine
 Non-nucleoside reverse transcriptase inhibitors,ATC 4th,J05AG,nevirapine
 "stavudine, lamivudine and nevirapine; systemic",ATC 5th,J05AR07,nevirapine
 "zidovudine, lamivudine and nevirapine; systemic",ATC 5th,J05AR05,nevirapine
-CALCIUM CHANNEL BLOCKERS,ATC 2nd,C08,nicardipine
-CARDIOVASCULAR SYSTEM,ATC 1st,C,nicardipine
-Dihydropyridine derivatives,ATC 4th,C08CA,nicardipine
-NERVOUS SYSTEM,ATC 1st,N,nicardipine
-nicardipine; systemic,ATC 5th,C08CA04,nicardipine
-Other psychostimulants and nootropics,ATC 4th,N06BX,nicardipine
-PSYCHOANALEPTICS,ATC 2nd,N06,nicardipine
-"PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS",ATC 3rd,N06B,nicardipine
-pyritinol; oral,ATC 5th,N06BX02,nicardipine
-SELECTIVE CALCIUM CHANNEL BLOCKERS WITH MAINLY VASCULAR EFFECTS,ATC 3rd,C08C,nicardipine
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,nilotinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,nilotinib
 BCR-ABL tyrosine kinase inhibitors,ATC 4th,L01EA,nilotinib
@@ -3455,11 +2207,6 @@ niraparib and abiraterone; oral,ATC 5th,L01XK52,niraparib
 niraparib; oral,ATC 5th,L01XK02,niraparib
 OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,niraparib
 Poly (ADP-ribose) polymerase (PARP) inhibitors,ATC 4th,L01XK,niraparib
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,nirsevimab
-Antiviral monoclonal antibodies,ATC 4th,J06BD,nirsevimab
-IMMUNE SERA AND IMMUNOGLOBULINS,ATC 2nd,J06,nirsevimab
-IMMUNOGLOBULINS,ATC 3rd,J06B,nirsevimab
-nirsevimab; parenteral,ATC 5th,J06BD08,nirsevimab
 AGENTS AGAINST AMOEBIASIS AND OTHER PROTOZOAL DISEASES,ATC 3rd,P01A,nitazoxanide
 ANTIINFECTIVES,ATC 3rd,S02A,nitazoxanide
 ANTIINFECTIVES,ATC 3rd,S03A,nitazoxanide
@@ -3518,16 +2265,11 @@ nitisinone; oral,ATC 5th,A16AX04,nitisinone
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,nitisinone
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,nitisinone
 Various alimentary tract and metabolism products,ATC 4th,A16AX,nitisinone
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,nitric_oxide
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,nitric_oxide
-Medical gases,ATC 4th,V03AN,nitric_oxide
 nitric oxide; inhalant,ATC 5th,R07AX01,nitric_oxide
-nitrogen; inhalant,ATC 5th,V03AN04,nitric_oxide
 OTHER RESPIRATORY SYSTEM PRODUCTS,ATC 2nd,R07,nitric_oxide
 OTHER RESPIRATORY SYSTEM PRODUCTS,ATC 3rd,R07A,nitric_oxide
 Other respiratory system products,ATC 4th,R07AX,nitric_oxide
 RESPIRATORY SYSTEM,ATC 1st,R,nitric_oxide
-VARIOUS,ATC 1st,V,nitric_oxide
 [U] nivolumab; parenteral,ATC 5th,L01XC17,nivolumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,nivolumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,nivolumab
@@ -3568,21 +2310,12 @@ IMMUNOSUPPRESSANTS,ATC 3rd,L04A,ocrelizumab
 Monoclonal antibodies,ATC 4th,L04AG,ocrelizumab
 ocrelizumab; parenteral,ATC 5th,L04AG08,ocrelizumab
 Selective immunosuppressants,ATC 4th,L04AA,ocrelizumab
-ocriplasmin; ophthalmic,ATC 5th,S01XA22,ocriplasmin
-OPHTHALMOLOGICALS,ATC 2nd,S01,ocriplasmin
-OTHER OPHTHALMOLOGICALS,ATC 3rd,S01X,ocriplasmin
-Other ophthalmologicals,ATC 4th,S01XA,ocriplasmin
-SENSORY ORGANS,ATC 1st,S,ocriplasmin
 HYPOTHALAMIC HORMONES,ATC 3rd,H01C,octreotide
 octreotide; parenteral,ATC 5th,H01CB02,octreotide
 PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES,ATC 2nd,H01,octreotide
 Somatostatin and analogues,ATC 4th,H01CB,octreotide
 "SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS",ATC 1st,H,octreotide
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,odevixibat
-BILE AND LIVER THERAPY,ATC 2nd,A05,odevixibat
-BILE THERAPY,ATC 3rd,A05A,odevixibat
 odevixibat; systemic,ATC 5th,A05AX05,odevixibat
-Other drugs for bile therapy,ATC 4th,A05AX,odevixibat
 [U] ofatumumab; parenteral,ATC 5th,L01XC10,ofatumumab
 [U] ofatumumab; parenteral,ATC 5th,L04AA52,ofatumumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,ofatumumab
@@ -3610,11 +2343,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,olmutinib
 Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors,ATC 4th,L01EB,olmutinib
 olmutinib; oral,ATC 5th,L01EB06,olmutinib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,olmutinib
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,olokizumab
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,olokizumab
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,olokizumab
-Interleukin inhibitors,ATC 4th,L04AC,olokizumab
-olokizumab; parenteral,ATC 5th,L04AC23,olokizumab
 "Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics",ATC 4th,R03AK,omalizumab
 DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES,ATC 2nd,R03,omalizumab
 epinephrine and other drugs for obstructive airway diseases,ATC 5th,R03AK01,omalizumab
@@ -3623,69 +2351,11 @@ omalizumab; parenteral,ATC 5th,R03DX05,omalizumab
 OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES,ATC 3rd,R03D,omalizumab
 Other systemic drugs for obstructive airway diseases,ATC 4th,R03DX,omalizumab
 RESPIRATORY SYSTEM,ATC 1st,R,omalizumab
-ANTIINFECTIVES,ATC 3rd,S02A,ombitasvir
-ANTIINFECTIVES,ATC 3rd,S03A,ombitasvir
-Antiinfectives,ATC 4th,B05CA,ombitasvir
-Antiinfectives,ATC 4th,S02AA,ombitasvir
-Antiinfectives,ATC 4th,S03AA,ombitasvir
-antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,ombitasvir
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,ombitasvir
-"antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,ombitasvir
-"antiinfectives, combinations; otic",ATC 5th,S02AA30,ombitasvir
-ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S01C,ombitasvir
-"Antiinflammatory agents, non-steroids and antiinfectives in combination",ATC 4th,S01CC,ombitasvir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,ombitasvir
-Antivirals for treatment of HCV infections,ATC 4th,J05AP,ombitasvir
-betamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA05,ombitasvir
-"betamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA06,ombitasvir
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,ombitasvir
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,ombitasvir
-chloroprednisone and antiinfectives; ophthalmic,ATC 5th,S01CA09,ombitasvir
-clobetasone and antiinfectives; ophthalmic,ATC 5th,S01CA11,ombitasvir
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S02C,ombitasvir
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S03C,ombitasvir
-Corticosteroids and antiinfectives in combination,ATC 4th,S01CA,ombitasvir
-Corticosteroids and antiinfectives in combination,ATC 4th,S02CA,ombitasvir
-Corticosteroids and antiinfectives in combination,ATC 4th,S03CA,ombitasvir
-"dasabuvir, ombitasvir, paritaprevir and ritonavir; systemic",ATC 5th,J05AP52,ombitasvir
-dasabuvir; oral,ATC 5th,J05AP09,ombitasvir
-dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,ombitasvir
-"dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,ombitasvir
-dexamethasone and antiinfectives; otic,ATC 5th,S02CA06,ombitasvir
-diclofenac and antiinfectives; ophthalmic,ATC 5th,S01CC01,ombitasvir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,ombitasvir
-fludrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA06,ombitasvir
-"fludrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA05,ombitasvir
-fludrocortisone and antiinfectives; otic,ATC 5th,S02CA07,ombitasvir
-flumetasone and antiinfectives; otic,ATC 5th,S02CA02,ombitasvir
-fluocinolone acetonide and antiinfectives; ophthalmic,ATC 5th,S01CA10,ombitasvir
-fluocinolone acetonide and antiinfectives; otic,ATC 5th,S02CA05,ombitasvir
-fluocortolone and antiinfectives; ophthalmic,ATC 5th,S01CA04,ombitasvir
-fluorometholone and antiinfectives; ophthalmic,ATC 5th,S01CA07,ombitasvir
-hydrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA03,ombitasvir
-"hydrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA04,ombitasvir
-hydrocortisone and antiinfectives; otic,ATC 5th,S02CA03,ombitasvir
-indometacin and antiinfectives; ophthalmic,ATC 5th,S01CC02,ombitasvir
-IRRIGATING SOLUTIONS,ATC 3rd,B05C,ombitasvir
-loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,ombitasvir
-methylprednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA08,ombitasvir
-"methylprednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA07,ombitasvir
-"ombitasvir, paritaprevir and ritonavir; oral",ATC 5th,J05AP53,ombitasvir
-OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,ombitasvir
-OTOLOGICALS,ATC 2nd,S02,ombitasvir
-prednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA02,ombitasvir
-"prednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA02,ombitasvir
-prednisolone and antiinfectives; otic,ATC 5th,S02CA01,ombitasvir
-"ribavirin; inhalant, oral",ATC 5th,J05AP01,ombitasvir
-SENSORY ORGANS,ATC 1st,S,ombitasvir
-triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,ombitasvir
 MUSCULO-SKELETAL SYSTEM,ATC 1st,M,onasemnogene_abeparvovec
 onasemnogene abeparvovec; parenteral,ATC 5th,M09AX09,onasemnogene_abeparvovec
 OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM,ATC 2nd,M09,onasemnogene_abeparvovec
 OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM,ATC 3rd,M09A,onasemnogene_abeparvovec
 Other drugs for disorders of the musculo-skeletal system,ATC 4th,M09AX,onasemnogene_abeparvovec
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,opaganib
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,opaganib
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,orelabrutinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,orelabrutinib
 Bruton's tyrosine kinase (BTK) inhibitors,ATC 4th,L01EL,orelabrutinib
@@ -3708,13 +2378,6 @@ IMMUNOSUPPRESSANTS,ATC 3rd,L04A,ozanimod
 ozanimod; oral,ATC 5th,L04AE02,ozanimod
 Selective immunosuppressants,ATC 4th,L04AA,ozanimod
 Sphingosine-1-phosphate (S1P) receptor modulators,ATC 4th,L04AE,ozanimod
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,paclitaxel
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,paclitaxel
-paclitaxel and encequidar; parenteral,ATC 5th,L01CD51,paclitaxel
-paclitaxel poliglumex; parenteral,ATC 5th,L01CD03,paclitaxel
-paclitaxel; parenteral,ATC 5th,L01CD01,paclitaxel
-PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS,ATC 3rd,L01C,paclitaxel
-Taxanes,ATC 4th,L01CD,paclitaxel
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,pacritinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,pacritinib
 Janus-associated kinase (JAK) inhibitors,ATC 4th,L01EJ,pacritinib
@@ -3732,10 +2395,6 @@ IMMUNE SERA AND IMMUNOGLOBULINS,ATC 2nd,J06,palivizumab
 IMMUNOGLOBULINS,ATC 3rd,J06B,palivizumab
 palivizumab; parenteral,ATC 5th,J06BD01,palivizumab
 Specific immunoglobulins,ATC 4th,J06BB,palivizumab
-MUSCULO-SKELETAL SYSTEM,ATC 1st,M,palovarotene
-OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM,ATC 2nd,M09,palovarotene
-OTHER DRUGS FOR DISORDERS OF THE MUSCULO-SKELETAL SYSTEM,ATC 3rd,M09A,palovarotene
-Other drugs for disorders of the musculo-skeletal system,ATC 4th,M09AX,palovarotene
 palovarotene; systemic,ATC 5th,M09AX11,palovarotene
 [U] panitumumab; parenteral,ATC 5th,L01XC08,panitumumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,panitumumab
@@ -3758,14 +2417,8 @@ CALCIUM HOMEOSTASIS,ATC 2nd,H05,paricalcitol
 Other anti-parathyroid agents,ATC 4th,H05BX,paricalcitol
 paricalcitol; systemic,ATC 5th,H05BX02,paricalcitol
 "SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS",ATC 1st,H,paricalcitol
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,paritaprevir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,paritaprevir
-Antivirals for treatment of HCV infections,ATC 4th,J05AP,paritaprevir
 "dasabuvir, ombitasvir, paritaprevir and ritonavir; systemic",ATC 5th,J05AP52,paritaprevir
-dasabuvir; oral,ATC 5th,J05AP09,paritaprevir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,paritaprevir
 "ombitasvir, paritaprevir and ritonavir; oral",ATC 5th,J05AP53,paritaprevir
-"ribavirin; inhalant, oral",ATC 5th,J05AP01,paritaprevir
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,parsaclisib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,parsaclisib
 parsaclisib; oral,ATC 5th,L01EM05,parsaclisib
@@ -3801,26 +2454,17 @@ Other ophthalmologicals,ATC 4th,S01XA,pegcetacoplan
 pegcetacoplan; parenteral,ATC 5th,L04AJ03,pegcetacoplan
 pegcetacoplan; parenteral,ATC 5th,S01XA31,pegcetacoplan
 SENSORY ORGANS,ATC 1st,S,pegcetacoplan
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,peginterferon_alfa_2a
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,peginterferon_alfa_2a
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,peginterferon_alfa_2a
-Antivirals for treatment of HCV infections,ATC 4th,J05AP,peginterferon_alfa_2a
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,peginterferon_alfa_2a
 IMMUNOSTIMULANTS,ATC 2nd,L03,peginterferon_alfa_2a
 IMMUNOSTIMULANTS,ATC 3rd,L03A,peginterferon_alfa_2a
 Interferons,ATC 4th,L03AB,peginterferon_alfa_2a
 "peginterferon alfa-2a, combinations; parenteral",ATC 5th,L03AB61,peginterferon_alfa_2a
 peginterferon alfa-2a; parenteral,ATC 5th,L03AB11,peginterferon_alfa_2a
-"ribavirin; inhalant, oral",ATC 5th,J05AP01,peginterferon_alfa_2a
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,peginterferon_beta_1a
 IMMUNOSTIMULANTS,ATC 2nd,L03,peginterferon_beta_1a
 IMMUNOSTIMULANTS,ATC 3rd,L03A,peginterferon_beta_1a
 Interferons,ATC 4th,L03AB,peginterferon_beta_1a
 peginterferon beta-1a; parenteral,ATC 5th,L03AB13,peginterferon_beta_1a
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,pegunigalsidase_alfa
-Enzymes,ATC 4th,A16AB,pegunigalsidase_alfa
-OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,pegunigalsidase_alfa
-OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,pegunigalsidase_alfa
 pegunigalsidase alfa; systemic,ATC 5th,A16AB20,pegunigalsidase_alfa
 ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,pegvaliase
 Enzymes,ATC 4th,A16AB,pegvaliase
@@ -3854,19 +2498,13 @@ PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,pemigatinib
 [U] pertuzumab; parenteral,ATC 5th,L01XC13,pertuzumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,pertuzumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,pertuzumab
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,pertuzumab
 Combinations of antineoplastic agents,ATC 4th,L01XY,pertuzumab
 Combinations of monoclonal antibodies and antibody drug conjugates,ATC 4th,L01FY,pertuzumab
-Enzymes,ATC 4th,B06AA,pertuzumab
 HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors,ATC 4th,L01FD,pertuzumab
-hyaluronidase; parenteral,ATC 5th,B06AA03,pertuzumab
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,pertuzumab
 OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,pertuzumab
-OTHER HEMATOLOGICAL AGENTS,ATC 2nd,B06,pertuzumab
-OTHER HEMATOLOGICAL AGENTS,ATC 3rd,B06A,pertuzumab
 pertuzumab and trastuzumab; parenteral,ATC 5th,L01FY01,pertuzumab
 pertuzumab; parenteral,ATC 5th,L01FD02,pertuzumab
-trastuzumab; parenteral,ATC 5th,L01FD01,pertuzumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,pexidartinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,pexidartinib
 Other protein kinase inhibitors,ATC 4th,L01EX,pexidartinib
@@ -3878,13 +2516,10 @@ Antiinfectives,ATC 4th,B05CA,pibrentasvir
 Antiinfectives,ATC 4th,S02AA,pibrentasvir
 Antiinfectives,ATC 4th,S03AA,pibrentasvir
 antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,pibrentasvir
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,pibrentasvir
 "antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,pibrentasvir
 "antiinfectives, combinations; otic",ATC 5th,S02AA30,pibrentasvir
 ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S01C,pibrentasvir
 "Antiinflammatory agents, non-steroids and antiinfectives in combination",ATC 4th,S01CC,pibrentasvir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,pibrentasvir
-Antivirals for treatment of HCV infections,ATC 4th,J05AP,pibrentasvir
 betamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA05,pibrentasvir
 "betamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA06,pibrentasvir
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,pibrentasvir
@@ -3900,7 +2535,6 @@ dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,pibrentasvir
 "dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,pibrentasvir
 dexamethasone and antiinfectives; otic,ATC 5th,S02CA06,pibrentasvir
 diclofenac and antiinfectives; ophthalmic,ATC 5th,S01CC01,pibrentasvir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,pibrentasvir
 fludrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA06,pibrentasvir
 "fludrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA05,pibrentasvir
 fludrocortisone and antiinfectives; otic,ATC 5th,S02CA07,pibrentasvir
@@ -3935,11 +2569,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,pirtobrutinib
 Bruton's tyrosine kinase (BTK) inhibitors,ATC 4th,L01EL,pirtobrutinib
 pirtobrutinib; oral,ATC 5th,L01EL05,pirtobrutinib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,pirtobrutinib
-NERVOUS SYSTEM,ATC 1st,N,pitolisant
-OTHER NERVOUS SYSTEM DRUGS,ATC 2nd,N07,pitolisant
-OTHER NERVOUS SYSTEM DRUGS,ATC 3rd,N07X,pitolisant
-Other nervous system drugs,ATC 4th,N07XX,pitolisant
-pitolisant; oral,ATC 5th,N07XX11,pitolisant
 Anthracyclines and related substances,ATC 4th,L01DB,pixantrone
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,pixantrone
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,pixantrone
@@ -3956,49 +2585,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,polatuzumab_vedotin
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,polatuzumab_vedotin
 Other monoclonal antibodies and antibody drug conjugates,ATC 4th,L01FX,polatuzumab_vedotin
 polatuzumab vedotin; parenteral,ATC 5th,L01FX14,polatuzumab_vedotin
-Acid preparations,ATC 4th,A09AB,polihexanide
-AGENTS FOR TREATMENT OF HEMORRHOIDS AND ANAL FISSURES FOR TOPICAL USE,ATC 3rd,C05A,polihexanide
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,polihexanide
-Amino acids and derivatives,ATC 4th,A16AA,polihexanide
-ANTIINFECTIVES,ATC 3rd,S01A,polihexanide
-"antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,polihexanide
-ANTISEPTICS AND DISINFECTANTS,ATC 2nd,D08,polihexanide
-ANTISEPTICS AND DISINFECTANTS,ATC 3rd,D08A,polihexanide
-artificial tears and other indifferent preparations; ophthalmic,ATC 5th,S01XA20,polihexanide
-betaine hydrochloride; oral,ATC 5th,A09AB02,polihexanide
-betaine; oral,ATC 5th,A16AA06,polihexanide
-Biguanides and amidines,ATC 4th,D08AC,polihexanide
-CARDIOVASCULAR SYSTEM,ATC 1st,C,polihexanide
-CICATRIZANTS,ATC 3rd,D03A,polihexanide
-DERMATOLOGICALS,ATC 1st,D,polihexanide
-dexpanthenol; ophthalmic,ATC 5th,S01XA12,polihexanide
-dexpanthenol; topical,ATC 5th,D03AX03,polihexanide
-"DIGESTIVES, INCL. ENZYMES",ATC 2nd,A09,polihexanide
-"DIGESTIVES, INCL. ENZYMES",ATC 3rd,A09A,polihexanide
-MEDICATED DRESSINGS,ATC 2nd,D09,polihexanide
-MEDICATED DRESSINGS,ATC 3rd,D09A,polihexanide
-OPHTHALMOLOGICALS,ATC 2nd,S01,polihexanide
-Other agents for treatment of hemorrhoids and anal fissures for topical use,ATC 4th,C05AX,polihexanide
-OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,polihexanide
-OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 3rd,A16A,polihexanide
-Other antiinfectives,ATC 4th,S01AX,polihexanide
-Other cicatrizants,ATC 4th,D03AX,polihexanide
-OTHER OPHTHALMOLOGICALS,ATC 3rd,S01X,polihexanide
-Other ophthalmologicals,ATC 4th,S01XA,polihexanide
-polihexanide; ophthalmic,ATC 5th,S01AX24,polihexanide
-polihexanide; topical,ATC 5th,D08AC05,polihexanide
-PREPARATIONS FOR TREATMENT OF WOUNDS AND ULCERS,ATC 2nd,D03,polihexanide
-SENSORY ORGANS,ATC 1st,S,polihexanide
-VASOPROTECTIVES,ATC 2nd,C05,polihexanide
-zinc bandage with supplements; topical,ATC 5th,D09AB02,polihexanide
-zinc bandage without supplements; topical,ATC 5th,D09AB01,polihexanide
-Zinc bandages,ATC 4th,D09AB,polihexanide
-"zinc preparations; rectal, topical",ATC 5th,C05AX04,polihexanide
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,poloxamer_188
-Contact laxatives,ATC 4th,A06AB,poloxamer_188
-"dantron, combinations; oral",ATC 5th,A06AB53,poloxamer_188
-DRUGS FOR CONSTIPATION,ATC 2nd,A06,poloxamer_188
-DRUGS FOR CONSTIPATION,ATC 3rd,A06A,poloxamer_188
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,pomalidomide
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,pomalidomide
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,pomalidomide
@@ -4084,15 +2670,6 @@ ANTIMYCOBACTERIALS,ATC 2nd,J04,pretomanid
 DRUGS FOR TREATMENT OF TUBERCULOSIS,ATC 3rd,J04A,pretomanid
 Other drugs for treatment of tuberculosis,ATC 4th,J04AK,pretomanid
 pretomanid; oral,ATC 5th,J04AK08,pretomanid
-ANTIHEMORRHAGICS,ATC 2nd,B02,protein_c
-ANTITHROMBOTIC AGENTS,ATC 2nd,B01,protein_c
-ANTITHROMBOTIC AGENTS,ATC 3rd,B01A,protein_c
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,protein_c
-Blood coagulation factors,ATC 4th,B02BD,protein_c
-"coagulation factor IX, II, VII and X in combination; parenteral",ATC 5th,B02BD01,protein_c
-Enzymes,ATC 4th,B01AD,protein_c
-protein C; parenteral,ATC 5th,B01AD12,protein_c
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,protein_c
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,quizartinib_hydrochloride
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,quizartinib_hydrochloride
 Other protein kinase inhibitors,ATC 4th,L01EX,quizartinib_hydrochloride
@@ -4138,16 +2715,9 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,regorafenib
 Other protein kinase inhibitors,ATC 4th,L01EX,regorafenib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,regorafenib
 regorafenib; oral,ATC 5th,L01EX05,regorafenib
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,relatlimab
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,relatlimab
 Combinations of monoclonal antibodies and antibody drug conjugates,ATC 4th,L01FY,relatlimab
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,relatlimab
 nivolumab and relatlimab; parenteral,ATC 5th,L01FY02,relatlimab
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,remdesivir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,remdesivir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,remdesivir
-Nucleosides and nucleotides excl. reverse transcriptase inhibitors,ATC 4th,J05AB,remdesivir
-remdesivir; parenteral,ATC 5th,J05AB16,remdesivir
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,reparixin
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,reparixin
 "Adrenergics in combination with corticosteroids or other drugs, excl. anticholinergics",ATC 4th,R03AK,reslizumab
@@ -4163,43 +2733,20 @@ ANTIMYCOTICS FOR SYSTEMIC USE,ATC 2nd,J02,rezafungin
 ANTIMYCOTICS FOR SYSTEMIC USE,ATC 3rd,J02A,rezafungin
 Other antimycotics for systemic use,ATC 4th,J02AX,rezafungin
 rezafungin acetate; parenteral,ATC 5th,J02AX08,rezafungin
-anti-D (rh) immunoglobulin; systemic,ATC 5th,J06BB01,rho_d_immune_globulin
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,rho_d_immune_globulin
-combinations of electrolytes; parenteral,ATC 5th,B05XA30,rho_d_immune_globulin
-electrolytes in combination with other drugs; parenteral,ATC 5th,B05BB04,rho_d_immune_globulin
-electrolytes in combination with other drugs; parenteral,ATC 5th,B05XA31,rho_d_immune_globulin
-electrolytes with carbohydrates; parenteral,ATC 5th,B05BB02,rho_d_immune_globulin
-electrolytes; parenteral,ATC 5th,B05BB01,rho_d_immune_globulin
-IMMUNE SERA AND IMMUNOGLOBULINS,ATC 2nd,J06,rho_d_immune_globulin
-IMMUNOGLOBULINS,ATC 3rd,J06B,rho_d_immune_globulin
-Specific immunoglobulins,ATC 4th,J06BB,rho_d_immune_globulin
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,ribociclib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,ribociclib
-Aromatase inhibitors,ATC 4th,L02BG,ribociclib
 Cyclin-dependent kinase (CDK) inhibitors,ATC 4th,L01EF,ribociclib
-ENDOCRINE THERAPY,ATC 2nd,L02,ribociclib
-HORMONE ANTAGONISTS AND RELATED AGENTS,ATC 3rd,L02B,ribociclib
-letrozole; oral,ATC 5th,L02BG04,ribociclib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,ribociclib
 ribociclib; oral,ATC 5th,L01EF02,ribociclib
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,rilpivirine
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,rilpivirine
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,rilpivirine
-cabotegravir; systemic,ATC 5th,J05AJ04,rilpivirine
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,rilpivirine
 dolutegravir and rilpivirine; systemic,ATC 5th,J05AR21,rilpivirine
-emtricitabine and tenofovir alafenamide; oral,ATC 5th,J05AR17,rilpivirine
 "emtricitabine, tenofovir alafenamide and rilpivirine; systemic",ATC 5th,J05AR19,rilpivirine
 "emtricitabine, tenofovir disoproxil and rilpivirine; systemic",ATC 5th,J05AR08,rilpivirine
-Integrase inhibitors,ATC 4th,J05AJ,rilpivirine
 Non-nucleoside reverse transcriptase inhibitors,ATC 4th,J05AG,rilpivirine
 rilpivirine; oral,ATC 5th,J05AG05,rilpivirine
-tenofovir disoproxil and emtricitabine; oral,ATC 5th,J05AR03,rilpivirine
-ANALGESICS,ATC 2nd,N02,rimegepant
-ANTIMIGRAINE PREPARATIONS,ATC 3rd,N02C,rimegepant
-Calcitonin gene-related peptide (CGRP) antagonists,ATC 4th,N02CD,rimegepant
-NERVOUS SYSTEM,ATC 1st,N,rimegepant
-rimegepant; oral,ATC 5th,N02CD06,rimegepant
 ANTIHYPERTENSIVES,ATC 2nd,C02,riociguat
 Antihypertensives for pulmonary arterial hypertension,ATC 4th,C02KX,riociguat
 CARDIOVASCULAR SYSTEM,ATC 1st,C,riociguat
@@ -4222,50 +2769,23 @@ Other drugs for disorders of the musculo-skeletal system,ATC 4th,M09AX,risdiplam
 risdiplam; oral,ATC 5th,M09AX10,risdiplam
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,ritonavir
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,ritonavir
-Antivirals for treatment of HCV infections,ATC 4th,J05AP,ritonavir
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,ritonavir
 atazanavir and ritonavir; oral,ATC 5th,J05AR23,ritonavir
 darunavir and ritonavir; oral,ATC 5th,J05AR26,ritonavir
 "dasabuvir, ombitasvir, paritaprevir and ritonavir; systemic",ATC 5th,J05AP52,ritonavir
-dasabuvir; oral,ATC 5th,J05AP09,ritonavir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,ritonavir
 lopinavir and ritonavir; oral,ATC 5th,J05AR10,ritonavir
 nirmatrelvir and ritonavir; oral,ATC 5th,J05AE30,ritonavir
 "ombitasvir, paritaprevir and ritonavir; oral",ATC 5th,J05AP53,ritonavir
 Protease inhibitors,ATC 4th,J05AE,ritonavir
-"ribavirin; inhalant, oral",ATC 5th,J05AP01,ritonavir
 ritonavir; oral,ATC 5th,J05AE03,ritonavir
 [U] rituximab; parenteral,ATC 5th,L01XC02,rituximab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,rituximab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,rituximab
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,rituximab
 CD20 (Clusters of Differentiation 20) inhibitors,ATC 4th,L01FA,rituximab
-Enzymes,ATC 4th,B06AA,rituximab
-hyaluronidase; parenteral,ATC 5th,B06AA03,rituximab
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,rituximab
-OTHER HEMATOLOGICAL AGENTS,ATC 2nd,B06,rituximab
-OTHER HEMATOLOGICAL AGENTS,ATC 3rd,B06A,rituximab
 rituximab; parenteral,ATC 5th,L01FA01,rituximab
-ANTIHEMORRHAGICS,ATC 2nd,B02,romiplostim
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,romiplostim
-Other systemic hemostatics,ATC 4th,B02BX,romiplostim
-romiplostim; parenteral,ATC 5th,B02BX04,romiplostim
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,romiplostim
-DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION,ATC 3rd,M05B,romosozumab
-DRUGS FOR TREATMENT OF BONE DISEASES,ATC 2nd,M05,romosozumab
-MUSCULO-SKELETAL SYSTEM,ATC 1st,M,romosozumab
-Other drugs affecting bone structure and mineralization,ATC 4th,M05BX,romosozumab
-romosozumab; parenteral,ATC 5th,M05BX06,romosozumab
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,ropeginterferon_alfa_2b
-IMMUNOSTIMULANTS,ATC 2nd,L03,ropeginterferon_alfa_2b
-IMMUNOSTIMULANTS,ATC 3rd,L03A,ropeginterferon_alfa_2b
-Interferons,ATC 4th,L03AB,ropeginterferon_alfa_2b
 ropeginterferon alfa-2b; systemic,ATC 5th,L03AB15,ropeginterferon_alfa_2b
-ANTIANEMIC PREPARATIONS,ATC 2nd,B03,roxadustat
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,roxadustat
-OTHER ANTIANEMIC PREPARATIONS,ATC 3rd,B03X,roxadustat
-Other antianemic preparations,ATC 4th,B03XA,roxadustat
-roxadustat; oral,ATC 5th,B03XA05,roxadustat
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,rucaparib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,rucaparib
 OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,rucaparib
@@ -4281,13 +2801,6 @@ OTHER DERMATOLOGICAL PREPARATIONS,ATC 3rd,D11A,ruxolitinib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,ruxolitinib
 ruxolitinib; oral,ATC 5th,L01EJ01,ruxolitinib
 "ruxolitinib; oral, topical",ATC 5th,D11AH09,ruxolitinib
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,sabatolimab
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,sabatolimab
-MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,sabatolimab
-Other monoclonal antibodies and antibody drug conjugates,ATC 4th,L01FX,sabatolimab
-sabatolimab; parenteral,ATC 5th,L01FX19,sabatolimab
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,sabizabulin
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,sabizabulin
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,sacituzumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,sacituzumab
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,sacituzumab
@@ -4303,11 +2816,6 @@ ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,saquinavir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,saquinavir
 Protease inhibitors,ATC 4th,J05AE,saquinavir
 saquinavir; oral,ATC 5th,J05AE01,saquinavir
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,sarilumab
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,sarilumab
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,sarilumab
-Interleukin inhibitors,ATC 4th,L04AC,sarilumab
-sarilumab; systemic,ATC 5th,L04AC14,sarilumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,satralizumab
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,satralizumab
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,satralizumab
@@ -4349,13 +2857,9 @@ ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,setmelanotide
 "ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS",ATC 3rd,A08A,setmelanotide
 Centrally acting antiobesity products,ATC 4th,A08AA,setmelanotide
 setmelanotide; parenteral,ATC 5th,A08AA12,setmelanotide
-ANTIHYPERTENSIVES,ATC 2nd,C02,sildenafil
-Antihypertensives for pulmonary arterial hypertension,ATC 4th,C02KX,sildenafil
-CARDIOVASCULAR SYSTEM,ATC 1st,C,sildenafil
 Drugs used in erectile dysfunction,ATC 4th,G04BE,sildenafil
 drugs used in erectile dysfunction - combinations,ATC 5th,G04BE30,sildenafil
 GENITO URINARY SYSTEM AND SEX HORMONES,ATC 1st,G,sildenafil
-OTHER ANTIHYPERTENSIVES,ATC 3rd,C02K,sildenafil
 sildenafil; oral,ATC 5th,G04BE03,sildenafil
 sotatercept,ATC 5th,C02KX06,sildenafil
 UROLOGICALS,ATC 2nd,G04,sildenafil
@@ -4388,108 +2892,22 @@ SENSORY ORGANS,ATC 1st,S,sirolimus
 sirolimus; ophthalmic,ATC 5th,S01XA23,sirolimus
 sirolimus; oral,ATC 5th,L04AH01,sirolimus
 sirolimus; systemic,ATC 5th,L01EG04,sirolimus
-temsirolimus; parenteral,ATC 5th,L01EG01,sirolimus
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,sitravatinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,sitravatinib
 Other protein kinase inhibitors,ATC 4th,L01EX,sitravatinib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,sitravatinib
 sitravatinib; oral,ATC 5th,L01EX26,sitravatinib
-ANTIINFECTIVES,ATC 3rd,S02A,sofosbuvir
-ANTIINFECTIVES,ATC 3rd,S03A,sofosbuvir
-Antiinfectives,ATC 4th,B05CA,sofosbuvir
-Antiinfectives,ATC 4th,S02AA,sofosbuvir
-Antiinfectives,ATC 4th,S03AA,sofosbuvir
-antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,sofosbuvir
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,sofosbuvir
-"antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,sofosbuvir
-"antiinfectives, combinations; otic",ATC 5th,S02AA30,sofosbuvir
-ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S01C,sofosbuvir
-"Antiinflammatory agents, non-steroids and antiinfectives in combination",ATC 4th,S01CC,sofosbuvir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,sofosbuvir
-Antivirals for treatment of HCV infections,ATC 4th,J05AP,sofosbuvir
-betamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA05,sofosbuvir
-"betamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA06,sofosbuvir
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,sofosbuvir
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,sofosbuvir
-chloroprednisone and antiinfectives; ophthalmic,ATC 5th,S01CA09,sofosbuvir
-clobetasone and antiinfectives; ophthalmic,ATC 5th,S01CA11,sofosbuvir
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S02C,sofosbuvir
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S03C,sofosbuvir
-Corticosteroids and antiinfectives in combination,ATC 4th,S01CA,sofosbuvir
-Corticosteroids and antiinfectives in combination,ATC 4th,S02CA,sofosbuvir
-Corticosteroids and antiinfectives in combination,ATC 4th,S03CA,sofosbuvir
-dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,sofosbuvir
-"dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,sofosbuvir
-dexamethasone and antiinfectives; otic,ATC 5th,S02CA06,sofosbuvir
-diclofenac and antiinfectives; ophthalmic,ATC 5th,S01CC01,sofosbuvir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,sofosbuvir
-fludrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA06,sofosbuvir
-"fludrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA05,sofosbuvir
-fludrocortisone and antiinfectives; otic,ATC 5th,S02CA07,sofosbuvir
-flumetasone and antiinfectives; otic,ATC 5th,S02CA02,sofosbuvir
-fluocinolone acetonide and antiinfectives; ophthalmic,ATC 5th,S01CA10,sofosbuvir
-fluocinolone acetonide and antiinfectives; otic,ATC 5th,S02CA05,sofosbuvir
-fluocortolone and antiinfectives; ophthalmic,ATC 5th,S01CA04,sofosbuvir
-fluorometholone and antiinfectives; ophthalmic,ATC 5th,S01CA07,sofosbuvir
-hydrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA03,sofosbuvir
-"hydrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA04,sofosbuvir
-hydrocortisone and antiinfectives; otic,ATC 5th,S02CA03,sofosbuvir
-indometacin and antiinfectives; ophthalmic,ATC 5th,S01CC02,sofosbuvir
-IRRIGATING SOLUTIONS,ATC 3rd,B05C,sofosbuvir
-loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,sofosbuvir
-methylprednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA08,sofosbuvir
-"methylprednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA07,sofosbuvir
-OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,sofosbuvir
-OTOLOGICALS,ATC 2nd,S02,sofosbuvir
-prednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA02,sofosbuvir
-"prednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA02,sofosbuvir
-prednisolone and antiinfectives; otic,ATC 5th,S02CA01,sofosbuvir
-SENSORY ORGANS,ATC 1st,S,sofosbuvir
-sofosbuvir and ledipasvir; systemic,ATC 5th,J05AP51,sofosbuvir
-sofosbuvir and velpatasvir; oral,ATC 5th,J05AP55,sofosbuvir
-"sofosbuvir, velpatasvir and voxilaprevir; systemic",ATC 5th,J05AP56,sofosbuvir
-sofosbuvir; oral,ATC 5th,J05AP08,sofosbuvir
-triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,sofosbuvir
-Centrally acting sympathomimetics,ATC 4th,N06BA,solriamfetol
-NERVOUS SYSTEM,ATC 1st,N,solriamfetol
-PSYCHOANALEPTICS,ATC 2nd,N06,solriamfetol
-"PSYCHOSTIMULANTS, AGENTS USED FOR ADHD AND NOOTROPICS",ATC 3rd,N06B,solriamfetol
-solriamfetol; oral,ATC 5th,N06BA14,solriamfetol
-ANTERIOR PITUITARY LOBE HORMONES AND ANALOGUES,ATC 3rd,H01A,somapacitan
-PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES,ATC 2nd,H01,somapacitan
-somapacitan; systemic,ATC 5th,H01AC07,somapacitan
-Somatropin and somatropin agonists,ATC 4th,H01AC,somapacitan
-"SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS",ATC 1st,H,somapacitan
-ANTERIOR PITUITARY LOBE HORMONES AND ANALOGUES,ATC 3rd,H01A,somatropin
-combinations of electrolytes; parenteral,ATC 5th,B05XA30,somatropin
-electrolytes in combination with other drugs; parenteral,ATC 5th,B05BB04,somatropin
-electrolytes in combination with other drugs; parenteral,ATC 5th,B05XA31,somatropin
-electrolytes with carbohydrates; parenteral,ATC 5th,B05BB02,somatropin
-electrolytes; parenteral,ATC 5th,B05BB01,somatropin
-PITUITARY AND HYPOTHALAMIC HORMONES AND ANALOGUES,ATC 2nd,H01,somatropin
-Somatropin and somatropin agonists,ATC 4th,H01AC,somatropin
-somatropin; parenteral,ATC 5th,H01AC01,somatropin
-"SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS",ATC 1st,H,somatropin
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,sorafenib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,sorafenib
 Other protein kinase inhibitors,ATC 4th,L01EX,sorafenib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,sorafenib
 sorafenib; oral,ATC 5th,L01EX02,sorafenib
-ANTIHYPERTENSIVES,ATC 2nd,C02,sotatercept
-Antihypertensives for pulmonary arterial hypertension,ATC 4th,C02KX,sotatercept
-CARDIOVASCULAR SYSTEM,ATC 1st,C,sotatercept
-OTHER ANTIHYPERTENSIVES,ATC 3rd,C02K,sotatercept
 sotatercept,ATC 5th,C02KX06,sotatercept
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,sotorasib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,sotorasib
 OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,sotorasib
 Other antineoplastic agents,ATC 4th,L01XX,sotorasib
 sotorasib; systemic,ATC 5th,L01XX73,sotorasib
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,sotrovimab
-Antiviral monoclonal antibodies,ATC 4th,J06BD,sotrovimab
-IMMUNE SERA AND IMMUNOGLOBULINS,ATC 2nd,J06,sotrovimab
-IMMUNOGLOBULINS,ATC 3rd,J06B,sotrovimab
-sotrovimab; parenteral,ATC 5th,J06BD05,sotrovimab
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,stavudine
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,stavudine
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,stavudine
@@ -4524,38 +2942,24 @@ Antineoplastic cell and gene therapy,ATC 4th,L01XL,tabelecleucel
 OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,tabelecleucel
 tabelecleucel; parenteral,ATC 5th,L01XL09,tabelecleucel
 "Agents for dermatitis, excluding corticosteroids",ATC 4th,D11AH,tacrolimus
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,tacrolimus
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,tacrolimus
 Calcineurin inhibitors,ATC 4th,L04AD,tacrolimus
-clobetasol; topical,ATC 5th,D07AD01,tacrolimus
-"CORTICOSTEROIDS, DERMATOLOGICAL PREPARATIONS",ATC 2nd,D07,tacrolimus
-"CORTICOSTEROIDS, PLAIN",ATC 3rd,D07A,tacrolimus
-"Corticosteroids, very potent (group IV)",ATC 4th,D07AD,tacrolimus
 DERMATOLOGICALS,ATC 1st,D,tacrolimus
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,tacrolimus
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,tacrolimus
-Other agents for local oral treatment,ATC 4th,A01AD,tacrolimus
 other agents for local oral treatment - various; local oral,ATC 5th,A01AD11,tacrolimus
 OTHER DERMATOLOGICAL PREPARATIONS,ATC 2nd,D11,tacrolimus
 OTHER DERMATOLOGICAL PREPARATIONS,ATC 3rd,D11A,tacrolimus
-STOMATOLOGICAL PREPARATIONS,ATC 2nd,A01,tacrolimus
-STOMATOLOGICAL PREPARATIONS,ATC 3rd,A01A,tacrolimus
 tacrolimus; systemic,ATC 5th,L04AD02,tacrolimus
 tacrolimus; topical,ATC 5th,D11AH01,tacrolimus
 ambrisentan and tadalafil; oral,ATC 5th,C02KX52,tadalafil
-ANTIHYPERTENSIVES,ATC 2nd,C02,tadalafil
-Antihypertensives for pulmonary arterial hypertension,ATC 4th,C02KX,tadalafil
-CARDIOVASCULAR SYSTEM,ATC 1st,C,tadalafil
-DRUGS USED IN BENIGN PROSTATIC HYPERTROPHY,ATC 3rd,G04C,tadalafil
 Drugs used in erectile dysfunction,ATC 4th,G04BE,tadalafil
 drugs used in erectile dysfunction - combinations,ATC 5th,G04BE30,tadalafil
 finasteride and tadalafil; oral,ATC 5th,G04CB51,tadalafil
 GENITO URINARY SYSTEM AND SEX HORMONES,ATC 1st,G,tadalafil
 macitentan and tadalafil; oral,ATC 5th,C02KX54,tadalafil
-OTHER ANTIHYPERTENSIVES,ATC 3rd,C02K,tadalafil
 tadalafil; oral,ATC 5th,G04BE08,tadalafil
 tamsulosin and tadalafil; systemic,ATC 5th,G04CA54,tadalafil
-Testosterone-5-alpha reductase inhibitors,ATC 4th,G04CB,tadalafil
 UROLOGICALS,ATC 2nd,G04,tadalafil
 UROLOGICALS,ATC 3rd,G04B,tadalafil
 NERVOUS SYSTEM,ATC 1st,N,tafamidis
@@ -4619,23 +3023,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,temsirolimus
 Mammalian target of rapamycin (mTOR) kinase inhibitors,ATC 4th,L01EG,temsirolimus
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,temsirolimus
 temsirolimus; parenteral,ATC 5th,L01EG01,temsirolimus
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,tenofovir
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,tenofovir
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,tenofovir
-ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,tenofovir
-"Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,tenofovir
-cobicistat; oral,ATC 5th,V03AX03,tenofovir
-DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,tenofovir
-elvitegravir; oral,ATC 5th,J05AJ02,tenofovir
-"emtricitabine, tenofovir alafenamide, elvitegravir and cobicistat; oral",ATC 5th,J05AR18,tenofovir
-"emtricitabine, tenofovir disoproxil, elvitegravir and cobicistat; oral",ATC 5th,J05AR09,tenofovir
-emtricitabine; oral,ATC 5th,J05AF09,tenofovir
-Integrase inhibitors,ATC 4th,J05AJ,tenofovir
-Nucleoside and nucleotide reverse transcriptase inhibitors,ATC 4th,J05AF,tenofovir
-Other therapeutic products,ATC 4th,V03AX,tenofovir
-tenofovir disoproxil and emtricitabine; oral,ATC 5th,J05AR03,tenofovir
-tenofovir disoproxil; oral,ATC 5th,J05AF07,tenofovir
-VARIOUS,ATC 1st,V,tenofovir
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,tenofovir_alafenamide
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,tenofovir_alafenamide
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,tenofovir_alafenamide
@@ -4647,29 +3034,20 @@ emtricitabine and tenofovir alafenamide; oral,ATC 5th,J05AR17,tenofovir_alafenam
 "emtricitabine, tenofovir alafenamide, elvitegravir and cobicistat; oral",ATC 5th,J05AR18,tenofovir_alafenamide
 Nucleoside and nucleotide reverse transcriptase inhibitors,ATC 4th,J05AF,tenofovir_alafenamide
 tenofovir alafenamide; oral,ATC 5th,J05AF13,tenofovir_alafenamide
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 2nd,V03,tenofovir_disoproxil
-ALL OTHER THERAPEUTIC PRODUCTS,ATC 3rd,V03A,tenofovir_disoproxil
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,tenofovir_disoproxil
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,tenofovir_disoproxil
 "Antivirals for treatment of HIV infections, combinations",ATC 4th,J05AR,tenofovir_disoproxil
-cobicistat; oral,ATC 5th,V03AX03,tenofovir_disoproxil
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,tenofovir_disoproxil
-elvitegravir; oral,ATC 5th,J05AJ02,tenofovir_disoproxil
-"emtricitabine, tenofovir alafenamide, elvitegravir and cobicistat; oral",ATC 5th,J05AR18,tenofovir_disoproxil
 "emtricitabine, tenofovir disoproxil and efavirenz; systemic",ATC 5th,J05AR06,tenofovir_disoproxil
 "emtricitabine, tenofovir disoproxil and rilpivirine; systemic",ATC 5th,J05AR08,tenofovir_disoproxil
 "emtricitabine, tenofovir disoproxil, elvitegravir and cobicistat; oral",ATC 5th,J05AR09,tenofovir_disoproxil
-emtricitabine; oral,ATC 5th,J05AF09,tenofovir_disoproxil
-Integrase inhibitors,ATC 4th,J05AJ,tenofovir_disoproxil
 lamivudine and tenofovir disoproxil; oral,ATC 5th,J05AR12,tenofovir_disoproxil
 "lamivudine, tenofovir disoproxil and dolutegravir; oral",ATC 5th,J05AR27,tenofovir_disoproxil
 "lamivudine, tenofovir disoproxil and doravirine; oral",ATC 5th,J05AR24,tenofovir_disoproxil
 "lamivudine, tenofovir disoproxil and efavirenz; systemic",ATC 5th,J05AR11,tenofovir_disoproxil
 Nucleoside and nucleotide reverse transcriptase inhibitors,ATC 4th,J05AF,tenofovir_disoproxil
-Other therapeutic products,ATC 4th,V03AX,tenofovir_disoproxil
 tenofovir disoproxil and emtricitabine; oral,ATC 5th,J05AR03,tenofovir_disoproxil
 tenofovir disoproxil; oral,ATC 5th,J05AF07,tenofovir_disoproxil
-VARIOUS,ATC 1st,V,tenofovir_disoproxil
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,tepotinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,tepotinib
 Other protein kinase inhibitors,ATC 4th,L01EX,tepotinib
@@ -4689,48 +3067,17 @@ IMMUNOSUPPRESSANTS,ATC 2nd,L04,teriflunomide
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,teriflunomide
 Selective immunosuppressants,ATC 4th,L04AA,teriflunomide
 teriflunomide; oral,ATC 5th,L04AK02,teriflunomide
-ivacaftor and tezacaftor; oral,ATC 5th,R07AX31,tezacaftor
-"ivacaftor, tezacaftor and elexacaftor; oral",ATC 5th,R07AX32,tezacaftor
-ivacaftor; oral,ATC 5th,R07AX02,tezacaftor
-OTHER RESPIRATORY SYSTEM PRODUCTS,ATC 2nd,R07,tezacaftor
-OTHER RESPIRATORY SYSTEM PRODUCTS,ATC 3rd,R07A,tezacaftor
-Other respiratory system products,ATC 4th,R07AX,tezacaftor
-RESPIRATORY SYSTEM,ATC 1st,R,tezacaftor
-DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES,ATC 2nd,R03,tezepelumab
-OTHER SYSTEMIC DRUGS FOR OBSTRUCTIVE AIRWAY DISEASES,ATC 3rd,R03D,tezepelumab
-Other systemic drugs for obstructive airway diseases,ATC 4th,R03DX,tezepelumab
-RESPIRATORY SYSTEM,ATC 1st,R,tezepelumab
 tezepelumab; systemic,ATC 5th,R03DX11,tezepelumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,thalidomide
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,thalidomide
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,thalidomide
 Other immunosuppressants,ATC 4th,L04AX,thalidomide
 thalidomide; oral,ATC 5th,L04AX02,thalidomide
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,tildrakizumab
-IMMUNOSUPPRESSANTS,ATC 2nd,L04,tildrakizumab
-IMMUNOSUPPRESSANTS,ATC 3rd,L04A,tildrakizumab
-Interleukin inhibitors,ATC 4th,L04AC,tildrakizumab
-tildrakizumab; parenteral,ATC 5th,L04AC17,tildrakizumab
 ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,tipranavir
 ANTIVIRALS FOR SYSTEMIC USE,ATC 2nd,J05,tipranavir
 DIRECT ACTING ANTIVIRALS,ATC 3rd,J05A,tipranavir
 Protease inhibitors,ATC 4th,J05AE,tipranavir
 tipranavir; oral,ATC 5th,J05AE09,tipranavir
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,tiratricol
-"ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS",ATC 2nd,A08,tiratricol
-"ANTIOBESITY PREPARATIONS, EXCL. DIET PRODUCTS",ATC 3rd,A08A,tiratricol
-Centrally acting antiobesity products,ATC 4th,A08AA,tiratricol
-DERMATOLOGICALS,ATC 1st,D,tiratricol
-mazindol; oral,ATC 5th,A08AA05,tiratricol
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 2nd,D11,tiratricol
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 3rd,D11A,tiratricol
-Other dermatologicals,ATC 4th,D11AX,tiratricol
-"SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS",ATC 1st,H,tiratricol
-Thyroid hormones,ATC 4th,H03AA,tiratricol
-THYROID PREPARATIONS,ATC 3rd,H03A,tiratricol
-THYROID THERAPY,ATC 2nd,H03,tiratricol
-tiratricol; systemic,ATC 5th,H03AA04,tiratricol
-tiratricol; topical,ATC 5th,D11AX08,tiratricol
 [U] tisagenlecleucel; parenteral,ATC 5th,L01XX71,tisagenlecleucel
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,tisagenlecleucel
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,tisagenlecleucel
@@ -4775,7 +3122,6 @@ dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,tobramycin
 "dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,tobramycin
 dexamethasone and antiinfectives; otic,ATC 5th,S02CA06,tobramycin
 diclofenac and antiinfectives; ophthalmic,ATC 5th,S01CC01,tobramycin
-Electrolyte solutions,ATC 4th,B05XA,tobramycin
 electrolytes in combination with other drugs; parenteral,ATC 5th,B05BB04,tobramycin
 electrolytes in combination with other drugs; parenteral,ATC 5th,B05XA31,tobramycin
 electrolytes with carbohydrates; parenteral,ATC 5th,B05BB02,tobramycin
@@ -4791,8 +3137,6 @@ fluorometholone and antiinfectives; ophthalmic,ATC 5th,S01CA07,tobramycin
 hydrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA03,tobramycin
 "hydrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA04,tobramycin
 hydrocortisone and antiinfectives; otic,ATC 5th,S02CA03,tobramycin
-I.V. SOLUTION ADDITIVES,ATC 3rd,B05X,tobramycin
-I.V. SOLUTIONS,ATC 3rd,B05B,tobramycin
 indometacin and antiinfectives; ophthalmic,ATC 5th,S01CC02,tobramycin
 IRRIGATING SOLUTIONS,ATC 3rd,B05C,tobramycin
 loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,tobramycin
@@ -4806,7 +3150,6 @@ prednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA02,tobramycin
 "prednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA02,tobramycin
 prednisolone and antiinfectives; otic,ATC 5th,S02CA01,tobramycin
 SENSORY ORGANS,ATC 1st,S,tobramycin
-Solutions affecting the electrolyte balance,ATC 4th,B05BB,tobramycin
 "tobramycin; inhalant, parenteral",ATC 5th,J01GB01,tobramycin
 tobramycin; ophthalmic,ATC 5th,S01AA12,tobramycin
 triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,tobramycin
@@ -4915,10 +3258,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,trabectedin
 Other plant alkaloids and natural products,ATC 4th,L01CX,trabectedin
 PLANT ALKALOIDS AND OTHER NATURAL PRODUCTS,ATC 3rd,L01C,trabectedin
 trabectedin; parenteral,ATC 5th,L01CX01,trabectedin
-"Agents for dermatitis, excluding corticosteroids",ATC 4th,D11AH,tralokinumab
-DERMATOLOGICALS,ATC 1st,D,tralokinumab
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 2nd,D11,tralokinumab
-OTHER DERMATOLOGICAL PREPARATIONS,ATC 3rd,D11A,tralokinumab
 tralokinumab; parenteral,ATC 5th,D11AH07,tralokinumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,trametinib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,trametinib
@@ -4929,17 +3268,11 @@ trametinib; oral,ATC 5th,L01EE01,trametinib
 [U] trastuzumab; parenteral,ATC 5th,L01XC03,trastuzumab
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,trastuzumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,trastuzumab
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,trastuzumab
 Combinations of antineoplastic agents,ATC 4th,L01XY,trastuzumab
 Combinations of monoclonal antibodies and antibody drug conjugates,ATC 4th,L01FY,trastuzumab
-Enzymes,ATC 4th,B06AA,trastuzumab
 HER2 (Human Epidermal Growth Factor Receptor 2) inhibitors,ATC 4th,L01FD,trastuzumab
-hyaluronidase; parenteral,ATC 5th,B06AA03,trastuzumab
 MONOCLONAL ANTIBODIES AND ANTIBODY DRUG CONJUGATES,ATC 3rd,L01F,trastuzumab
-OTHER HEMATOLOGICAL AGENTS,ATC 2nd,B06,trastuzumab
-OTHER HEMATOLOGICAL AGENTS,ATC 3rd,B06A,trastuzumab
 pertuzumab and trastuzumab; parenteral,ATC 5th,L01FY01,trastuzumab
-pertuzumab; parenteral,ATC 5th,L01FD02,trastuzumab
 trastuzumab emtansine; parenteral,ATC 5th,L01FD03,trastuzumab
 trastuzumab; parenteral,ATC 5th,L01FD01,trastuzumab
 [U] trastuzumab deruxtecan; parenteral,ATC 5th,L01XC41,trastuzumab_deruxtecan
@@ -5001,16 +3334,7 @@ IMMUNOSUPPRESSANTS,ATC 2nd,L04,ustekinumab
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,ustekinumab
 Interleukin inhibitors,ATC 4th,L04AC,ustekinumab
 ustekinumab; parenteral,ATC 5th,L04AC05,ustekinumab
-ANTIANEMIC PREPARATIONS,ATC 2nd,B03,vadadustat
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,vadadustat
-OTHER ANTIANEMIC PREPARATIONS,ATC 3rd,B03X,vadadustat
-Other antianemic preparations,ATC 4th,B03XA,vadadustat
 vadadustat; systemic,ATC 5th,B03XA08,vadadustat
-NERVOUS SYSTEM,ATC 1st,N,valbenazine
-OTHER NERVOUS SYSTEM DRUGS,ATC 2nd,N07,valbenazine
-OTHER NERVOUS SYSTEM DRUGS,ATC 3rd,N07X,valbenazine
-Other nervous system drugs,ATC 4th,N07XX,valbenazine
-valbenazine; oral,ATC 5th,N07XX13,valbenazine
 ANTIHEMORRHAGICS,ATC 2nd,B02,valoctocogene_roxaparvovec
 BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,valoctocogene_roxaparvovec
 Blood coagulation factors,ATC 4th,B02BD,valoctocogene_roxaparvovec
@@ -5021,113 +3345,11 @@ CORTICOSTEROIDS FOR SYSTEMIC USE,ATC 2nd,H02,vamorolone
 Glucocorticoids,ATC 4th,H02AB,vamorolone
 "SYSTEMIC HORMONAL PREPARATIONS, EXCL. SEX HORMONES AND INSULINS",ATC 1st,H,vamorolone
 vamorolone; oral,ATC 5th,H02AB18,vamorolone
-ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,vancomycin
-AMINOGLYCOSIDE ANTIBACTERIALS,ATC 3rd,J01G,vancomycin
-ANTIBACTERIALS FOR SYSTEMIC USE,ATC 2nd,J01,vancomycin
-Antibiotics,ATC 4th,A07AA,vancomycin
-Antibiotics,ATC 4th,S01AA,vancomycin
-antibiotics in combination with other drugs; ophthalmic,ATC 5th,S01AA20,vancomycin
-"ANTIDIARRHEALS, INTESTINAL ANTIINFLAMMATORY/ANTIINFECTIVE AGENTS",ATC 2nd,A07,vancomycin
-ANTIINFECTIVES,ATC 3rd,S01A,vancomycin
-ANTIINFECTIVES,ATC 3rd,S02A,vancomycin
-ANTIINFECTIVES,ATC 3rd,S03A,vancomycin
-Antiinfectives,ATC 4th,B05CA,vancomycin
-Antiinfectives,ATC 4th,S02AA,vancomycin
-Antiinfectives,ATC 4th,S03AA,vancomycin
-antiinfectives - combinations; irrigating solution,ATC 5th,B05CA10,vancomycin
-ANTIINFECTIVES FOR SYSTEMIC USE,ATC 1st,J,vancomycin
-"antiinfectives, combinations; ophthalmic, otic",ATC 5th,S03AA30,vancomycin
-"antiinfectives, combinations; otic",ATC 5th,S02AA30,vancomycin
-ANTIINFLAMMATORY AGENTS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S01C,vancomycin
-"Antiinflammatory agents, non-steroids and antiinfectives in combination",ATC 4th,S01CC,vancomycin
-ANTITHROMBOTIC AGENTS,ATC 2nd,B01,vancomycin
-ANTITHROMBOTIC AGENTS,ATC 3rd,B01A,vancomycin
-beclometasone and antibiotics; topical,ATC 5th,D07CC04,vancomycin
-betamethasone and antibiotics; topical,ATC 5th,D07CC01,vancomycin
-betamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA05,vancomycin
-"betamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA06,vancomycin
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,vancomycin
-BLOOD SUBSTITUTES AND PERFUSION SOLUTIONS,ATC 2nd,B05,vancomycin
-chloroprednisone and antiinfectives; ophthalmic,ATC 5th,S01CA09,vancomycin
-clobetasol and antibiotics; topical,ATC 5th,D07CD01,vancomycin
-clobetasone and antiinfectives; ophthalmic,ATC 5th,S01CA11,vancomycin
-combinations of electrolytes; parenteral,ATC 5th,B05XA30,vancomycin
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S02C,vancomycin
-CORTICOSTEROIDS AND ANTIINFECTIVES IN COMBINATION,ATC 3rd,S03C,vancomycin
-Corticosteroids and antiinfectives in combination,ATC 4th,S01CA,vancomycin
-Corticosteroids and antiinfectives in combination,ATC 4th,S02CA,vancomycin
-Corticosteroids and antiinfectives in combination,ATC 4th,S03CA,vancomycin
-"CORTICOSTEROIDS, COMBINATIONS WITH ANTIBIOTICS",ATC 3rd,D07C,vancomycin
-"Corticosteroids, moderately potent, combinations with antibiotics",ATC 4th,D07CB,vancomycin
-"Corticosteroids, potent, combinations with antibiotics",ATC 4th,D07CC,vancomycin
-"Corticosteroids, very potent, combinations with antibiotics",ATC 4th,D07CD,vancomycin
-"Corticosteroids, weak, combinations with antibiotics",ATC 4th,D07CA,vancomycin
-dexamethasone and antibiotics; topical,ATC 5th,D07CB04,vancomycin
-dexamethasone and antiinfectives; ophthalmic,ATC 5th,S01CA01,vancomycin
-"dexamethasone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA01,vancomycin
-dexamethasone and antiinfectives; otic,ATC 5th,S02CA06,vancomycin
-diclofenac and antiinfectives; ophthalmic,ATC 5th,S01CC01,vancomycin
-Electrolyte solutions,ATC 4th,B05XA,vancomycin
-electrolytes in combination with other drugs; parenteral,ATC 5th,B05BB04,vancomycin
-electrolytes in combination with other drugs; parenteral,ATC 5th,B05XA31,vancomycin
-electrolytes with carbohydrates; parenteral,ATC 5th,B05BB02,vancomycin
-electrolytes; parenteral,ATC 5th,B05BB01,vancomycin
-fludrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA06,vancomycin
-"fludrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA05,vancomycin
-fludrocortisone and antiinfectives; otic,ATC 5th,S02CA07,vancomycin
-fludroxycortide and antibiotics; topical,ATC 5th,D07CC03,vancomycin
-flumetasone and antibiotics; topical,ATC 5th,D07CB05,vancomycin
-flumetasone and antiinfectives; otic,ATC 5th,S02CA02,vancomycin
-fluocinolone acetonide and antibiotics; topical,ATC 5th,D07CC02,vancomycin
-fluocinolone acetonide and antiinfectives; ophthalmic,ATC 5th,S01CA10,vancomycin
-fluocinolone acetonide and antiinfectives; otic,ATC 5th,S02CA05,vancomycin
-fluocinonide and antibiotics; topical,ATC 5th,D07CC05,vancomycin
-fluocortolone and antibiotics; topical,ATC 5th,D07CC06,vancomycin
-fluocortolone and antiinfectives; ophthalmic,ATC 5th,S01CA04,vancomycin
-fluorometholone and antibiotics; topical,ATC 5th,D07CB03,vancomycin
-fluorometholone and antiinfectives; ophthalmic,ATC 5th,S01CA07,vancomycin
-fluprednidene and antibiotics; topical,ATC 5th,D07CB02,vancomycin
-gentamicin; parenteral,ATC 5th,J01GB03,vancomycin
-Glycopeptide antibacterials,ATC 4th,J01XA,vancomycin
-Heparin group,ATC 4th,B01AB,vancomycin
-"heparin, combinations; parenteral",ATC 5th,B01AB51,vancomycin
-heparin; parenteral,ATC 5th,B01AB01,vancomycin
-hydrocortisone and antibiotics; topical,ATC 5th,D07CA01,vancomycin
-hydrocortisone and antiinfectives; ophthalmic,ATC 5th,S01CA03,vancomycin
-"hydrocortisone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA04,vancomycin
-hydrocortisone and antiinfectives; otic,ATC 5th,S02CA03,vancomycin
-I.V. SOLUTION ADDITIVES,ATC 3rd,B05X,vancomycin
-I.V. SOLUTIONS,ATC 3rd,B05B,vancomycin
-indometacin and antiinfectives; ophthalmic,ATC 5th,S01CC02,vancomycin
-INTESTINAL ANTIINFECTIVES,ATC 3rd,A07A,vancomycin
-IRRIGATING SOLUTIONS,ATC 3rd,B05C,vancomycin
-loteprednol and antiinfectives; ophthalmic,ATC 5th,S01CA12,vancomycin
-methylprednisolone and antibiotics; topical,ATC 5th,D07CA02,vancomycin
-methylprednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA08,vancomycin
-"methylprednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA07,vancomycin
-OPHTHALMOLOGICAL AND OTOLOGICAL PREPARATIONS,ATC 2nd,S03,vancomycin
-OPHTHALMOLOGICALS,ATC 2nd,S01,vancomycin
-Other aminoglycosides,ATC 4th,J01GB,vancomycin
-OTHER ANTIBACTERIALS,ATC 3rd,J01X,vancomycin
-OTOLOGICALS,ATC 2nd,S02,vancomycin
-prednisolone and antibiotics; topical,ATC 5th,D07CA03,vancomycin
-prednisolone and antiinfectives; ophthalmic,ATC 5th,S01CA02,vancomycin
-"prednisolone and antiinfectives; ophthalmic, otic",ATC 5th,S03CA02,vancomycin
-prednisolone and antiinfectives; otic,ATC 5th,S02CA01,vancomycin
-SENSORY ORGANS,ATC 1st,S,vancomycin
-Solutions affecting the electrolyte balance,ATC 4th,B05BB,vancomycin
-triamcinolone and antibiotics; topical,ATC 5th,D07CB01,vancomycin
-triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,vancomycin
-vancomycin; ophthalmic,ATC 5th,S01AA28,vancomycin
-vancomycin; oral,ATC 5th,A07AA09,vancomycin
-vancomycin; parenteral,ATC 5th,J01XA01,vancomycin
 ANTINEOPLASTIC AGENTS,ATC 2nd,L01,vandetanib
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,vandetanib
 Other protein kinase inhibitors,ATC 4th,L01EX,vandetanib
 PROTEIN KINASE INHIBITORS,ATC 3rd,L01E,vandetanib
 vandetanib; oral,ATC 5th,L01EX04,vandetanib
-ANTINEOPLASTIC AGENTS,ATC 2nd,L01,vapreotide
-ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,vapreotide
 [U] vedolizumab,ATC 5th,L04AA33,vedolizumab
 ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,vedolizumab
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,vedolizumab
@@ -5150,11 +3372,6 @@ ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS,ATC 1st,L,venetoclax
 OTHER ANTINEOPLASTIC AGENTS,ATC 3rd,L01X,venetoclax
 Other antineoplastic agents,ATC 4th,L01XX,venetoclax
 venetoclax; oral,ATC 5th,L01XX52,venetoclax
-Antineovascularisation agents,ATC 4th,S01LA,verteporfin
-OCULAR VASCULAR DISORDER AGENTS,ATC 3rd,S01L,verteporfin
-OPHTHALMOLOGICALS,ATC 2nd,S01,verteporfin
-SENSORY ORGANS,ATC 1st,S,verteporfin
-verteporfin; ophthalmic,ATC 5th,S01LA01,verteporfin
 ALIMENTARY TRACT AND METABOLISM,ATC 1st,A,vestronidase_alfa
 Enzymes,ATC 4th,A16AB,vestronidase_alfa
 OTHER ALIMENTARY TRACT AND METABOLISM PRODUCTS,ATC 2nd,A16,vestronidase_alfa
@@ -5175,14 +3392,6 @@ Calcineurin inhibitors,ATC 4th,L04AD,voclosporin
 IMMUNOSUPPRESSANTS,ATC 2nd,L04,voclosporin
 IMMUNOSUPPRESSANTS,ATC 3rd,L04A,voclosporin
 voclosporin; systemic,ATC 5th,L04AD03,voclosporin
-ANTIHEMORRHAGICS,ATC 2nd,B02,von_willebrand_factor
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,von_willebrand_factor
-Blood coagulation factors,ATC 4th,B02BD,von_willebrand_factor
-coagulation factor VIII; parenteral,ATC 5th,B02BD02,von_willebrand_factor
-susoctocog alfa; parenteral,ATC 5th,B02BD14,von_willebrand_factor
-VITAMIN K AND OTHER HEMOSTATICS,ATC 3rd,B02B,von_willebrand_factor
-"von Willebrand factor and coagulation factor VIII in combination; parenteral, topical, urethral",ATC 5th,B02BD06,von_willebrand_factor
-von Willebrand factor; parenteral,ATC 5th,B02BD10,von_willebrand_factor
 OPHTHALMOLOGICALS,ATC 2nd,S01,voretigene_neparvovec
 OTHER OPHTHALMOLOGICALS,ATC 3rd,S01X,voretigene_neparvovec
 Other ophthalmologicals,ATC 4th,S01XA,voretigene_neparvovec
@@ -5247,15 +3456,8 @@ triamcinolone and antiinfectives; otic,ATC 5th,S02CA04,voriconazole
 Triazole and tetrazole derivatives,ATC 4th,J02AC,voriconazole
 voriconazole; systemic,ATC 5th,J02AC03,voriconazole
 DRUGS AFFECTING BONE STRUCTURE AND MINERALIZATION,ATC 3rd,M05B,vosoritide
-DRUGS FOR TREATMENT OF BONE DISEASES,ATC 2nd,M05,vosoritide
-MUSCULO-SKELETAL SYSTEM,ATC 1st,M,vosoritide
 Other drugs affecting bone structure and mineralization,ATC 4th,M05BX,vosoritide
 vosoritide; systemic,ATC 5th,M05BX07,vosoritide
-BLOOD AND BLOOD FORMING ORGANS,ATC 1st,B,voxelotor
-OTHER HEMATOLOGICAL AGENTS,ATC 2nd,B06,voxelotor
-OTHER HEMATOLOGICAL AGENTS,ATC 3rd,B06A,voxelotor
-Other hematological agents,ATC 4th,B06AX,voxelotor
-"voxelotor; systemic, topical",ATC 5th,B06AX03,voxelotor
 NERVOUS SYSTEM,ATC 1st,N,vutrisiran
 OTHER NERVOUS SYSTEM DRUGS,ATC 2nd,N07,vutrisiran
 OTHER NERVOUS SYSTEM DRUGS,ATC 3rd,N07X,vutrisiran

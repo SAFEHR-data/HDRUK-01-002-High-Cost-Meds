@@ -86,4 +86,11 @@ cdm$inpatient <- conceptCohort(
   conceptSet = list(inpatient = c(9201, 262, 9203)),
   name = "inpatient",
   subsetCohort = "high_cost_meds"
-)
+) |> 
+  requireDuration(c(2, Inf)) # at least one night
+
+# only inpatient high cost meds ------
+# hospitalised on date of first use of high cost med
+cdm$high_cost_meds <- cdm$high_cost_meds |> 
+  requireCohortIntersect("inpatient",
+                         window = c(0, 0))
